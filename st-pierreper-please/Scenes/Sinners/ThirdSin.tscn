@@ -6,4 +6,4 @@
 script = ExtResource("1_fhabc")
 mortal_name = "Third"
 virtue = 1
-timeline = "third_diag.dtl"
+timeline = "third_diag"

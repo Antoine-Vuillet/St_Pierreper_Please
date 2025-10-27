@@ -6,4 +6,4 @@
 script = ExtResource("1_wb3jp")
 mortal_name = "Second"
 virtue = 1
-timeline = "second_diag.dtl"
+timeline = "second_diag"

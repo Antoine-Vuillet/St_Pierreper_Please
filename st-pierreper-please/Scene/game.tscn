@@ -30,16 +30,18 @@ offset_right = 248.0
 offset_bottom = 584.0
 
 [node name="Hell" type="ColorRect" parent="."]
-offset_left = 64.0
-offset_top = 72.0
-offset_right = 200.0
-offset_bottom = 256.0
+offset_left = 16.0
+offset_top = 48.0
+offset_right = 176.0
+offset_bottom = 288.0
+color = Color(1, 0, 0, 1)
 
 [node name="Paradise" type="ColorRect" parent="."]
-offset_left = 952.0
-offset_top = 80.0
-offset_right = 1088.0
-offset_bottom = 264.0
+offset_left = 984.0
+offset_top = 48.0
+offset_right = 1136.0
+offset_bottom = 288.0
+color = Color(1, 1, 0, 1)
 
 [node name="Object1" type="ColorRect" parent="."]
 offset_left = 440.0

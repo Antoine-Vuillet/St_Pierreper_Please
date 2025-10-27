@@ -14,8 +14,8 @@ var start = false;
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	currentSinnerInstance = sinnerList[0].instantiate()
-	#add_child(currentSinnerInstance)
+	currentSinnerInstance = sinnerList[currentSinnerIndex].instantiate()
+	add_child(currentSinnerInstance)
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -26,8 +26,8 @@ func nextSinner():
 	currentSinnerIndex += 1
 	currentSinnerInstance = sinnerList[currentSinnerIndex].instantiate()
 	#add_child(currentSinnerInstance)
-	currentSinnerInstance.sinnerImagePosition = Vector2(100, 100)
-	currentSinnerInstance.ObjectsImagePosition = [Vector2(50, 200), Vector2(150, 200), Vector2(100, 250), Vector2(50, 300), Vector2(150, 300)]
+	currentSinnerInstance.sinnerImagePosition = Vector2(500, 100)
+	currentSinnerInstance.ObjectsImagePosition = [Vector2(450, 390), Vector2(900, 390), Vector2(680, 450), Vector2(450, 510), Vector2(900, 510)]
 	pass
 
 func _on_hell_gui_input(event: InputEvent) -> void:

@@ -5,4 +5,4 @@
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_jt5pb")
 mortal_name = "Fifth"
-timeline = "fifth_diag.dtl"
+timeline = "fifth_diag"
