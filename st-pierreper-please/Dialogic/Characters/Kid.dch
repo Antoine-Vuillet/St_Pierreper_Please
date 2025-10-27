@@ -11,10 +11,10 @@
 "suffix": ""
 },
 &"default_portrait": "",
-&"description": "Alexy is a sinner",
-&"display_name": "First_One",
+&"description": "",
+&"display_name": "Kid",
 &"mirror": false,
-&"nicknames": ["Alexy"],
+&"nicknames": [""],
 &"offset": Vector2(0, 0),
 &"portraits": {},
 &"scale": 1.0

@@ -3,13 +3,13 @@ extends Node
 class_name Sinner
 
 @export var mortal_name : String
-const firstClue = preload("res://Scene/clue/Prêtre/crucifix.tscn")
-const secondClue = preload("res://Scene/clue/Prêtre/livre_catéchisme.tscn")
-const thirdClue = preload("res://Scene/clue/Prêtre/Smartphone.tscn")
-const fourthClue = preload("res://Scene/clue/Prêtre/Règle.tscn")
-const fifthClue = preload("res://Scene/clue/Prêtre/Craie.tscn")
+@export var firstClue : PackedScene
+@export var secondClue : PackedScene
+@export var thirdClue : PackedScene
+@export var fourthClue : PackedScene
+@export var fifthClue : PackedScene
 
-var clue_list: Array = [firstClue, secondClue, thirdClue, fourthClue, fifthClue]
+var clue_list: Array;
 
 enum Morality {  
 	EVIL,
@@ -24,6 +24,7 @@ enum Morality {
 
 
 func _ready() -> void:
+	clue_list = [firstClue, secondClue, thirdClue, fourthClue, fifthClue]
 	Dialogic.start(timeline,"book0")
 	await Dialogic.timeline_started
 	

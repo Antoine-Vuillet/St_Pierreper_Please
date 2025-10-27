@@ -22,23 +22,22 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 [dialogic]
 
 directories/dch_directory={
-"Fifth_One": "res://Dialogic/Characters/Fifth_One.dch",
-"First_One": "res://Dialogic/Characters/First_One.dch",
-"Fourth_One": "res://Dialogic/Characters/Fourth_One.dch",
-"Second_One": "res://Dialogic/Characters/Second_One.dch",
-"Third_One": "res://Dialogic/Characters/Third_One.dch"
+"Clown": "res://Dialogic/Characters/Clown.dch",
+"Hunter": "res://Dialogic/Characters/Hunter.dch",
+"Kid": "res://Dialogic/Characters/Kid.dch",
+"Priest": "res://Dialogic/Characters/Priest.dch",
+"Prostitute": "res://Dialogic/Characters/Prostitute.dch"
 }
 directories/dtl_directory={
-"fifth_diag": "res://Dialogic/Dialogues/fifth_diag.dtl",
-"first_diag": "res://Dialogic/Dialogues/first_diag.dtl",
-"fourth_diag": "res://Dialogic/Dialogues/fourth_diag.dtl",
-"second_diag": "res://Dialogic/Dialogues/second_diag.dtl",
-"third_diag": "res://Dialogic/Dialogues/third_diag.dtl"
+"clown_diag": "res://Dialogic/Dialogues/clown_diag.dtl",
+"hunter_diag": "res://Dialogic/Dialogues/hunter_diag.dtl",
+"kid_diag": "res://Dialogic/Dialogues/kid_diag.dtl",
+"priest_diag": "res://Dialogic/Dialogues/priest_diag.dtl",
+"prostitute_diag": "res://Dialogic/Dialogues/prostitute_diag.dtl"
 }
 layout/style_directory={}
 layout/style_list=[]
 layout/default_style="Default"
-glossary/default_case_sensitive=true
 extensions_folder="res://addons/dialogic_additions"
 text/letter_speed=0.01
 text/initial_text_reveal_skippable=true
@@ -73,6 +72,7 @@ audio/channel_defaults={
 }
 }
 variables={}
+glossary/default_case_sensitive=true
 
 [editor_plugins]
 

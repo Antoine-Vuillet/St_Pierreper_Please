@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://s37gh0fpyg85"]
+
+[ext_resource type="Script" uid="uid://chjq1t1j06a75" path="res://Script/Sinner.gd" id="1_a31yu"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_a31yu")
+mortal_name = "Gamine"
+timeline = "kid_diag"

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b2ne65exysltj"
-path="res://.godot/imported/crucifix.png-60e5909a54f423564fb093f8718e18db.ctex"
+path="res://.godot/imported/crucifix.png-6a91649a389bb7283d0c51fdab667ebe.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://picture/image_clue/crucifix.png"
-dest_files=["res://.godot/imported/crucifix.png-60e5909a54f423564fb093f8718e18db.ctex"]
+source_file="res://Picture/image_clue/crucifix.png"
+dest_files=["res://.godot/imported/crucifix.png-6a91649a389bb7283d0c51fdab667ebe.ctex"]
 
 [params]
 

@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://xj27pgua4chw"]
 
-[ext_resource type="Texture2D" uid="uid://dnivfd48es226" path="res://picture/image_clue/règle.png" id="1_ie2my"]
+[ext_resource type="Texture2D" uid="uid://dnivfd48es226" path="res://Picture/image_clue/règle.png" id="1_ie2my"]
 [ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="1_rh4sp"]
 
 [node name="Règle" type="Control"]

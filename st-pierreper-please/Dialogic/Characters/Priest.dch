@@ -11,10 +11,10 @@
 "suffix": ""
 },
 &"default_portrait": "",
-&"description": "Kiki is a sinner",
-&"display_name": "First_One",
+&"description": "",
+&"display_name": "Prêtre",
 &"mirror": false,
-&"nicknames": ["Kiki"],
+&"nicknames": [""],
 &"offset": Vector2(0, 0),
 &"portraits": {},
 &"scale": 1.0

@@ -1,0 +1,18 @@
+[gd_scene load_steps=7 format=3 uid="uid://bykbjimlc2fe4"]
+
+[ext_resource type="Script" uid="uid://chjq1t1j06a75" path="res://Script/Sinner.gd" id="1_rf78u"]
+[ext_resource type="PackedScene" uid="uid://cedn2dui2ic6o" path="res://Scenes/Clues/Prêtre/Crucifix.tscn" id="2_7w6ov"]
+[ext_resource type="PackedScene" uid="uid://65raj3nnmvrv" path="res://Scenes/Clues/Prêtre/Livre_catéchisme.tscn" id="3_5f5is"]
+[ext_resource type="PackedScene" uid="uid://dtvcqiru3bej8" path="res://Scenes/Clues/Prêtre/Smartphone.tscn" id="4_1r348"]
+[ext_resource type="PackedScene" uid="uid://xj27pgua4chw" path="res://Scenes/Clues/Prêtre/Règle.tscn" id="5_dp8cf"]
+[ext_resource type="PackedScene" uid="uid://bpuog4j7w6ynq" path="res://Scenes/Clues/Prêtre/Craie.tscn" id="6_e82x8"]
+
+[node name="Node2D2" type="Node2D"]
+script = ExtResource("1_rf78u")
+mortal_name = "Priest"
+firstClue = ExtResource("2_7w6ov")
+secondClue = ExtResource("3_5f5is")
+thirdClue = ExtResource("4_1r348")
+fourthClue = ExtResource("5_dp8cf")
+fifthClue = ExtResource("6_e82x8")
+timeline = "priest_diag"

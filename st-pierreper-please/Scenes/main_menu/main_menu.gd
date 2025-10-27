@@ -1,5 +1,5 @@
 extends Control
-@onready var game = preload("res://Scene/game.tscn") 
+@onready var game = preload("uid://dwog1r6ydfcne") 
 
 func _on_start_button_down() -> void:
 	await get_tree().create_timer(1).timeout

@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://drabf8nw3ysjw"]
 
-[ext_resource type="Script" uid="uid://dkp25i3kg1ktu" path="res://main_menu/main_menu.gd" id="1_sbquq"]
-[ext_resource type="Texture2D" uid="uid://ct7xfljh8pabk" path="res://main_menu/heaven-7853985_1280.jpg" id="2_7r3nt"]
+[ext_resource type="Script" uid="uid://dkp25i3kg1ktu" path="res://Scenes/main_menu/main_menu.gd" id="1_sbquq"]
+[ext_resource type="Texture2D" uid="uid://ct7xfljh8pabk" path="res://Scenes/main_menu/heaven-7853985_1280.jpg" id="2_7r3nt"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_jix8l"]
 font_size = 35

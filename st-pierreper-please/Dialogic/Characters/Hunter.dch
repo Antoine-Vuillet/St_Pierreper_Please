@@ -11,10 +11,10 @@
 "suffix": ""
 },
 &"default_portrait": "",
-&"description": "Kari is a saint",
-&"display_name": "First_One",
+&"description": "",
+&"display_name": "Hunter",
 &"mirror": false,
-&"nicknames": ["Kari"],
+&"nicknames": [""],
 &"offset": Vector2(0, 0),
 &"portraits": {},
 &"scale": 1.0

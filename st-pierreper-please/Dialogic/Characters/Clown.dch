@@ -11,10 +11,10 @@
 "suffix": ""
 },
 &"default_portrait": "",
-&"description": "Wilson is a saint",
-&"display_name": "Third_One",
+&"description": "",
+&"display_name": "Clown",
 &"mirror": false,
-&"nicknames": ["Wilson"],
+&"nicknames": [""],
 &"offset": Vector2(0, 0),
 &"portraits": {},
 &"scale": 1.0

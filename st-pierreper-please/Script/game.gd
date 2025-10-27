@@ -1,11 +1,11 @@
 extends CanvasLayer
 
-const firstSin = preload("res://Scenes/Sinners/FirstSin.tscn")
-const secondSin = preload("res://Scenes/Sinners/SecondSin.tscn")
-const thirdSin = preload("res://Scenes/Sinners/ThirdSin.tscn")
-const fourthSin = preload("res://Scenes/Sinners/FourthSin.tscn")
-const fifthSin = preload("res://Scenes/Sinners/FifthSin.tscn")
-const sinnerListScene: Array = [firstSin, secondSin, thirdSin, fourthSin, fifthSin]
+const priest = preload("uid://bykbjimlc2fe4")
+const hunter = preload("uid://ff1kipdb35ut")
+const clown = preload("uid://b6h0nubpml37x")
+const kid = preload("uid://s37gh0fpyg85")
+const prostitute = preload("uid://dq1f5mv2e7yn0")
+const sinnerListScene: Array = [priest, hunter, clown, kid, prostitute]
 
 const sinnerPos = Vector2(500, 100)
 const cluesPosList = [Vector2(450, 390), Vector2(900, 390), Vector2(680, 450), Vector2(450, 510), Vector2(900, 510)]
