@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="St_Pierreper_Please"
+run/main_scene="uid://drabf8nw3ysjw"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 
