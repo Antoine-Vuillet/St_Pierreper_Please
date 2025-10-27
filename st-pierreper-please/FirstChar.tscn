@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bykbjimlc2fe4"]
+
+[ext_resource type="Script" uid="uid://bxxfffo3qrpri" path="res://Script/First.gd" id="1_dehbt"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_dehbt")
+mortal_name = "First"
+virtue = 1
+timeline = "first_diag.dtl"
