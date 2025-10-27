@@ -41,5 +41,6 @@ func getClueList():
 	return clue_list
 	
 func startTimeline(book):
-	return Dialogic.start(timeline, book)
-	await Dialogic.timeline_ended
+	var dialogue =Dialogic.start(timeline, book)
+	dialogue.register_character()
+	

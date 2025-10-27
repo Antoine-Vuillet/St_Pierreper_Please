@@ -35,9 +35,12 @@ directories/dtl_directory={
 "priest_diag": "res://Dialogic/Dialogues/priest_diag.dtl",
 "prostitute_diag": "res://Dialogic/Dialogues/prostitute_diag.dtl"
 }
-layout/style_directory={}
-layout/style_list=[]
-layout/default_style="Default"
+layout/style_directory={
+"": "res://Dialogic/Styles/Bubble.tres",
+"Bubble": "res://Dialogic/Styles/Bubble.tres"
+}
+layout/style_list=["res://Dialogic/Styles/Bubble.tres"]
+layout/default_style="res://Dialogic/Styles/Bubble.tres"
 extensions_folder="res://addons/dialogic_additions"
 text/letter_speed=0.01
 text/initial_text_reveal_skippable=true
