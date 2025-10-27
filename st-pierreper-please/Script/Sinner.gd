@@ -22,6 +22,11 @@ enum Morality {
 
 #@export var clue_list: Array[Clue]
 
+
+func _ready() -> void:
+	Dialogic.start(timeline,"book0")
+	await Dialogic.timeline_started
+	
 func getName():
 	return mortal_name
 	
