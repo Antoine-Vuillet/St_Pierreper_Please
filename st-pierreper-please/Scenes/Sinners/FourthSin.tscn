@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://s37gh0fpyg85"]
+
+[ext_resource type="Script" uid="uid://bxxfffo3qrpri" path="res://Script/Sinners/First.gd" id="1_xglxu"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_xglxu")
+mortal_name = "Fourth"
+timeline = "fourth_diag.dtl"
