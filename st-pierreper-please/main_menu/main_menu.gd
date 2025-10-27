@@ -1,5 +1,5 @@
 extends Control
-# @onready var first_level = preload("res://level.tscn")
+# @onready var first_level = preload("res://level.tscn") 
 
 func _on_start_button_down() -> void:
 	pass # Replace with function body.
