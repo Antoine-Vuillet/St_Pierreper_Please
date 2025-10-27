@@ -13,8 +13,8 @@ const cluesPosList = [Vector2(450, 390), Vector2(900, 390), Vector2(680, 450), V
 var currentSinnerIndex = 0
 var currentSinner
 
-var start = false;
-var canClick = true;
+var start = false
+var canClick = true
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -52,8 +52,9 @@ func _on_paradise_gui_input(event: InputEvent) -> void:
 
 
 func _on_clue_gui_input(event: InputEvent, clueIndex: int) -> void:
-	if canClick:
-		canClick = false;
+	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.pressed && canClick:
+		canClick = false
 		print("object" + str(clueIndex+1))
 		var book = "book" + str(clueIndex+1)
 		currentSinner.startTimeline(book)
+		canClick = true

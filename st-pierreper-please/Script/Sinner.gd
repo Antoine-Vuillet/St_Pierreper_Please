@@ -41,3 +41,4 @@ func getClueList():
 	
 func startTimeline(book):
 	return Dialogic.start(timeline, book)
+	await Dialogic.timeline_ended
