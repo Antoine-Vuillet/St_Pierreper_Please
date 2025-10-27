@@ -1,9 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://ff1kipdb35ut"]
 
-[ext_resource type="Script" uid="uid://bxxfffo3qrpri" path="res://Script/Sinners/First.gd" id="1_wb3jp"]
+[ext_resource type="Script" uid="uid://chjq1t1j06a75" path="res://Script/Sinner.gd" id="1_tx5ai"]
 
 [node name="Node2D" type="Node2D"]
-script = ExtResource("1_wb3jp")
-mortal_name = "Second"
-virtue = 1
-timeline = "second_diag"
+script = ExtResource("1_tx5ai")
