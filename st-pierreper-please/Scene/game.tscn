@@ -1,0 +1,80 @@
+[gd_scene load_steps=2 format=3 uid="uid://dwog1r6ydfcne"]
+
+[ext_resource type="Script" uid="uid://oemsapoa65km" path="res://Script/game.gd" id="1_mhtsl"]
+
+[node name="Game" type="CanvasLayer"]
+script = ExtResource("1_mhtsl")
+
+[node name="SkyWithClouds" type="ColorRect" parent="."]
+offset_right = 1152.0
+offset_bottom = 344.0
+color = Color(0.6862745, 1, 1, 1)
+
+[node name="Table" type="ColorRect" parent="."]
+offset_top = 344.0
+offset_right = 1152.0
+offset_bottom = 648.0
+color = Color(0.3249151, 0.14415437, 4.813075e-08, 1)
+
+[node name="Character" type="ColorRect" parent="."]
+offset_left = 496.0
+offset_top = 96.0
+offset_right = 672.0
+offset_bottom = 312.0
+color = Color(1, 0.7882353, 0.65882355, 1)
+
+[node name="InfoPaper" type="ColorRect" parent="."]
+offset_left = 112.0
+offset_top = 400.0
+offset_right = 248.0
+offset_bottom = 584.0
+
+[node name="Hell" type="ColorRect" parent="."]
+offset_left = 64.0
+offset_top = 72.0
+offset_right = 200.0
+offset_bottom = 256.0
+
+[node name="Paradise" type="ColorRect" parent="."]
+offset_left = 952.0
+offset_top = 80.0
+offset_right = 1088.0
+offset_bottom = 264.0
+
+[node name="Object1" type="ColorRect" parent="."]
+offset_left = 440.0
+offset_top = 384.0
+offset_right = 520.0
+offset_bottom = 464.0
+color = Color(1, 0, 1, 1)
+
+[node name="Object2" type="ColorRect" parent="."]
+offset_left = 920.0
+offset_top = 392.0
+offset_right = 1000.0
+offset_bottom = 472.0
+color = Color(1, 0, 1, 1)
+
+[node name="Object3" type="ColorRect" parent="."]
+offset_left = 680.0
+offset_top = 456.0
+offset_right = 760.0
+offset_bottom = 536.0
+color = Color(1, 0, 1, 1)
+
+[node name="Object4" type="ColorRect" parent="."]
+offset_left = 440.0
+offset_top = 528.0
+offset_right = 520.0
+offset_bottom = 608.0
+color = Color(1, 0, 1, 1)
+
+[node name="Object5" type="ColorRect" parent="."]
+offset_left = 920.0
+offset_top = 528.0
+offset_right = 1000.0
+offset_bottom = 608.0
+color = Color(1, 0, 1, 1)
+
+[connection signal="gui_input" from="Hell" to="." method="_on_hell_gui_input"]
+[connection signal="gui_input" from="Paradise" to="." method="_on_paradise_gui_input"]
