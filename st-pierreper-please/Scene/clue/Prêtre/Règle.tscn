@@ -1,11 +1,14 @@
 [gd_scene load_steps=3 format=3 uid="uid://xj27pgua4chw"]
 
-[ext_resource type="Texture2D" uid="uid://dnivfd48es226" path="res://image_clue/règle.png" id="1_ie2my"]
+[ext_resource type="Texture2D" uid="uid://dnivfd48es226" path="res://picture/image_clue/règle.png" id="1_ie2my"]
 [ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="1_rh4sp"]
 
-[node name="Règle" type="Node2D"]
+[node name="Règle" type="Control"]
+layout_mode = 3
+anchors_preset = 0
 script = ExtResource("1_rh4sp")
 title = "Règle"
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Sprite2D" type="TextureRect" parent="."]
+layout_mode = 0
 texture = ExtResource("1_ie2my")

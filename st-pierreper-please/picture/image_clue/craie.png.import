@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bjvmdi010o8dm"
-path="res://.godot/imported/livre.png-a306afa503757a47490c56ed06d88a72.ctex"
+uid="uid://dnsyeoqf6ef6i"
+path="res://.godot/imported/craie.png-e064f4711b3259a6c9d4d05a703b8a85.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://image_clue/livre.png"
-dest_files=["res://.godot/imported/livre.png-a306afa503757a47490c56ed06d88a72.ctex"]
+source_file="res://picture/image_clue/craie.png"
+dest_files=["res://.godot/imported/craie.png-e064f4711b3259a6c9d4d05a703b8a85.ctex"]
 
 [params]
 
