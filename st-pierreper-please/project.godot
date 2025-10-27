@@ -27,6 +27,8 @@ directories/dtl_directory={
 "first_diag": "res://Dialogic/Dialogues/first_diag.dtl"
 }
 layout/style_directory={}
+layout/style_list=[]
+layout/default_style="Default"
 
 [editor_plugins]
 
