@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dnsyeoqf6ef6i"
-path="res://.godot/imported/craie.png-2d71db6a4bd5869b74a9b5d8126b980d.ctex"
+uid="uid://dn3rlyaxx08ef"
+path="res://.godot/imported/smartphone.png-3e7a2a486d7de7962c8a813d75b1434e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://image_clue/craie.png"
-dest_files=["res://.godot/imported/craie.png-2d71db6a4bd5869b74a9b5d8126b980d.ctex"]
+source_file="res://picture/image_clue/smartphone.png"
+dest_files=["res://.godot/imported/smartphone.png-3e7a2a486d7de7962c8a813d75b1434e.ctex"]
 
 [params]
 

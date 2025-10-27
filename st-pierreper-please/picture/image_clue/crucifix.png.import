@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dn3rlyaxx08ef"
-path="res://.godot/imported/smartphone.png-b2b14df3cbeb9988d6643926cc7586b3.ctex"
+uid="uid://b2ne65exysltj"
+path="res://.godot/imported/crucifix.png-60e5909a54f423564fb093f8718e18db.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://image_clue/smartphone.png"
-dest_files=["res://.godot/imported/smartphone.png-b2b14df3cbeb9988d6643926cc7586b3.ctex"]
+source_file="res://picture/image_clue/crucifix.png"
+dest_files=["res://.godot/imported/crucifix.png-60e5909a54f423564fb093f8718e18db.ctex"]
 
 [params]
 

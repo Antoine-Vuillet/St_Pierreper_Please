@@ -1,11 +1,14 @@
 [gd_scene load_steps=3 format=3 uid="uid://bpuog4j7w6ynq"]
 
 [ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="1_gngsf"]
-[ext_resource type="Texture2D" uid="uid://dnsyeoqf6ef6i" path="res://image_clue/craie.png" id="1_qo2y5"]
+[ext_resource type="Texture2D" uid="uid://dnsyeoqf6ef6i" path="res://picture/image_clue/craie.png" id="1_qo2y5"]
 
-[node name="Craie" type="Node2D"]
+[node name="Craie" type="Control"]
+layout_mode = 3
+anchors_preset = 0
 script = ExtResource("1_gngsf")
 title = "Craie"
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Sprite2D" type="TextureRect" parent="."]
+layout_mode = 0
 texture = ExtResource("1_qo2y5")
