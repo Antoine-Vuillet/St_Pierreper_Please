@@ -2,7 +2,7 @@ extends Sinner
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	Dialogic.start(timeline,"book1")
+	Dialogic.start(timeline,"book0")
 	await Dialogic.timeline_started
 
 
