@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://dtvcqiru3bej8"]
+
+[ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="1_o5fbl"]
+[ext_resource type="Texture2D" uid="uid://dn3rlyaxx08ef" path="res://image_clue/smartphone.png" id="2_jt8of"]
+
+[node name="Smartphone" type="Node2D"]
+script = ExtResource("1_o5fbl")
+title = "Smartphone"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_jt8of")

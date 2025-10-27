@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://cedn2dui2ic6o"]
+
+[ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="1_28tgn"]
+[ext_resource type="Texture2D" uid="uid://b2ne65exysltj" path="res://image_clue/crucifix.png" id="2_l5fmu"]
+
+[node name="Crucifix" type="Node2D"]
+script = ExtResource("1_28tgn")
+title = "Crucifix"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_l5fmu")

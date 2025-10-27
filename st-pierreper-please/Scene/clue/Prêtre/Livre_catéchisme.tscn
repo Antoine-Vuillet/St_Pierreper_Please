@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://65raj3nnmvrv"]
+
+[ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="1_7xmtx"]
+[ext_resource type="Texture2D" uid="uid://bjvmdi010o8dm" path="res://image_clue/livre.png" id="2_d0wq7"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_7xmtx")
+title = "Livre_catéchisme"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_d0wq7")
