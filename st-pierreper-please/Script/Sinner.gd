@@ -38,3 +38,6 @@ func getTimeline():
 	
 func getClueList():
 	return clue_list
+	
+func startTimeline(book):
+	return Dialogic.start(timeline, book)

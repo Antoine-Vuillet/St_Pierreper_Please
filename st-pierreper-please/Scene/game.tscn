@@ -43,40 +43,5 @@ offset_right = 1136.0
 offset_bottom = 288.0
 color = Color(1, 1, 0, 1)
 
-[node name="Object1" type="ColorRect" parent="."]
-offset_left = 440.0
-offset_top = 384.0
-offset_right = 520.0
-offset_bottom = 464.0
-color = Color(1, 0, 1, 1)
-
-[node name="Object2" type="ColorRect" parent="."]
-offset_left = 920.0
-offset_top = 392.0
-offset_right = 1000.0
-offset_bottom = 472.0
-color = Color(1, 0, 1, 1)
-
-[node name="Object3" type="ColorRect" parent="."]
-offset_left = 680.0
-offset_top = 456.0
-offset_right = 760.0
-offset_bottom = 536.0
-color = Color(1, 0, 1, 1)
-
-[node name="Object4" type="ColorRect" parent="."]
-offset_left = 440.0
-offset_top = 528.0
-offset_right = 520.0
-offset_bottom = 608.0
-color = Color(1, 0, 1, 1)
-
-[node name="Object5" type="ColorRect" parent="."]
-offset_left = 920.0
-offset_top = 528.0
-offset_right = 1000.0
-offset_bottom = 608.0
-color = Color(1, 0, 1, 1)
-
 [connection signal="gui_input" from="Hell" to="." method="_on_hell_gui_input"]
 [connection signal="gui_input" from="Paradise" to="." method="_on_paradise_gui_input"]
