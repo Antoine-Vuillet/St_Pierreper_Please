@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://ccvrpf7b5g3ka"]
 
-[ext_resource type="Script" uid="uid://ho2eghk43735" path="res://Scenes/paper_info.gd" id="1_wxw8e"]
+[ext_resource type="Script" uid="uid://ho2eghk43735" path="res://Script/paper_info.gd" id="1_wxw8e"]
 [ext_resource type="Texture2D" uid="uid://ocwj3x74yg1e" path="res://picture/texture_papier.jpg" id="2_37jfc"]
 
 [sub_resource type="Gradient" id="Gradient_whjff"]

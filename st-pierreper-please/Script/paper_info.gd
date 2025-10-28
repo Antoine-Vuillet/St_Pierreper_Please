@@ -8,12 +8,13 @@ extends CanvasLayer
 @onready var cause_mort_sinner: Label = $"Paper/VBoxContainer/Cause mort"
 
 func _ready():
-	name_sinner.text = GameManager.currentSinner.name_s
-	age_sinner.text= GameManager.currentSinner.age_s
-	sexe_sinner.text= GameManager.currentSinner.sexe_s
-	metier_sinner.text= GameManager.currentSinner.metier_s
-	famille_sinner.text= GameManager.currentSinner.famille_s
-	cause_mort_sinner.text= GameManager.currentSinner.cause_mort_s
+	pass
+	#name_sinner.text = GameManager.currentSinner.name_s
+	#age_sinner.text= GameManager.currentSinner.age_s
+	#sexe_sinner.text= GameManager.currentSinner.sexe_s
+	#metier_sinner.text= GameManager.currentSinner.metier_s
+	#famille_sinner.text= GameManager.currentSinner.famille_s
+	#cause_mort_sinner.text= GameManager.currentSinner.cause_mort_s
 	
 
 
