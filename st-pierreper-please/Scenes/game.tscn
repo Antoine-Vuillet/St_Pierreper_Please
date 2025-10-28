@@ -47,12 +47,6 @@ offset_right = 672.0
 offset_bottom = 312.0
 color = Color(1, 0.7882353, 0.65882355, 1)
 
-[node name="Node2D" type="Node2D" parent="Character"]
-position = Vector2(175, 37)
-
-[node name="bubble" type="Node2D" parent="Character/Node2D"]
-position = Vector2(150, 150)
-
 [node name="SinnerMarker" type="Marker2D" parent="Character"]
 position = Vector2(176, 54)
 

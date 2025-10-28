@@ -37,10 +37,11 @@ directories/dtl_directory={
 }
 layout/style_directory={
 "": "res://Dialogic/Styles/Bubble.tres",
-"Bubble": "res://Dialogic/Styles/Bubble.tres",
+"PierreBubble": "res://Dialogic/Styles/PierreBubble.tres",
+"SinnerBubble": "res://Dialogic/Styles/Bubble.tres",
 "teste_a_supp": "res://Dialogic/Styles/teste_a_supp.tres"
 }
-layout/style_list=["res://Dialogic/Styles/Bubble.tres", "res://Dialogic/Styles/teste_a_supp.tres"]
+layout/style_list=["res://Dialogic/Styles/Bubble.tres", "res://Dialogic/Styles/teste_a_supp.tres", "res://Dialogic/Styles/PierreBubble.tres"]
 layout/default_style="res://Dialogic/Styles/Bubble.tres"
 extensions_folder="res://addons/dialogic_additions"
 text/letter_speed=0.01

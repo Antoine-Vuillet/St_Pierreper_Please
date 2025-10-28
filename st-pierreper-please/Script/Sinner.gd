@@ -12,6 +12,7 @@ class_name Sinner
 
 var clue_list: Array
 var sinnerpos
+var current_diag
 
 enum Morality {  
 	EVIL,
@@ -29,9 +30,9 @@ func _ready() -> void:
 	clue_list = [firstClue, secondClue, thirdClue, fourthClue, fifthClue]
 	
 func initialize(sinnermarker):
-	sinnermarker =sinnermarker
-	var dialogue =Dialogic.start(timeline,"book0")
-	dialogue.register_character(load(character_resource), sinnermarker)
+	sinnerpos =sinnermarker
+	current_diag =Dialogic.start(timeline,"book0")
+	current_diag.register_character(load(character_resource), sinnerpos)
 
 
 func getName():
@@ -47,5 +48,11 @@ func getClueList():
 	return clue_list
 	
 func startTimeline(book):
-	var dialogue =Dialogic.start(timeline, book)
-	dialogue.register_character(load(character_resource), sinnerpos)
+	current_diag =Dialogic.start(timeline, book)
+	current_diag.register_character(load(character_resource), sinnerpos)
+
+func _on_timeline_event(event_name: String, _args):
+	if event_name == "change_to_Pierre":
+		current_diag.bubble_style = "res://Dialogic/Bubbles/whisper_bubble.tres"
+	elif event_name == "change_to_sinner":
+		current_diag.bubble_style = "res://Dialogic/Bubbles/whisper_bubble.tres"

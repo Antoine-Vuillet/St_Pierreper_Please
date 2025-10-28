@@ -20,7 +20,7 @@ scene = ExtResource("4_nhqpv")
 
 [resource]
 script = ExtResource("5_83e33")
-name = "Bubble"
+name = "SinnerBubble"
 layer_list = Array[String](["10", "11"])
 layer_info = {
 "": SubResource("Resource_e26sa"),
