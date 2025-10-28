@@ -25,6 +25,7 @@ GameManager="*res://Scenes/game.tscn"
 directories/dch_directory={
 "Clown": "res://Dialogic/Characters/Clown.dch",
 "Hunter": "res://Dialogic/Characters/Hunter.dch",
+"InsideVoice": "res://Dialogic/Characters/InsideVoice.dch",
 "Kid": "res://Dialogic/Characters/Kid.dch",
 "Pierre": "res://Dialogic/Characters/Pierre.dch",
 "Priest": "res://Dialogic/Characters/Priest.dch",

@@ -16,17 +16,17 @@ Pierre: C’est une bonne action mon fils. Celà te comblait-il ?
 Priest: Oh oui, très Saint, j’aimais beaucoup faire le catéchisme aux enfants.
 [end_timeline]
 label book3
-Pierre: Je suis surpris qu’un homme de foi possède un smartphone. 
+Pierre: Je suis surpris qu’un homme de foi possède un smartphone.
 Priest: Il me servait surtout à être contacté par les fidèles dans le besoin.
 Pierre: Voyons voir les photos que tu as prises.
-Le téléphone contient uniquement des photos de Jésus et de la Sainte Vierge.
+InsideVoice: [i]Le téléphone contient uniquement des photos de Jésus et de la Sainte Vierge.[/i]
 Pierre: Je constate que tu es très pieux, Jean.
 [end_timeline]
 label book4
 Pierre: Pourquoi avais-tu cette règle sur toi, Jean ?
 Priest: Pour les cours de catéchisme, Saint Pierre.
 Pierre: Tu faisais de la géométrie ?
-Priest: Non. Certains enfants n’étaient pas sages et, comme le dit le Proverbe 23 de la Très Sainte Bible : “N'épargne pas la correction à l'enfant; Si tu le frappes de la verge, il ne mourra point.”
+Priest: Non. Certains enfants n’étaient pas sages et, comme le dit le Proverbe 23 de la Très Sainte Bible \: “N'épargne pas la correction à l'enfant; Si tu le frappes de la verge, il ne mourra point.”
 Pierre: N’est-ce pas un peu extrême ?
 Priest: Oh non, malgré leur visage d’ange, ils pouvaient être très, très vilains Saint Pierre. Cela méritait de grosses punitions.
 [end_timeline]
