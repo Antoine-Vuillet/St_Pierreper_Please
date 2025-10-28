@@ -87,5 +87,6 @@ text = "Tooltip"
 [connection signal="gui_input" from="Paradise" to="." method="_on_paradise_gui_input"]
 [connection signal="mouse_entered" from="Paradise" to="." method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="Paradise" to="." method="_on_mouse_exited"]
+[connection signal="gui_input" from="InfoPaper" to="." method="_on_info_paper_gui_input"]
 [connection signal="mouse_entered" from="InfoPaper" to="." method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="InfoPaper" to="." method="_on_mouse_exited"]

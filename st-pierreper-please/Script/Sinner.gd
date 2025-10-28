@@ -41,6 +41,14 @@ enum Morality {
 func _ready() -> void:
 	clue_list = [firstClue, secondClue, thirdClue, fourthClue, fifthClue]
 	
+	
+
+#var target = "res://Scenes/paper_info.tscn"
+#func send(target_node):
+#	var namename="hellohello"
+#	target_node.receive_data(namename, age_s, sexe_s, metier_s, famille_s, cause_mort_s)
+	
+
 func initialize(sinnermarker, pierremark):
 	sinnerpos =sinnermarker
 	pierrepos=pierremark

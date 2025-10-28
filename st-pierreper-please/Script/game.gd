@@ -6,6 +6,7 @@ const clown = preload("uid://b6h0nubpml37x")
 const kid = preload("uid://s37gh0fpyg85")
 const prostitute = preload("uid://dq1f5mv2e7yn0")
 const cursor_hand = preload("uid://c0v0h3v2u6on5")
+#const papper = preload("res://Script/paper_info.gd")
 const sinnerListScene: Array = [priest, hunter, clown, kid, prostitute]
 
 const sinnerPos = Vector2(500, 100)
@@ -110,3 +111,18 @@ func _on_clue_mouse_exited():
 	isHovering = false
 	tooltip.visible = false
 	#Input.set_custom_mouse_cursor(null)
+
+
+func _on_info_paper_gui_input(event: InputEvent) -> void:
+	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.pressed:
+		 # Replace with function body.
+		var paper_scene = load("res://Scenes/paper_info.tscn")
+		var paper_instance = paper_scene.instantiate()
+		add_child(paper_instance)  # pour l’afficher
+		paper_instance.receive_data(currentSinner.name_s, currentSinner.age_s, currentSinner.sexe_s, currentSinner.metier_s, currentSinner.famille_s, currentSinner.cause_mort_s )
+		
+		
+		
+	
+		#papper.receive_data(currentSinner.name_s)
+		#print(currentSinner.name_s)
