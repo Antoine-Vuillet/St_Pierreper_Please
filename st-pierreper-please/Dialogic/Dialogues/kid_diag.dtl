@@ -1,3 +1,41 @@
+label book0
+Pierre: Bienvenue Emilie.
+Kid: Vous êtes qui monsieur ?
+Pierre: Je suis Saint Pierre.
+Kid: Oh, vous vous appelez comme mon papa !
+[end_timeline]
 label book1
-Kid: Bonjour, je suis 4
+Pierre: Quel joli doudou tu as là ! Mais, pourquoi est-il brûlé ?
+Kid: C’est à cause de la cheminée.
+Pierre: La cheminée ?
+Kid: Oui, la cheminée. Quand j’ai mis Monsieur Nounours dedans, il a pris feu.
+Pierre: Mais pourquoi l’as-tu mis dans la cheminée ?
+Kid: Pour l’allumer.
+Pierre: Pour l’allumer ?
+Kid: Oui, pour mettre le feu à la maison. Papa et maman ont été méchants avec moi, alors je les ai punis.
+[end_timeline]
+label book2
+Pierre: C’est ton écharpe ?
+Kid: Oui, j’avais froid. C’est comme ça que je suis morte.
+Pierre: Pourquoi étais-tu dehors par un tel temps ?
+Kid: Je n’avais plus de maison, elle a brûlé dans un incendie.
+Pierre: Mais tes parents n’ont rien fait pour te réchauffer ?
+Kid: J’étais toute seule. Ils sont morts dans l’incendie.
+[end_timeline]
+label book3
+Pierre: Pourquoi avais-tu cette clémentine dans ta poche ?
+Kid: C’est mon cadeau de Noël. Papa et maman n’avaient pas assez d’argent pour m’offrir la poupée que j’avais demandé.
+Pierre: Pauvre petite…
+[end_timeline]
+label book4
+Pierre: Ce sont des chaussons de danse ?
+Kid: Oui. J’allais devenir une grande danseuse.
+Pierre: Tu sais danser ?
+Kid: Pas encore. Je voulais prendre des cours, mais papa et maman ont dit non. J’étais très très en colère alors j’ai voulu les punir.
+[end_timeline]
+label book5
+Pierre: C’est ta chaussette ?
+Kid: Oui.
+Pierre: Oh, elle est trouée…
+Kid: Papa et maman n’avaient pas de travail, alors ils faisaient comme ils pouvaient. Mes vêtements étaient toujours vieux ou troués, mais au moins j’avais des vêtements.
 [end_timeline]

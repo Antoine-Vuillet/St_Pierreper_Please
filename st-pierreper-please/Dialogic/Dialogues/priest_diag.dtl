@@ -1,19 +1,38 @@
 label book0
-Priest: Bonjour, je suis 1
-Pierre: Bonjour, je suis Saint-Pierre
+Pierre: Bienvenue Jean.
+Priest: Saint Pierre ? C’est un honneur dont je ne suis pas digne !
 [end_timeline]
 label book1
-Priest: Ceci est mon crucifix, je le porte toujours sur moi pour me rappeler mes propres péchés.
+Pierre: Jean, que peux-tu me dire sur ce crucifix ?
+Priest: Oh mon Dieu, punissez-moi car j’ai péché !
+Pierre: Du calme. Nous sommes tous des pécheurs, mais celà ne nous condamne pas forcément à l’Enfer.
+Priest: J’ai péché, j’ai péché Seigneur. Et ce crucifix à mon cou me permet de me le rappeler chaque jour que Dieu fait. Punissez-moi, je le mérite !
+Pierre: Bon, passons à autre chose…
 [end_timeline]
 label book2
-Priest: Mon livre de catéchisme, ma passion était de partager mon amour du Christ avec les jeunes de notre ordre.
+Pierre: Quel est ce livre ?
+Priest: C’est un livre de catéchisme. Les cours avaient lieu tous les mercredis matins.
+Pierre: C’est une bonne action mon fils. Celà te comblait-il ?
+Priest: Oh oui, très Saint, j’aimais beaucoup faire le catéchisme aux enfants.
 [end_timeline]
 label book3
-Priest: Mon smartphone, j'y conserve toute mes photos de Jésus et de la Vierge.
+Pierre: Je suis surpris qu’un homme de foi possède un smartphone. 
+Priest: Il me servait surtout à être contacté par les fidèles dans le besoin.
+Pierre: Voyons voir les photos que tu as prises.
+Le téléphone contient uniquement des photos de Jésus et de la Sainte Vierge.
+Pierre: Je constate que tu es très pieux, Jean.
 [end_timeline]
 label book4
-Priest: La règle, tel le disait Louis Segond, "En le frappant de la verge, Tu délivres son âme du séjour des morts." J'était grand partisan de toutes expression de cette citation.
+Pierre: Pourquoi avais-tu cette règle sur toi, Jean ?
+Priest: Pour les cours de catéchisme, Saint Pierre.
+Pierre: Tu faisais de la géométrie ?
+Priest: Non. Certains enfants n’étaient pas sages et, comme le dit le Proverbe 23 de la Très Sainte Bible : “N'épargne pas la correction à l'enfant; Si tu le frappes de la verge, il ne mourra point.”
+Pierre: N’est-ce pas un peu extrême ?
+Priest: Oh non, malgré leur visage d’ange, ils pouvaient être très, très vilains Saint Pierre. Cela méritait de grosses punitions.
 [end_timeline]
 label book5
-Priest: Ma craie? Je faisais des cours de catéchisme dans l'école proche, cette dernière me servait à écrire au tableau.
+Pierre: A quoi te servait cette craie ?
+Priest: Elle me servait à écrire au tableau lors des cours de catéchisme.
+Pierre: Qu’écrivais-tu exactement ?
+Priest: Des chants religieux, des psaumes, des passages de la Bible. Tout ce qui pouvait inculquer à ces enfants l’amour de Dieu.
 [end_timeline]
