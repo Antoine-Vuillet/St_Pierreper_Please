@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://3wi1uvfwlt50"]
+
+[ext_resource type="Texture2D" uid="uid://b2hu0ywxf0p5x" path="res://picture/image_clue/notes.png" id="1_airp0"]
+[ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="2_xh4ao"]
+
+[node name="Notes" type="TextureRect"]
+offset_right = 1000.0
+offset_bottom = 1000.0
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_airp0")
+script = ExtResource("2_xh4ao")
+title = "Notes de chansons"

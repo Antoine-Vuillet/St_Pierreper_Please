@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://d16eg2ntfe5cl"]
+
+[ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="1_incl1"]
+[ext_resource type="Texture2D" uid="uid://ccv34l8cx5it8" path="res://picture/image_clue/book.png" id="1_w0755"]
+
+[node name="Book" type="TextureRect"]
+offset_right = 1000.0
+offset_bottom = 1000.0
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_w0755")
+script = ExtResource("1_incl1")
+title = "\"Le petit prince\""

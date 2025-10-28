@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://bok3p57bsutp4"]
+
+[ext_resource type="Texture2D" uid="uid://dbiasfkjok448" path="res://picture/image_clue/glove.png" id="1_664uf"]
+[ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="2_3p2cn"]
+
+[node name="Glove" type="TextureRect"]
+offset_right = 1000.0
+offset_bottom = 1000.0
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_664uf")
+script = ExtResource("2_3p2cn")
+title = "Gant chirurgical ensanglanté"

@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://qlnurfm6i77g"]
+
+[ext_resource type="Texture2D" uid="uid://838l35ebomr8" path="res://picture/image_clue/brass_knuckles.png" id="1_t817p"]
+[ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="2_1pkl1"]
+
+[node name="Brass_knuckles" type="TextureRect"]
+offset_right = 1000.0
+offset_bottom = 1000.0
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_t817p")
+script = ExtResource("2_1pkl1")
+title = "Point américain"

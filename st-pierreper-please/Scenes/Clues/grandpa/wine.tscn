@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://emijr40n8nb3"]
+
+[ext_resource type="Texture2D" uid="uid://bam0tymby28d7" path="res://picture/image_clue/wine.png" id="1_qfuwv"]
+[ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="2_vil5l"]
+
+[node name="Wine" type="TextureRect"]
+offset_right = 1000.0
+offset_bottom = 1000.0
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_qfuwv")
+script = ExtResource("2_vil5l")
+title = "Bouteille de vin rouge"
