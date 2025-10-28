@@ -17,4 +17,6 @@ secondClue = ExtResource("3_5f5is")
 thirdClue = ExtResource("4_1r348")
 fourthClue = ExtResource("5_dp8cf")
 fifthClue = ExtResource("6_e82x8")
+name_s = "pretre"
+age_s = "10"
 timeline = "priest_diag"

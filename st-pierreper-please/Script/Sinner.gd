@@ -11,6 +11,16 @@ class_name Sinner
 @export var fourthClue : PackedScene
 @export var fifthClue : PackedScene
 
+
+@export var name_s: String
+@export var age_s: String
+@export var sexe_s: String 
+@export var metier_s: String 
+@export var famille_s: String 
+@export var cause_mort_s: String
+
+
+
 var clue_list: Array
 var sinnerpos
 var pierrepos
@@ -54,4 +64,4 @@ func getClueList():
 func startTimeline(book):
 	current_diag =Dialogic.start(timeline, book)
 	current_diag.register_character(load(character_resource), sinnerpos)
-	current_diag.register_character(load(pierre_resource), sinnerpos)
+	current_diag.register_character(load(pierre_resource), pierrepos)

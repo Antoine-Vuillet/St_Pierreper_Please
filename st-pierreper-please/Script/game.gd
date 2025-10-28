@@ -13,6 +13,9 @@ const cluesPosList = [Vector2(450, 390), Vector2(900, 390), Vector2(680, 450), V
 var currentSinnerIndex = 0
 var currentSinner
 
+#@export var currentSinner: Node  #ouais pas ouf
+
+
 var start = false
 var canClick = true
 
@@ -31,6 +34,7 @@ func initSinner():
 	currentSinner = sinnerListScene[currentSinnerIndex].instantiate()
 	currentSinner.initialize($Character/SinnerMarker, $Character/PierreMarker)
 	add_child(currentSinner)
+	GameManager.currentSinner = currentSinner
 	
 	for i in range(currentSinner.clue_list.size()):
 		var clue = currentSinner.clue_list[i].instantiate()
