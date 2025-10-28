@@ -4,6 +4,7 @@ class_name Sinner
 
 @export var mortal_name : String
 @export var character_resource : String
+@export var pierre_resource : String
 @export var firstClue : PackedScene
 @export var secondClue : PackedScene
 @export var thirdClue : PackedScene
@@ -12,6 +13,7 @@ class_name Sinner
 
 var clue_list: Array
 var sinnerpos
+var pierrepos
 var current_diag
 
 enum Morality {  
@@ -29,10 +31,12 @@ enum Morality {
 func _ready() -> void:
 	clue_list = [firstClue, secondClue, thirdClue, fourthClue, fifthClue]
 	
-func initialize(sinnermarker):
+func initialize(sinnermarker, pierremark):
 	sinnerpos =sinnermarker
+	pierrepos=pierremark
 	current_diag =Dialogic.start(timeline,"book0")
 	current_diag.register_character(load(character_resource), sinnerpos)
+	current_diag.register_character(load(pierre_resource), pierrepos)
 
 
 func getName():
@@ -50,9 +54,4 @@ func getClueList():
 func startTimeline(book):
 	current_diag =Dialogic.start(timeline, book)
 	current_diag.register_character(load(character_resource), sinnerpos)
-
-func _on_timeline_event(event_name: String, _args):
-	if event_name == "change_to_Pierre":
-		current_diag.bubble_style = "res://Dialogic/Bubbles/whisper_bubble.tres"
-	elif event_name == "change_to_sinner":
-		current_diag.bubble_style = "res://Dialogic/Bubbles/whisper_bubble.tres"
+	current_diag.register_character(load(pierre_resource), sinnerpos)

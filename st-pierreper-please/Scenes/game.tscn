@@ -50,6 +50,9 @@ color = Color(1, 0.7882353, 0.65882355, 1)
 [node name="SinnerMarker" type="Marker2D" parent="Character"]
 position = Vector2(176, 54)
 
+[node name="PierreMarker" type="Marker2D" parent="Character"]
+position = Vector2(0, 500)
+
 [node name="InfoPaper" type="ColorRect" parent="."]
 z_index = 3
 offset_left = 112.0

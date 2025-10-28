@@ -29,7 +29,7 @@ func initSinner():
 	if currentSinner:
 		currentSinner.queue_free()
 	currentSinner = sinnerListScene[currentSinnerIndex].instantiate()
-	currentSinner.initialize($Character/SinnerMarker)
+	currentSinner.initialize($Character/SinnerMarker, $Character/PierreMarker)
 	add_child(currentSinner)
 	
 	for i in range(currentSinner.clue_list.size()):
