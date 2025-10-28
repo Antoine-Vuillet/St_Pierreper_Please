@@ -3,13 +3,15 @@ extends Node
 class_name Sinner
 
 @export var mortal_name : String
+@export var character_resource : String
 @export var firstClue : PackedScene
 @export var secondClue : PackedScene
 @export var thirdClue : PackedScene
 @export var fourthClue : PackedScene
 @export var fifthClue : PackedScene
 
-var clue_list: Array;
+var clue_list: Array
+var sinnerpos
 
 enum Morality {  
 	EVIL,
@@ -24,22 +26,14 @@ enum Morality {
 
 
 func _ready() -> void:
-	
-	#ça relie la bubble à un endroit, mais c'est pas le bon..
-	###
-	#var layout = Dialogic.start(timeline,"book0")
-	#layout.register_character(load("res://Dialogic/Characters/Priest.dch"),$Character/Node2D/bubble )
-	###
-	
 	clue_list = [firstClue, secondClue, thirdClue, fourthClue, fifthClue]
 	
-	
-	#cette partie marche si on utilise pas les bulles
-	###
-	Dialogic.start(timeline,"book0")
-	await Dialogic.timeline_started
-	###
-	
+func initialize(sinnermarker):
+	sinnermarker =sinnermarker
+	var dialogue =Dialogic.start(timeline,"book0")
+	dialogue.register_character(load(character_resource), sinnermarker)
+
+
 func getName():
 	return mortal_name
 	
@@ -54,9 +48,4 @@ func getClueList():
 	
 func startTimeline(book):
 	var dialogue =Dialogic.start(timeline, book)
-	get_tree().current_scene.add_child(dialogue) #j'ai rajouté ça
-	#dialogue.register_character() #et supprimé ça
-	
-	#il y a une erreur avant que je modifie .K 
-	#maintenant c'est good
-	
+	dialogue.register_character(load(character_resource), sinnerpos)
