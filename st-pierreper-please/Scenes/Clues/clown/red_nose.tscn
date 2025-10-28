@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://do317v5pbot7i"]
+
+[ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="1_opldi"]
+[ext_resource type="Texture2D" uid="uid://5kaeqv28mvrb" path="res://picture/image_clue/red_nose.png" id="2_vsx0q"]
+
+[node name="Red_nose" type="TextureRect"]
+offset_right = 1000.0
+offset_bottom = 1000.0
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_vsx0q")
+script = ExtResource("1_opldi")
+title = "Nez rouge"

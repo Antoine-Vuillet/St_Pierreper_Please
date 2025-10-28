@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://bhhuyhll5t1g2"]
+
+[ext_resource type="Texture2D" uid="uid://c85l21sbu5sk" path="res://picture/image_clue/watch.png" id="1_551hg"]
+[ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="2_met57"]
+
+[node name="Watch" type="TextureRect"]
+offset_right = 1000.0
+offset_bottom = 1000.0
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_551hg")
+script = ExtResource("2_met57")
+title = "Montre à gousset"

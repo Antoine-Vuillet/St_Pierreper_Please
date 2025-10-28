@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://cedn2dui2ic6o"]
+
+[ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="1_28tgn"]
+[ext_resource type="Texture2D" uid="uid://bmupyo1o67i0i" path="res://picture/image_clue/crucifix.png" id="2_chkgu"]
+
+[node name="Crucifix" type="TextureRect"]
+offset_right = 1000.0
+offset_bottom = 1000.0
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_chkgu")
+script = ExtResource("1_28tgn")
+title = "Crucifix"

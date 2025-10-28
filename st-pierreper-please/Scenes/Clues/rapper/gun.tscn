@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://bh83f56eofaqf"]
+
+[ext_resource type="Texture2D" uid="uid://g38w2j0vc2px" path="res://picture/image_clue/gun.png" id="1_5kk0m"]
+[ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="2_63i2i"]
+
+[node name="Gun" type="TextureRect"]
+offset_right = 1000.0
+offset_bottom = 1000.0
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_5kk0m")
+script = ExtResource("2_63i2i")
+title = "Pistolet"
