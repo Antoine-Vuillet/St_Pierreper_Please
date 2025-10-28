@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dn3rlyaxx08ef"
-path="res://.godot/imported/smartphone.png-369e1de067dbd1a8d6a50c0a9280e705.ctex"
+uid="uid://b3wjmwmggy3ad"
+path="res://.godot/imported/Enfer.png-4eb370b87df02512d1768d0f0300d52e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Picture/image_clue/smartphone.png"
-dest_files=["res://.godot/imported/smartphone.png-369e1de067dbd1a8d6a50c0a9280e705.ctex"]
+source_file="res://picture/main_menu_pic/Enfer.png"
+dest_files=["res://.godot/imported/Enfer.png-4eb370b87df02512d1768d0f0300d52e.ctex"]
 
 [params]
 

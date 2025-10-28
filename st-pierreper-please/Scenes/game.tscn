@@ -1,22 +1,46 @@
-[gd_scene load_steps=2 format=3 uid="uid://dwog1r6ydfcne"]
+[gd_scene load_steps=8 format=3 uid="uid://dwog1r6ydfcne"]
 
 [ext_resource type="Script" uid="uid://oemsapoa65km" path="res://Script/game.gd" id="1_mhtsl"]
+[ext_resource type="Texture2D" uid="uid://bf01ay1nnki6i" path="res://picture/main_menu_pic/fond.png" id="2_wrm1d"]
+[ext_resource type="Texture2D" uid="uid://ccc1tsxcvoapn" path="res://picture/main_menu_pic/Bureau.png" id="3_3dryh"]
+[ext_resource type="Texture2D" uid="uid://nmxkxyvo4dq1" path="res://picture/main_menu_pic/parchemin-ancien.png" id="4_i6g32"]
+[ext_resource type="Texture2D" uid="uid://b3wjmwmggy3ad" path="res://picture/main_menu_pic/Enfer.png" id="4_wowpa"]
+[ext_resource type="Texture2D" uid="uid://dgngitvqmmseo" path="res://picture/main_menu_pic/Paradis.png" id="5_i6g32"]
+[ext_resource type="Texture2D" uid="uid://curs0c41135k" path="res://picture/main_menu_pic/Luminosité.png" id="7_1l0tm"]
 
 [node name="Game" type="CanvasLayer"]
 script = ExtResource("1_mhtsl")
 
 [node name="SkyWithClouds" type="ColorRect" parent="."]
+z_index = -2
 offset_right = 1152.0
 offset_bottom = 344.0
 color = Color(0.6862745, 1, 1, 1)
+
+[node name="TextureRect" type="TextureRect" parent="SkyWithClouds"]
+layout_mode = 0
+offset_right = 1152.0
+offset_bottom = 650.0
+texture = ExtResource("2_wrm1d")
+expand_mode = 1
 
 [node name="Table" type="ColorRect" parent="."]
 offset_top = 344.0
 offset_right = 1152.0
 offset_bottom = 648.0
-color = Color(0.3249151, 0.14415437, 4.813075e-08, 1)
+color = Color(0.32, 0.14400001, 0, 0)
+
+[node name="TextureRect" type="TextureRect" parent="Table"]
+layout_mode = 0
+offset_left = -13.0
+offset_top = 1.0
+offset_right = 1162.0
+offset_bottom = 305.0
+texture = ExtResource("3_3dryh")
+expand_mode = 1
 
 [node name="Character" type="ColorRect" parent="."]
+z_index = -1
 offset_left = 496.0
 offset_top = 96.0
 offset_right = 672.0
@@ -27,24 +51,62 @@ color = Color(1, 0.7882353, 0.65882355, 1)
 position = Vector2(175, 37)
 
 [node name="InfoPaper" type="ColorRect" parent="."]
+z_index = 3
 offset_left = 112.0
 offset_top = 400.0
 offset_right = 248.0
 offset_bottom = 584.0
+color = Color(1, 1, 1, 0)
+
+[node name="TextureRect" type="TextureRect" parent="InfoPaper"]
+layout_mode = 0
+offset_right = 136.0
+offset_bottom = 185.0
+texture = ExtResource("4_i6g32")
+expand_mode = 1
 
 [node name="Hell" type="ColorRect" parent="."]
+z_index = -2
 offset_left = 16.0
 offset_top = 48.0
 offset_right = 176.0
 offset_bottom = 288.0
-color = Color(1, 0, 0, 1)
+color = Color(1, 0, 0, 0)
+
+[node name="TextureRect" type="TextureRect" parent="Hell"]
+layout_mode = 0
+offset_left = -17.0
+offset_top = -44.0
+offset_right = 364.0
+offset_bottom = 377.0
+texture = ExtResource("4_wowpa")
+expand_mode = 1
 
 [node name="Paradise" type="ColorRect" parent="."]
+z_index = -2
 offset_left = 984.0
 offset_top = 48.0
 offset_right = 1136.0
 offset_bottom = 288.0
-color = Color(1, 1, 0, 1)
+color = Color(1, 1, 1, 0)
+
+[node name="TextureRect" type="TextureRect" parent="Paradise"]
+layout_mode = 0
+offset_left = -182.0
+offset_top = -54.0
+offset_right = 165.0
+offset_bottom = 356.0
+texture = ExtResource("5_i6g32")
+expand_mode = 1
+
+[node name="luminosité" type="TextureRect" parent="."]
+z_index = -2
+offset_left = 2.0
+offset_top = -2.0
+offset_right = 1068.0
+offset_bottom = 648.0
+texture = ExtResource("7_1l0tm")
+expand_mode = 1
 
 [connection signal="gui_input" from="Hell" to="." method="_on_hell_gui_input"]
 [connection signal="gui_input" from="Paradise" to="." method="_on_paradise_gui_input"]

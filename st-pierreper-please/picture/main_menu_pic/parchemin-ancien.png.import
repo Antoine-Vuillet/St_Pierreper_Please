@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bjvmdi010o8dm"
-path="res://.godot/imported/livre.png-ad91216911472400b92eba312a5f107a.ctex"
+uid="uid://nmxkxyvo4dq1"
+path="res://.godot/imported/parchemin-ancien.png-d1549759f1db5f33c6c9384f3a83e39a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Picture/image_clue/livre.png"
-dest_files=["res://.godot/imported/livre.png-ad91216911472400b92eba312a5f107a.ctex"]
+source_file="res://picture/main_menu_pic/parchemin-ancien.png"
+dest_files=["res://.godot/imported/parchemin-ancien.png-d1549759f1db5f33c6c9384f3a83e39a.ctex"]
 
 [params]
 

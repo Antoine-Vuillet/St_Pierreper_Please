@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dnivfd48es226"
-path="res://.godot/imported/règle.png-a871dec3e0f18b1e8694044c848b98be.ctex"
+uid="uid://curs0c41135k"
+path="res://.godot/imported/Luminosité.png-e42adae8f51cd4615560c8b5c29b1e3d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Picture/image_clue/règle.png"
-dest_files=["res://.godot/imported/règle.png-a871dec3e0f18b1e8694044c848b98be.ctex"]
+source_file="res://picture/main_menu_pic/Luminosité.png"
+dest_files=["res://.godot/imported/Luminosité.png-e42adae8f51cd4615560c8b5c29b1e3d.ctex"]
 
 [params]
 

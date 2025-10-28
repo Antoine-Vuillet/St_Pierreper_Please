@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://cedn2dui2ic6o"]
 
 [ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="1_28tgn"]
-[ext_resource type="Texture2D" uid="uid://b2ne65exysltj" path="res://Picture/image_clue/crucifix.png" id="2_l5fmu"]
+[ext_resource type="Texture2D" uid="uid://bmupyo1o67i0i" path="res://picture/image_clue/priest/crucifix.png" id="2_chkgu"]
 
 [node name="Crucifix" type="Control"]
 layout_mode = 3
@@ -11,6 +11,9 @@ title = "Crucifix"
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
-texture = ExtResource("2_l5fmu")
+offset_left = -174.0
+offset_top = -64.0
+offset_right = 46.0
+offset_bottom = 96.0
+texture = ExtResource("2_chkgu")
+expand_mode = 1

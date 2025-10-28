@@ -42,5 +42,5 @@ func getClueList():
 	
 func startTimeline(book):
 	var dialogue =Dialogic.start(timeline, book)
-	dialogue.register_character()
+	dialogue.register_character() #il y a une erreur avant que je modifie .K
 	

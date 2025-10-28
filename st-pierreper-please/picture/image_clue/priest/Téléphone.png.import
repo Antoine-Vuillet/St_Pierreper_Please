@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b2ne65exysltj"
-path="res://.godot/imported/crucifix.png-6a91649a389bb7283d0c51fdab667ebe.ctex"
+uid="uid://qj23k8rbiumn"
+path="res://.godot/imported/Téléphone.png-4517c5ebe1b79a13a62525280a05c07b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Picture/image_clue/crucifix.png"
-dest_files=["res://.godot/imported/crucifix.png-6a91649a389bb7283d0c51fdab667ebe.ctex"]
+source_file="res://picture/image_clue/priest/Téléphone.png"
+dest_files=["res://.godot/imported/Téléphone.png-4517c5ebe1b79a13a62525280a05c07b.ctex"]
 
 [params]
 

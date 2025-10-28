@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://65raj3nnmvrv"]
 
 [ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="1_7xmtx"]
-[ext_resource type="Texture2D" uid="uid://bjvmdi010o8dm" path="res://Picture/image_clue/livre.png" id="2_d0wq7"]
+[ext_resource type="Texture2D" uid="uid://cupefsjmdh2s7" path="res://picture/image_clue/priest/Livre.png" id="2_lftsi"]
 
 [node name="Livre_catéchisme" type="Control"]
 layout_mode = 3
@@ -11,4 +11,9 @@ title = "Livre_catéchisme"
 
 [node name="Sprite2D" type="TextureRect" parent="."]
 layout_mode = 0
-texture = ExtResource("2_d0wq7")
+offset_left = -110.0
+offset_top = -68.0
+offset_right = 110.0
+offset_bottom = 92.0
+texture = ExtResource("2_lftsi")
+expand_mode = 1
