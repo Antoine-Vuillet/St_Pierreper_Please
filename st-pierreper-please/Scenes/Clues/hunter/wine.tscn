@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://ctchmxd1aeewc"]
+
+[ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="1_jnfy8"]
+[ext_resource type="Texture2D" uid="uid://c66emkh8igqof" path="res://picture/image_clue/wine.png" id="1_scqpb"]
+
+[node name="Wine" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_jnfy8")
+title = "Bouteille de vin"
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -28.0
+offset_top = -23.0
+offset_right = 56.0
+offset_bottom = 67.0
+texture = ExtResource("1_scqpb")
+expand_mode = 1

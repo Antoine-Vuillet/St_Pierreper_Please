@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://dtsxu18cllxsb"]
+
+[ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="1_ey66r"]
+[ext_resource type="Texture2D" uid="uid://bx3eixaavoitd" path="res://picture/image_clue/shotgun.png" id="2_02ncj"]
+
+[node name="Shotgun" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_ey66r")
+title = "Fusil de chasse"
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -48.0
+offset_top = -20.0
+offset_right = 88.0
+offset_bottom = 104.0
+texture = ExtResource("2_02ncj")
+expand_mode = 1

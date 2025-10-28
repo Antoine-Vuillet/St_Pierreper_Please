@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://c83x3rlx3k277"]
+
+[ext_resource type="Texture2D" uid="uid://55sup66cojdn" path="res://picture/image_clue/tupperware.png" id="1_11fmv"]
+[ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="2_36b6k"]
+
+[node name="Tupperware" type="TextureRect"]
+offset_right = 1000.0
+offset_bottom = 1000.0
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_11fmv")
+script = ExtResource("2_36b6k")
+title = "Restes de nourriture"

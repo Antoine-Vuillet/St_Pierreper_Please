@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://b75aytm5y22yb"]
+
+[ext_resource type="Texture2D" uid="uid://gteykwp3mbp4" path="res://picture/image_clue/key.png" id="1_62fh6"]
+[ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="2_2jaqk"]
+
+[node name="Key" type="TextureRect"]
+offset_right = 1000.0
+offset_bottom = 1000.0
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_62fh6")
+script = ExtResource("2_2jaqk")
+title = "Clés avec un porte-clés \"os\""

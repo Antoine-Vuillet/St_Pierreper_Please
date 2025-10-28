@@ -10,7 +10,11 @@ extends CanvasLayer
 @onready var game = preload("uid://dwog1r6ydfcne") 
 
 
-func receive_data(name, age, sexe, metier, famille, cause_mort):
+##
+@export var texture : PackedScene
+##
+
+func receive_data(name, age, sexe, metier, famille, cause_mort, sprite_texture):
 	#print(name)
 	name_sinner.text=name
 	age_sinner.text= age
@@ -18,6 +22,12 @@ func receive_data(name, age, sexe, metier, famille, cause_mort):
 	metier_sinner.text= metier
 	famille_sinner.text= famille
 	cause_mort_sinner.text= cause_mort
+	#var sprite = $Paper/ProfilePicture/Sprite2D
+	#sprite.region_enabled = true
+	#sprite.region_rect = Rect2(Vector2(50, 50), Vector2(128, 128))
+
+	$Paper/ProfilePicture/Sprite2D.texture= sprite_texture
+	$Paper/ProfilePicture/Sprite2D.scale = Vector2(0.15, 0.15)
 	
 func _ready():
 	pass

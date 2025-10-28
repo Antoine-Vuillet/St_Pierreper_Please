@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://davgjp1igci07"]
+
+[ext_resource type="Texture2D" uid="uid://ds2xqhg6pe2aq" path="res://picture/image_clue/medicine.png" id="1_0d2b1"]
+[ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="1_jvrhp"]
+
+[node name="Medicine" type="TextureRect"]
+offset_right = 1000.0
+offset_bottom = 1000.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_0d2b1")
+script = ExtResource("1_jvrhp")
+title = "Boîte de médicaments"

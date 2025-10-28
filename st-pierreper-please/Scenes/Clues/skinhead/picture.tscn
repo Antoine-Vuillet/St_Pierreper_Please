@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://6dfqvucdxm88"]
+
+[ext_resource type="Texture2D" uid="uid://bdr7kp38f30r0" path="res://picture/image_clue/picture.png" id="1_iktgc"]
+[ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="2_bqwt3"]
+
+[node name="Picture" type="TextureRect"]
+offset_right = 1000.0
+offset_bottom = 1000.0
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_iktgc")
+script = ExtResource("2_bqwt3")
+title = "Photo"

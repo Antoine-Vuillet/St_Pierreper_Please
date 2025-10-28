@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://bku1mmlyutii0"]
+
+[ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="1_j4h0y"]
+[ext_resource type="Texture2D" uid="uid://cl12y6dcr5fk5" path="res://picture/image_clue/chalk.png" id="2_t0m8h"]
+
+[node name="Chalk" type="TextureRect"]
+offset_right = 1000.0
+offset_bottom = 1000.0
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("2_t0m8h")
+script = ExtResource("1_j4h0y")
+title = "Craie"

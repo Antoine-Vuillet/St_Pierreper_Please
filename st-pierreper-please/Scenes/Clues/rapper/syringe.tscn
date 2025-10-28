@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dmsn5rx7k7dc3"]
+
+[ext_resource type="Texture2D" uid="uid://ckf6mj5tfgta2" path="res://picture/image_clue/syringe.png" id="1_8injo"]
+[ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="2_j3xbq"]
+
+[node name="Syringe" type="TextureRect"]
+offset_right = 1000.0
+offset_bottom = 1000.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.1, 0.1)
+texture = ExtResource("1_8injo")
+script = ExtResource("2_j3xbq")
+title = "Seringue"
