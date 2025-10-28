@@ -10,6 +10,7 @@ const sinnerListScene: Array = [priest, hunter, clown, kid, prostitute]
 
 const sinnerPos = Vector2(500, 100)
 const cluesPosList = [Vector2(450, 390), Vector2(900, 390), Vector2(680, 450), Vector2(450, 510), Vector2(900, 510)]
+const tooltipTime = 0.3
 
 var currentSinnerIndex = 0
 var currentSinner
@@ -28,6 +29,7 @@ var lastMousePos = Vector2.ZERO
 func _ready() -> void:
 	initSinner()
 	tooltip = $tooltip
+	tooltip.visible = false
 	move_child(tooltip, get_child_count() - 1)
 	var style = StyleBoxFlat.new()
 	style.bg_color = Color(0.1, 0.1, 0.1, 0.5)
@@ -45,7 +47,7 @@ func _process(delta: float) -> void:
 			tooltip.visible = false
 		else:
 			hoverTime += delta
-			if hoverTime >= 1.0:
+			if hoverTime >= tooltipTime:
 				tooltip.visible = true
 				tooltip.position = lastMousePos + Vector2(10, -20)
 
@@ -62,7 +64,9 @@ func initSinner():
 		clue.position = cluesPosList[i]
 		clue.connect("gui_input", Callable(self, "_on_clue_gui_input").bind(i))
 		clue.connect("mouse_entered", Callable(self, "_on_clue_mouse_entered").bind(clue))
+		clue.connect("mouse_entered", Callable(self, "_on_mouse_entered"))
 		clue.connect("mouse_exited", Callable(self, "_on_clue_mouse_exited"))
+		clue.connect("mouse_exited", Callable(self, "_on_mouse_exited"))
 
 func nextSinner():
 	currentSinnerIndex += 1
