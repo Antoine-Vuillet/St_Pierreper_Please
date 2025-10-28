@@ -1,11 +1,20 @@
 extends CanvasLayer
 
-@onready var name_label: Label = $Paper/Name
-@onready var agee: Label = $Paper/Age
+@onready var name_sinner: Label = $Paper/VBoxContainer/Name
+@onready var age_sinner: Label = $Paper/VBoxContainer/Age
+@onready var sexe_sinner: Label = $Paper/VBoxContainer/Sexe
+@onready var metier_sinner: Label = $Paper/VBoxContainer/Metier
+@onready var famille_sinner: Label = $Paper/VBoxContainer/Famille
+@onready var cause_mort_sinner: Label = $"Paper/VBoxContainer/Cause mort"
 
 func _ready():
-	name_label.text = GameManager.currentSinner.name_s
-	agee.text= GameManager.currentSinner.age_s
+	name_sinner.text = GameManager.currentSinner.name_s
+	age_sinner.text= GameManager.currentSinner.age_s
+	sexe_sinner.text= GameManager.currentSinner.sexe_s
+	metier_sinner.text= GameManager.currentSinner.metier_s
+	famille_sinner.text= GameManager.currentSinner.famille_s
+	cause_mort_sinner.text= GameManager.currentSinner.cause_mort_s
+	
 
 
 
