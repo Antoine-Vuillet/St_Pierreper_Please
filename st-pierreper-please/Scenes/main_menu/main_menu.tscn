@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://drabf8nw3ysjw"]
 
 [ext_resource type="Script" uid="uid://dkp25i3kg1ktu" path="res://Script/main_menu.gd" id="1_sbquq"]
-[ext_resource type="Texture2D" uid="uid://ct7xfljh8pabk" path="res://Scenes/main_menu/heaven-7853985_1280.jpg" id="2_7r3nt"]
+[ext_resource type="Texture2D" uid="uid://w3nvi4d8tyq0" path="res://picture/Rognheaven.jpg" id="2_p16ft"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_jix8l"]
 font_size = 35
@@ -17,24 +17,26 @@ grow_vertical = 2
 script = ExtResource("1_sbquq")
 
 [node name="TextureRect" type="TextureRect" parent="."]
-layout_mode = 0
-offset_left = -1.0
-offset_top = -50.0
-offset_right = 1155.0
-offset_bottom = 1230.0
-texture = ExtResource("2_7r3nt")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_p16ft")
+stretch_mode = 5
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 1
-anchors_preset = -1
+anchors_preset = 8
 anchor_left = 0.5
-anchor_top = 0.23500001
+anchor_top = 0.5
 anchor_right = 0.5
-anchor_bottom = 0.23500001
-offset_left = -161.0
-offset_top = 25.719986
-offset_right = 164.0
-offset_bottom = 74.719986
+anchor_bottom = 0.5
+offset_left = -164.0
+offset_top = -108.0
+offset_right = 161.0
+offset_bottom = -59.0
 grow_horizontal = 2
 grow_vertical = 2
 text = "ST Pierreper Please"
@@ -42,17 +44,17 @@ label_settings = SubResource("LabelSettings_jix8l")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 1
-anchors_preset = -1
-anchor_left = 0.49300003
-anchor_top = 0.75900006
-anchor_right = 0.49300003
-anchor_bottom = 0.75900006
-offset_left = -249.93604
-offset_top = -93.83203
-offset_right = 253.06396
-offset_bottom = 21.167969
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -248.0
+offset_top = -211.0
+offset_right = 255.0
+offset_bottom = -96.0
 grow_horizontal = 2
-grow_vertical = 2
+grow_vertical = 0
 
 [node name="Start" type="Button" parent="VBoxContainer"]
 layout_mode = 2
