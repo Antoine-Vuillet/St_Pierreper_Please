@@ -24,9 +24,21 @@ enum Morality {
 
 
 func _ready() -> void:
+	
+	#ça relie la bubble à un endroit, mais c'est pas le bon..
+	###
+	#var layout = Dialogic.start(timeline,"book0")
+	#layout.register_character(load("res://Dialogic/Characters/Priest.dch"),$Character/Node2D/bubble )
+	###
+	
 	clue_list = [firstClue, secondClue, thirdClue, fourthClue, fifthClue]
+	
+	
+	#cette partie marche si on utilise pas les bulles
+	###
 	Dialogic.start(timeline,"book0")
 	await Dialogic.timeline_started
+	###
 	
 func getName():
 	return mortal_name
