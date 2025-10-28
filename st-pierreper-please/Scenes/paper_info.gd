@@ -7,6 +7,8 @@ extends CanvasLayer
 @onready var famille_sinner: Label = $Paper/VBoxContainer/Famille
 @onready var cause_mort_sinner: Label = $"Paper/VBoxContainer/Cause mort"
 
+@onready var game = preload("uid://dwog1r6ydfcne") 
+
 
 func receive_data(name, age, sexe, metier, famille, cause_mort):
 	#print(name)
@@ -62,3 +64,12 @@ func _ready():
 	#name_sinner.text = ("Points: " + str(points))
 	#name_sinner.text = (personnage.currentsinner)
 	#print(Sinner.currentSinner.name)
+
+
+func _on_color_rect_gui_input(event: InputEvent) -> void:
+	#get_tree().current_scene.queue_free()
+	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.pressed:
+		queue_free()
+
+
+	 # Replace with function body.

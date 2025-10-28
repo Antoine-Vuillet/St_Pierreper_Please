@@ -117,3 +117,13 @@ text = "Famille: "
 [node name="Label6" type="Label" parent="VBoxContainer"]
 layout_mode = 2
 text = "Cause de la mort: "
+
+[node name="ColorRect" type="ColorRect" parent="."]
+z_index = -2
+offset_left = -45.0
+offset_top = -24.0
+offset_right = 1198.0
+offset_bottom = 688.0
+color = Color(0.14, 0.14, 0.14, 1)
+
+[connection signal="gui_input" from="ColorRect" to="." method="_on_color_rect_gui_input"]
