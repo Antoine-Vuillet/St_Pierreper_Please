@@ -11,9 +11,16 @@
 script = ExtResource("1_rf78u")
 mortal_name = "Priest"
 character_resource = "uid://cn3yrvf5ydoxc"
+pierre_resource = "uid://bc2y1n7236qab"
 firstClue = ExtResource("2_7w6ov")
 secondClue = ExtResource("3_5f5is")
 thirdClue = ExtResource("4_1r348")
 fourthClue = ExtResource("5_dp8cf")
 fifthClue = ExtResource("6_e82x8")
+name_s = "Jean"
+age_s = "64"
+sexe_s = "Masculin"
+metier_s = "Prêtre"
+famille_s = "Aucune"
+cause_mort_s = "Arrêt Cardiaque"
 timeline = "priest_diag"

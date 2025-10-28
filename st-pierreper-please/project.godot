@@ -18,6 +18,7 @@ config/icon="res://icon.svg"
 [autoload]
 
 Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
+GameManager="*res://Scenes/game.tscn"
 
 [dialogic]
 
@@ -25,6 +26,7 @@ directories/dch_directory={
 "Clown": "res://Dialogic/Characters/Clown.dch",
 "Hunter": "res://Dialogic/Characters/Hunter.dch",
 "Kid": "res://Dialogic/Characters/Kid.dch",
+"Pierre": "res://Dialogic/Characters/Pierre.dch",
 "Priest": "res://Dialogic/Characters/Priest.dch",
 "Prostitute": "res://Dialogic/Characters/Prostitute.dch"
 }

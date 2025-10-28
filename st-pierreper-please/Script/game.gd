@@ -15,6 +15,9 @@ var currentSinnerIndex = 0
 var currentSinner
 var tooltip
 
+#@export var currentSinner: Node  #ouais pas ouf
+
+
 var start = false
 var canClick = true
 var isHovering = false
@@ -50,8 +53,9 @@ func initSinner():
 	if currentSinner:
 		currentSinner.queue_free()
 	currentSinner = sinnerListScene[currentSinnerIndex].instantiate()
-	currentSinner.initialize($Character/SinnerMarker)
+	currentSinner.initialize($Character/SinnerMarker, $Character/PierreMarker)
 	add_child(currentSinner)
+	GameManager.currentSinner = currentSinner
 	
 	for i in range(currentSinner.clue_list.size()):
 		var clue = currentSinner.clue_list[i].instantiate()

@@ -18,7 +18,9 @@ scene = ExtResource("3_d5ypd")
 script = ExtResource("2_6fqun")
 scene = ExtResource("4_rb60s")
 overrides = {
-"behaviour_direction": "Vector2(-1, -1)"
+"behaviour_direction": "Vector2(0, 0)",
+"box_padding": "Vector2(200, 50)",
+"text_size": "20.0"
 }
 
 [resource]

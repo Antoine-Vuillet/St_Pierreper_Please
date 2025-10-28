@@ -1,3 +1,32 @@
+label book0
+Pierre: Bienvenue Roger.
+[end_timeline]
 label book1
-Hunter: : Bonjour, je suis 2
+Pierre: Est-ce ton fusil, Roger ?
+Hunter: Oui, Saint Pierre. Je suis chasseur, alors forcément, j’avais une arme pour tirer les lapins et autres bestioles sauvages.
+Pierre: Est-ce l'arme qui a causé ta mort ?
+Hunter: Oui. Un bête accident de chasse. C’est con pour un chasseur de se tuer avec sa propre arme, hein ?
+[end_timeline]
+label book2
+Pierre: Que peux-tu me dire sur cette bouteille ?
+Hunter: C’est la mienne. Je buvais toujours un petit coup avant d’aller à la chasse.
+Pierre: Elle est presque vide, ce n’est pas ce que j’appelle “un petit coup”.
+Hunter: Rhooo, allez. C’est pas interdit par la religion, que je sache ! Et puis, je ne faisais de mal à personne.
+[end_timeline]
+label book3
+Pierre: Tu avais un chien ?
+Hunter: Oui, il s’appelle Rolex. Il m’a coûté cher, et il était con comme un balai. Même pas fichu de m’ramener du gibier malgré les coups de pieds au cul. J’ai bien essayé de le dresser, mais le bâton n’a servi à rien avec cette sale carne.
+Pierre: Dieu n’aime pas la violence, même envers les animaux.
+[end_timeline]
+label book4
+Pierre: Qui est la femme sur cette photo ?
+Hunter: C’est Gisèle, mon épouse.
+Pierre: Pourquoi est-elle déchirée ?
+Hunter: Elle voulait me quitter. On avait entamé une procédure de divorce. Après tous les efforts et tous les sacrifices que j’ai faits pour elle…
+[end_timeline]
+label book5
+Pierre: Quelle belle chevalière ! Mais je note qu’elle est légèrement tordue. C’est à cause de votre travail dans le BTP ?
+Hunter: Non. C’est à cause de ma femme.
+Pierre: Votre femme ?
+Hunter: Oui, elle est têtue, comme mon chien. La frapper était parfois le seul moyen de la faire taire. Mais je l’aime quand même, évidemment.
 [end_timeline]
