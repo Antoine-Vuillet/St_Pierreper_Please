@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://bl6blkskc5bx1"]
+
+[ext_resource type="Script" uid="uid://chjq1t1j06a75" path="res://Script/Sinner.gd" id="1_yxule"]
+[ext_resource type="Texture2D" uid="uid://c5pmnahb6jadk" path="res://picture/Image perso/le papy.png" id="2_vu6hk"]
+
+[node name="Granpa" type="Node2D"]
+script = ExtResource("1_yxule")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(575.5, 324.49997)
+scale = Vector2(0.59739584, 0.59907395)
+texture = ExtResource("2_vu6hk")

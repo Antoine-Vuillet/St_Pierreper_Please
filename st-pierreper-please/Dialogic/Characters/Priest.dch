@@ -10,12 +10,112 @@
 "style": "SinnerBubble",
 "suffix": ""
 },
-&"default_portrait": "",
+&"default_portrait": "Chasseur",
 &"description": "",
 &"display_name": "Prêtre",
 &"mirror": false,
 &"nicknames": [""],
 &"offset": Vector2(0, 0),
-&"portraits": {},
+&"portraits": {
+"Chasseur": {
+"export_overrides": {
+"image": "\"res://picture/Image perso/Chasseur.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Clown": {
+"export_overrides": {
+"image": "\"res://picture/Image perso/Clown.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Gamine": {
+"export_overrides": {
+"image": "\"res://picture/Image perso/Gamine.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Infirmière": {
+"export_overrides": {
+"image": "\"res://picture/Image perso/Infirmière.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Perso de base": {
+"export_overrides": {
+"image": "\"res://picture/Image perso/Perso de base.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Prêtre": {
+"export_overrides": {
+"image": "\"res://picture/Image perso/Prêtre.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Pute": {
+"export_overrides": {
+"image": "\"res://picture/Image perso/Pute.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"Rappeur": {
+"export_overrides": {
+"image": "\"res://picture/Image perso/Rappeur.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"le papy": {
+"export_overrides": {
+"image": "\"res://picture/Image perso/le papy.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"médium": {
+"export_overrides": {
+"image": "\"res://picture/Image perso/médium.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
+"skinhead": {
+"export_overrides": {
+"image": "\"res://picture/Image perso/skinhead.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+}
+},
 &"scale": 1.0
 }
