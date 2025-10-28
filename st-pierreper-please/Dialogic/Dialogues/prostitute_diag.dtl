@@ -1,5 +1,43 @@
+label book0
+Pierre: Bienvenue Luana.
+[end_timeline]
 label book1
-Prostitute: Bonjour, je suis 5
+Pierre: Ce sont tes cigarettes ?
+Prostitute: Ouais, j’aimais bien m’en griller une de temps en temps.
+Pierre: Pourquoi le paquet est-il dans cet état ? On dirait que quelqu’un a roulé dessus.
+Prostitute: C’est sûrement arrivé quand le bus m’a renversée. C’est ça qui m’a tuée, non ?
+Pierre: Tu n’as pas regardé en traversant, ma fille ?
+Prostitute: Ben non. Y’avait ce pauvre p’tit chien au milieu de la route. Le chauffeur l’avait pas vu. J’voulais juste le sauver, mais j’ai pas été assez rapide, et paf…
+[end_timeline]
 label book2
-Prostitute: Coucou
+Pierre: Que contient cette seringue, ma fille ?
+Prostitute: Je sais pas. Sûrement de la drogue.
+Pierre: Tu en consommais ?
+Prostitute: Non. Je touchais pas à ce genre de truc, moi. Je suis clean.
+Pierre: D’où vient-elle dans ce cas ?
+Prostitute: Je sais pas. Probablement un client qui l’a oublié chez moi. J’allais la jeter, mais j’ai pas eu le temps.
+[end_timeline]
+label book3
+Pierre: Ce sont les clés de ton domicile ?
+Prostitute: Ouais. Celles de ma camionnette. 
+Pierre: Tu vivais dans une camionnette ?
+Prostitute: Vous avez pas lu ma fiche ? Je faisais le tapin. Me jugez pas. C’t’un métier comme un autre, et faut bien manger.
+Pierre: Le porte-clés est mignon. C’est un os ?
+Prostitute: Oui. J’aime bien les chiens. Ils sont gentils, eux.
+[end_timeline]
+label book4
+Pierre: Qu’y a-t-il dans cette boîte ? Les restes de ton déjeuner ?
+Prostitute: C’était pas pour moi.
+Pierre: Pour qui dans ce cas ?
+Prostitute: Pour les chiens et les chats des rues. J’les nourrissais de temps en temps. Ils ont toujours été gentils avec moi, et ils m’ont toujours bien considérée. Pas comme les Hommes.
+[end_timeline]
+label book5
+Pierre: Etais-tu malade, ma fille ?
+Prostitute: Oh non. C’est juste une pilule contraceptive .
+Pierre: Oh.
+Prostitute: Dans mon métier, on fait pas long feu si on s’protège pas. J’avais pas l’temps ni l’argent pour élever un gosse, alors…
+[end_timeline]
+label book6
+Pierre: Luana, il est temps que je rende mon jugement à ton sujet.
+Prostitute: J’vais encore morfler, n’est-ce pas ?
 [end_timeline]

@@ -1,35 +1,39 @@
 label book0
 Pierre: Bienvenue Martin.
-Clown: Je préfère qu'on m'appelle Pipo. C’est mon nom de scène.
+Clown: Je préfère qu'on m'appelle Pipo.
 [end_timeline]
 label book1
-Pierre: C’est un de tes accessoires ?
-Clown: Oui. J’y tiens beaucoup, c’est le premier accessoire que j’ai acheté quand j’ai commencé ma carrière. Faire rire les enfants était mon plus grand rêve, et je suis fier de l’avoir réalisé !
+Pierre: Est-ce l’un de tes accessoires, mon fils ?
+Clown: Oui. J’y tiens beaucoup, vous savez. C’est le premier accessoire que j’ai acheté quand j’ai commencé ma carrière. Faire rire les enfants était mon plus grand rêve, et je suis fier de l’avoir réalisé !
 Pierre: Tu as l’air de beaucoup aimer les enfants.
 Clown: Je les adore ! Ils sont tellement innocents…
 [end_timeline]
 label book2
 Pierre: Un couteau ? C’est un accessoire ?
 Clown: Non, c’est un vrai.
-Pierre: Pourquoi un clown se promène avec un couteau dans sa poche ?
-Clown: J’étais en train de cuisiner quand je suis mort. J’adore préparer de bons petits plats. Si je n’avais pas pu être clown, je serais sûrement devenu cuisinier.
+Pierre: Mais pourquoi un clown se promènerait avec un couteau ?
+Clown: J’étais en train de cuisiner quand je suis mort. J’adorais préparer de bons petits plats pour mes proches. Si je n’avais pas pu être clown, je serais sûrement devenu cuisinier. J’aime prendre soin des autres.
 [end_timeline]
 label book3
 Pierre: Quel est ce livre, Pipo ?
-Clown: C’est le Petit Prince, de Saint-Exupéry.
-Pierre: Tu l’aimes bien ?
+Clown: C’est le Petit Prince de Saint-Exupéry, Saint Pierre.
+Pierre: Ah oui, je me souviens de lui, quand il est arrivé ici. Que penses-tu de cette œuvre ?
 Clown: C’est mon livre préféré. Je l'amenais toujours avec moi quand j’allais à l’hôpital.
 [end_timeline]
 label book4
-Pierre: Des médicaments… Tu étais malade ?
+Pierre: Des médicaments… Étais-tu malade ?
 Clown: Non, ce ne sont pas les miens. Ce sont ceux des enfants malades. Je l’ai pris par inadvertance la dernière fois que je suis allé à l’hôpital.
 Pierre: A l’hôpital ? Pourquoi étais-tu à l’hôpital si tu n’étais pas malade ?
-Clown: J’organisais des animations dans les hôpitaux pédiatriques. Je donnais de mon temps libre pour faire sourire ces pauvres enfants.
+Clown: J’organisais des animations dans les hôpitaux pédiatriques sur mon temps libre. Je voulais soulager un peu leur fardeau, les aider à s’évader juste un instant. Voir un sourire sur leur visage était ma plus grande joie !
 [end_timeline]
 label book5
-Pierre: Que peux-tu me dire à propos de ces cigarettes ?
-Clown: J’avoue tout, j’étais loin d’être parfait.
+Pierre: Que peux-tu me dire à propos de ces cigarettes, mon fils ?
+Clown: J’avoue tout, Saint Pierre, j’étais loin d’être parfait.
 Pierre: Que veux-tu dire ?
-Clown: Je fumais comme un pompier. Mais jamais pendant le travail.
+Clown: Je fumais. Je fumais comme un pompier. Mais jamais pendant le travail, juré ! Vous… vous allez me punir pour ça ?
 Pierre: Ce n’est pas si grave que ça, Pipo.
+[end_timeline]
+label book6
+Pierre: Pipo, il est temps que je rende mon jugement à ton sujet.
+Clown: Peu importe mon sort, j’espère au moins avoir apporté un peu de joie sur Terre.
 [end_timeline]

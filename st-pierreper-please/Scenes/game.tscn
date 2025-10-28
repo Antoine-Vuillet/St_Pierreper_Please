@@ -12,6 +12,7 @@
 script = ExtResource("1_mhtsl")
 
 [node name="SkyWithClouds" type="TextureRect" parent="."]
+z_index = -2
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -39,6 +40,7 @@ texture = ExtResource("5_i6g32")
 expand_mode = 3
 
 [node name="luminosité" type="TextureRect" parent="."]
+z_index = -2
 offset_top = -3.0
 offset_right = 1152.0
 offset_bottom = 647.0
@@ -81,6 +83,7 @@ texture = ExtResource("4_i6g32")
 expand_mode = 1
 
 [node name="Character" type="ColorRect" parent="."]
+visible = false
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5

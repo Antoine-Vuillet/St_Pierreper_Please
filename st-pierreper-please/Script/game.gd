@@ -57,7 +57,10 @@ func initSinner():
 		currentSinner.queue_free()
 	currentSinner = sinnerListScene[currentSinnerIndex].instantiate()
 	currentSinner.initialize($Character/SinnerMarker, $Character/PierreMarker)
+	
 	add_child(currentSinner)
+	currentSinner.get_node("Sprite2D").z_index = -1
+
 	
 	for i in range(currentSinner.clue_list.size()):
 		var clue = currentSinner.clue_list[i].instantiate()
@@ -116,11 +119,19 @@ func _on_clue_mouse_exited():
 func _on_info_paper_gui_input(event: InputEvent) -> void:
 	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.pressed:
 		 # Replace with function body.
+		
+		
 		var paper_scene = load("res://Scenes/paper_info.tscn")
 		var paper_instance = paper_scene.instantiate()
 		add_child(paper_instance)  # pour l’afficher
-		paper_instance.receive_data(currentSinner.name_s, currentSinner.age_s, currentSinner.sexe_s, currentSinner.metier_s, currentSinner.famille_s, currentSinner.cause_mort_s )
 		
+		
+		var sprite_texture = currentSinner.get_node("Sprite2D").texture
+
+		paper_instance.receive_data(currentSinner.name_s, currentSinner.age_s, currentSinner.sexe_s, currentSinner.metier_s, currentSinner.famille_s, currentSinner.cause_mort_s, sprite_texture)
+		
+		
+		## il me faut le spirite2D de currentSinner 
 		
 		
 	

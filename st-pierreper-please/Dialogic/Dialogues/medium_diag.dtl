@@ -1,0 +1,42 @@
+label book0
+Pierre: Bienvenue Stéphanie.
+[end_timeline]
+label book1
+InsideVoice: [i]Le smartphone ne contient pas grand chose d’intéressant, à part une appli bancaire qui fait état d’une entrée d’argent anormalement élevée.[/i]
+Pierre: D’où vient cet argent ? Vous avez fait un héritage ?
+Medium: C’est un don.
+Pierre: Un don ? De la part de qui ?
+Medium: Certains de mes clients peuvent se montrer extrêmement généreux. Ils me remercient juste pour les services spéciaux que je leur ai rendus.
+[end_timeline]
+label book2
+InsideVoice: [i]Zaphira, médium, guide spirituel, oracle, contact avec les défunts. Uniquement sur rendez-vous. Prix selon demande.[/i]
+Pierre: Je pensais que vous étiez coiffeuse.
+Medium: Je le suis.
+Pierre: Cette carte de visite n’est donc pas la vôtre ?
+Medium: Oh, si. Vous voyez, j’ai été gratifiée du don de voyance. Et, en noble âme que je suis, j’ai choisi d’utiliser ce don pour faire le bien autour de moi.
+[end_timeline]
+label book3
+InsideVoice: [i]Le carnet contient une liste de noms et d’informations sur différentes personnes.[/i]
+Pierre: Quels sont ces noms ?
+Medium: Ce sont ceux de mes clients ?
+Pierre: Ceux de votre salon de coiffure ?
+Medium: Ceux à qui je rendais des services spéciaux.
+Pierre: Mais pourquoi ces informations ?
+Medium: Ce sont mes clients les plus influençables. Je notais leurs points faibles pour mieux les amener à recourir à mes services.
+Pierre: En gros, vous étiez une arnaqueuse.
+[end_timeline]
+label book4
+Pierre: Pourquoi vos vêtements sont-ils mouillés ?
+Medium: Je suis morte en tombant dans un puits.
+Pierre: Dans un puits ? Que faisiez-vous près d’un puits ?
+Medium: J’étais guidée par les esprits. Mais c'étaient des esprits maléfiques. Ils m’avaient attirée là pour provoquer cet accident. J’aurais dû me méfier.
+[end_timeline]
+label book5
+Pierre: Ce peigne est-il le vôtre ?
+Medium: Oui. Je ne sors jamais sans mon peigne.
+Pierre: Pourquoi ?
+Medium: Je refuse d’être vue décoiffée. Ce serait le comble pour une coiffeuse ! Et vous imaginez si mes clients me voyaient ainsi ? Je perdrais toute crédibilité professionnelle !
+[end_timeline]
+label book6
+Pierre: Stéphanie, il est temps que je rende mon jugement à ton sujet.
+[end_timeline]
