@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cl12y6dcr5fk5"
-path="res://.godot/imported/Craie.png-dafc9329d2e760fba717644c3a4d3056.ctex"
+uid="uid://udths8mfdx3t"
+path="res://.godot/imported/checkbook.png-60d681127bb5169514d41f74fe3e2173.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://picture/image_clue/priest/Craie.png"
-dest_files=["res://.godot/imported/Craie.png-dafc9329d2e760fba717644c3a4d3056.ctex"]
+source_file="res://picture/image_clue/rapper/checkbook.png"
+dest_files=["res://.godot/imported/checkbook.png-60d681127bb5169514d41f74fe3e2173.ctex"]
 
 [params]
 

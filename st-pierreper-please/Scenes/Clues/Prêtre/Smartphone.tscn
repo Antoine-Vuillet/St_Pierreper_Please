@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://dtvcqiru3bej8"]
 
 [ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="1_o5fbl"]
-[ext_resource type="Texture2D" uid="uid://qj23k8rbiumn" path="res://picture/image_clue/priest/Téléphone.png" id="2_u3ios"]
+[ext_resource type="Texture2D" uid="uid://qj23k8rbiumn" path="res://picture/image_clue/priest/phone.png" id="2_u3ios"]
 
 [node name="Smartphone" type="Control"]
 layout_mode = 3

@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://bpuog4j7w6ynq"]
 
 [ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="1_gngsf"]
-[ext_resource type="Texture2D" uid="uid://cl12y6dcr5fk5" path="res://picture/image_clue/priest/Craie.png" id="2_27vlt"]
+[ext_resource type="Texture2D" uid="uid://cl12y6dcr5fk5" path="res://picture/image_clue/priest/chalk.png" id="2_27vlt"]
 
 [node name="Craie" type="Control"]
 layout_mode = 3

@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://65raj3nnmvrv"]
 
 [ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="1_7xmtx"]
-[ext_resource type="Texture2D" uid="uid://cupefsjmdh2s7" path="res://picture/image_clue/priest/Livre.png" id="2_lftsi"]
+[ext_resource type="Texture2D" uid="uid://cupefsjmdh2s7" path="res://picture/image_clue/priest/book.png" id="2_lftsi"]
 
 [node name="Livre_catéchisme" type="Control"]
 layout_mode = 3

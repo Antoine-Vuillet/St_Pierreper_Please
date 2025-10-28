@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://7dfua0h8asvj"
-path="res://.godot/imported/Photo.png-431b8a0d2e713823174f3d557aa62ab7.ctex"
+uid="uid://bsus3x76g6n5p"
+path="res://.godot/imported/glasses.png-5f2e933c7801221a2c0559a34d6161e4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://picture/image_clue/hunter/Photo.png"
-dest_files=["res://.godot/imported/Photo.png-431b8a0d2e713823174f3d557aa62ab7.ctex"]
+source_file="res://picture/image_clue/grandpa/glasses.png"
+dest_files=["res://.godot/imported/glasses.png-5f2e933c7801221a2c0559a34d6161e4.ctex"]
 
 [params]
 

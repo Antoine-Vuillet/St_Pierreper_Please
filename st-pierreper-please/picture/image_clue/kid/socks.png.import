@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://qj23k8rbiumn"
-path="res://.godot/imported/Téléphone.png-4517c5ebe1b79a13a62525280a05c07b.ctex"
+uid="uid://buag074qirepw"
+path="res://.godot/imported/socks.png-9cf44533165926367153a6ad633dd7d9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://picture/image_clue/priest/Téléphone.png"
-dest_files=["res://.godot/imported/Téléphone.png-4517c5ebe1b79a13a62525280a05c07b.ctex"]
+source_file="res://picture/image_clue/kid/socks.png"
+dest_files=["res://.godot/imported/socks.png-9cf44533165926367153a6ad633dd7d9.ctex"]
 
 [params]
 

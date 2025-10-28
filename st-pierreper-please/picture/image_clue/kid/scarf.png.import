@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bam0tymby28d7"
-path="res://.godot/imported/vin.png-76f36e9dc18d03e8f2669d957ef9745c.ctex"
+uid="uid://d1tto07ckelta"
+path="res://.godot/imported/scarf.png-65c5c86e5fc02f97f9b548a5eac89ff7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://picture/image_clue/hunter/vin.png"
-dest_files=["res://.godot/imported/vin.png-76f36e9dc18d03e8f2669d957ef9745c.ctex"]
+source_file="res://picture/image_clue/kid/scarf.png"
+dest_files=["res://.godot/imported/scarf.png-65c5c86e5fc02f97f9b548a5eac89ff7.ctex"]
 
 [params]
 

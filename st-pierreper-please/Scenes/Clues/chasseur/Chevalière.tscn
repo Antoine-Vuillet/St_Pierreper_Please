@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://ce1802jka1lxc"]
 
-[ext_resource type="Texture2D" uid="uid://byaiflpe40438" path="res://picture/image_clue/hunter/Chevalière.png" id="1_j7r7i"]
+[ext_resource type="Texture2D" uid="uid://byaiflpe40438" path="res://picture/image_clue/hunter/ring.png" id="1_j7r7i"]
 [ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="2_yker7"]
 
 [node name="Chevalière" type="Control"]

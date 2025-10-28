@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://dtsxu18cllxsb"]
 
 [ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="1_ey66r"]
-[ext_resource type="Texture2D" uid="uid://bx3eixaavoitd" path="res://picture/image_clue/hunter/fusil.png" id="2_02ncj"]
+[ext_resource type="Texture2D" uid="uid://bx3eixaavoitd" path="res://picture/image_clue/hunter/shotgun.png" id="2_02ncj"]
 
 [node name="Fusil" type="Control"]
 layout_mode = 3

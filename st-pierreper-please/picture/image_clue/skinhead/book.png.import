@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bx3eixaavoitd"
-path="res://.godot/imported/fusil.png-17a86af8740bfaaaf64ffb719d6f8df3.ctex"
+uid="uid://ccv34l8cx5it8"
+path="res://.godot/imported/book.png-9ef442ac64ba27a688e979b1df3886a6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://picture/image_clue/hunter/fusil.png"
-dest_files=["res://.godot/imported/fusil.png-17a86af8740bfaaaf64ffb719d6f8df3.ctex"]
+source_file="res://picture/image_clue/skinhead/book.png"
+dest_files=["res://.godot/imported/book.png-9ef442ac64ba27a688e979b1df3886a6.ctex"]
 
 [params]
 

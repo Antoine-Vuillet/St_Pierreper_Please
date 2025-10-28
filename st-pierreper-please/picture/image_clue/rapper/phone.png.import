@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cupefsjmdh2s7"
-path="res://.godot/imported/Livre.png-e52491442a2a95e24d0bd43b543dbb41.ctex"
+uid="uid://ssw6pho13fi5"
+path="res://.godot/imported/phone.png-9ccfe19b4308b221f4bbdb5a27392ea6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://picture/image_clue/priest/Livre.png"
-dest_files=["res://.godot/imported/Livre.png-e52491442a2a95e24d0bd43b543dbb41.ctex"]
+source_file="res://picture/image_clue/rapper/phone.png"
+dest_files=["res://.godot/imported/phone.png-9ccfe19b4308b221f4bbdb5a27392ea6.ctex"]
 
 [params]
 

@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://dlvx8475paet7"]
 
-[ext_resource type="Texture2D" uid="uid://cvblw1rdxnjgt" path="res://picture/image_clue/hunter/laisse.png" id="1_pfcb8"]
+[ext_resource type="Texture2D" uid="uid://cvblw1rdxnjgt" path="res://picture/image_clue/hunter/leash.png" id="1_pfcb8"]
 [ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="2_7r2pi"]
 
 [node name="Laisse" type="Control"]

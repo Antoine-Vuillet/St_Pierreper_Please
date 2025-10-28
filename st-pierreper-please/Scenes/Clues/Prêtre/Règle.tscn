@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://xj27pgua4chw"]
 
 [ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="1_rh4sp"]
-[ext_resource type="Texture2D" uid="uid://bsjb7p41y2w8f" path="res://picture/image_clue/priest/règle.png" id="2_mxobl"]
+[ext_resource type="Texture2D" uid="uid://bsjb7p41y2w8f" path="res://picture/image_clue/priest/rule.png" id="2_mxobl"]
 
 [node name="Règle" type="Control"]
 layout_mode = 3

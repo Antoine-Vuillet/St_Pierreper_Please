@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bsjb7p41y2w8f"
-path="res://.godot/imported/règle.png-34daed79501f34dd39be45e46b0001db.ctex"
+uid="uid://7dfua0h8asvj"
+path="res://.godot/imported/picture.png-71c3621a0f34ccb104ee28f97da4800e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://picture/image_clue/priest/règle.png"
-dest_files=["res://.godot/imported/règle.png-34daed79501f34dd39be45e46b0001db.ctex"]
+source_file="res://picture/image_clue/hunter/picture.png"
+dest_files=["res://.godot/imported/picture.png-71c3621a0f34ccb104ee28f97da4800e.ctex"]
 
 [params]
 

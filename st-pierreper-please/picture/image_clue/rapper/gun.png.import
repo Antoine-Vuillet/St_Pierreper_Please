@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cvblw1rdxnjgt"
-path="res://.godot/imported/laisse.png-ae8e7711fc2fa59c3834514ea2e44d65.ctex"
+uid="uid://g38w2j0vc2px"
+path="res://.godot/imported/gun.png-e835ba3fa82b05ac45933b84de5fce14.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://picture/image_clue/hunter/laisse.png"
-dest_files=["res://.godot/imported/laisse.png-ae8e7711fc2fa59c3834514ea2e44d65.ctex"]
+source_file="res://picture/image_clue/rapper/gun.png"
+dest_files=["res://.godot/imported/gun.png-e835ba3fa82b05ac45933b84de5fce14.ctex"]
 
 [params]
 

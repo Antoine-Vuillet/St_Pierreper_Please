@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://dilyd8i8pcaim"]
 
-[ext_resource type="Texture2D" uid="uid://7dfua0h8asvj" path="res://picture/image_clue/hunter/Photo.png" id="1_y1lml"]
+[ext_resource type="Texture2D" uid="uid://7dfua0h8asvj" path="res://picture/image_clue/hunter/picture.png" id="1_y1lml"]
 [ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="2_kl70t"]
 
 [node name="Photo" type="Control"]

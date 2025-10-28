@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://byaiflpe40438"
-path="res://.godot/imported/Chevalière.png-b2aea3c6b7269ea1b3b106c58fa27375.ctex"
+uid="uid://bdr7kp38f30r0"
+path="res://.godot/imported/picture.png-7777cfdb57a10c61d702eca16897b947.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://picture/image_clue/hunter/Chevalière.png"
-dest_files=["res://.godot/imported/Chevalière.png-b2aea3c6b7269ea1b3b106c58fa27375.ctex"]
+source_file="res://picture/image_clue/skinhead/picture.png"
+dest_files=["res://.godot/imported/picture.png-7777cfdb57a10c61d702eca16897b947.ctex"]
 
 [params]
 
