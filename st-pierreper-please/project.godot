@@ -23,19 +23,29 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 
 directories/dch_directory={
 "Clown": "res://Dialogic/Characters/Clown.dch",
+"Grandpa": "res://Dialogic/Characters/Grandpa.dch",
 "Hunter": "res://Dialogic/Characters/Hunter.dch",
 "InsideVoice": "res://Dialogic/Characters/InsideVoice.dch",
 "Kid": "res://Dialogic/Characters/Kid.dch",
+"Medium": "res://Dialogic/Characters/Medium.dch",
+"Nurse": "res://Dialogic/Characters/Nurse.dch",
 "Pierre": "res://Dialogic/Characters/Pierre.dch",
 "Priest": "res://Dialogic/Characters/Priest.dch",
-"Prostitute": "res://Dialogic/Characters/Prostitute.dch"
+"Prostitute": "res://Dialogic/Characters/Prostitute.dch",
+"Rapper": "res://Dialogic/Characters/Rapper.dch",
+"Skinhead": "res://Dialogic/Characters/Skinhead.dch"
 }
 directories/dtl_directory={
 "clown_diag": "res://Dialogic/Dialogues/clown_diag.dtl",
+"grandpa_diag": "res://Dialogic/Dialogues/grandpa_diag.dtl",
 "hunter_diag": "res://Dialogic/Dialogues/hunter_diag.dtl",
 "kid_diag": "res://Dialogic/Dialogues/kid_diag.dtl",
+"medium_diag": "res://Dialogic/Dialogues/medium_diag.dtl",
+"nurse_diag": "res://Dialogic/Dialogues/nurse_diag.dtl",
 "priest_diag": "res://Dialogic/Dialogues/priest_diag.dtl",
-"prostitute_diag": "res://Dialogic/Dialogues/prostitute_diag.dtl"
+"prostitute_diag": "res://Dialogic/Dialogues/prostitute_diag.dtl",
+"rapper_diag": "res://Dialogic/Dialogues/rapper_diag.dtl",
+"skinhead_diag": "res://Dialogic/Dialogues/skinhead_diag.dtl"
 }
 layout/style_directory={
 "": "res://Dialogic/Styles/Bubble.tres",

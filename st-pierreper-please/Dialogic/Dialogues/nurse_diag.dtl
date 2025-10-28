@@ -1,0 +1,38 @@
+label book0
+Pierre: Bienvenue Emma.
+[end_timeline]
+label book1
+Pierre: Que contient cette seringue ?
+Nurse: Seulement de la morphine, un anti-douleur pour les patients en grande souffrance. Les médecins nous avaient demandé de ne plus en donner aux patients, sauf urgence absolue, à cause des restrictions budgétaires. Mais je ne pouvais pas laisser certains patients souffrir comme ça. Alors oui, je désobéissais parfois. Je ne vois pas où est le problème.
+[end_timeline]
+label book2
+Pierre: Que contiennent ces fioles ?
+Nurse: De la morphine, pourquoi ?
+Pierre: Ça fait beaucoup de morphine.
+Nurse: Oui, j’en ai récupéré beaucoup, j’en avais besoin pour mon travail.
+Pierre: Vous aviez le droit d’en prendre autant ?
+Nurse: Pas vraiment, non.
+[end_timeline]
+label book3
+Pierre: De quoi parle ce livre ?
+Nurse: Des plus grands crimes réalisés dans des hôpitaux.
+Pierre: Vous l’avez lu.
+Nurse: Je ne l’avais pas encore fini, mais je trouvais le sujet passionnant. C’est un crime ?
+[end_timeline]
+label book4
+Pierre: C’est du sang sur ce gant ?
+Nurse: Evidemment. 
+Pierre: A qui appartient-il ?
+Nurse: C’est mon gant. Et avant que vous ne le demandiez, le sang est celui du dernier patient qu’on a opéré.
+Pierre: Il s’en est sorti ? 
+Nurse: Je ne sais pas. Je suis morte avant la fin. Le chirurgien m’avait demandé d’aller chercher un collègue en urgence, mais les escaliers étaient glissants et…
+[end_timeline]
+label book5
+Pierre: C’est votre scalpel ?
+Nurse: Non, c’est celui du docteur Legrand.
+Pierre: Que faisait-il en votre possession ?
+Nurse: Il l’a oublié dans notre salle de garde. Il y venait régulièrement pour nous draguer. Il était un peu lourd, mais au fond il était gentil. Je voulais le lui rendre, mais je n’ai pas eu le temps.
+[end_timeline]
+label book6
+Pierre: Emma, il est temps que je rende mon jugement à ton sujet.
+[end_timeline]

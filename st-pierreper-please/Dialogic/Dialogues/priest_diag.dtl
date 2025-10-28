@@ -1,38 +1,46 @@
 label book0
 Pierre: Bienvenue Jean.
-Priest: Saint Pierre ? C’est un honneur dont je ne suis pas digne !
+Priest: Saint Pierre ? Ô Seigneur, je… je ne suis pas digne de paraître devant toi !
 [end_timeline]
 label book1
-Pierre: Jean, que peux-tu me dire sur ce crucifix ?
+Pierre: Mon fils, que peux-tu me dire sur ce crucifix ?
 Priest: Oh mon Dieu, punissez-moi car j’ai péché !
 Pierre: Du calme. Nous sommes tous des pécheurs, mais celà ne nous condamne pas forcément à l’Enfer.
 Priest: J’ai péché, j’ai péché Seigneur. Et ce crucifix à mon cou me permet de me le rappeler chaque jour que Dieu fait. Punissez-moi, je le mérite !
-Pierre: Bon, passons à autre chose…
 [end_timeline]
 label book2
 Pierre: Quel est ce livre ?
-Priest: C’est un livre de catéchisme. Les cours avaient lieu tous les mercredis matins.
-Pierre: C’est une bonne action mon fils. Celà te comblait-il ?
-Priest: Oh oui, très Saint, j’aimais beaucoup faire le catéchisme aux enfants.
+Priest: C’est un livre de catéchisme, Saint Pierre. J’étais chargé de donner les cours de catéchisme de la paroisse, tous les mercredis matins.
+Pierre: C’est une bonne action mon fils. Cela te comblait-il ?
+Priest: Oh oui, très Saint, j’aimais [i]beaucoup[/i] faire le catéchisme aux enfants.
 [end_timeline]
 label book3
 Pierre: Je suis surpris qu’un homme de foi possède un smartphone.
 Priest: Il me servait surtout à être contacté par les fidèles dans le besoin.
-Pierre: Voyons voir les photos que tu as prises.
+Pierre: Puis-je regarder ce qu’il contient, mon fils ?
+Priest: Bien sûr, Saint Pierre. Qui suis-je pour t’interdire quoi que ce soit ?
 InsideVoice: [i]Le téléphone contient uniquement des photos de Jésus et de la Sainte Vierge.[/i]
-Pierre: Je constate que tu es très pieux, Jean.
+Pierre: Je constate que tu es très pieux, mon fils. Mais l’es-tu réellement ?
 [end_timeline]
 label book4
 Pierre: Pourquoi avais-tu cette règle sur toi, Jean ?
 Priest: Pour les cours de catéchisme, Saint Pierre.
-Pierre: Tu faisais de la géométrie ?
-Priest: Non. Certains enfants n’étaient pas sages et, comme le dit le Proverbe 23 de la Très Sainte Bible \: “N'épargne pas la correction à l'enfant; Si tu le frappes de la verge, il ne mourra point.”
-Pierre: N’est-ce pas un peu extrême ?
-Priest: Oh non, malgré leur visage d’ange, ils pouvaient être très, très vilains Saint Pierre. Cela méritait de grosses punitions.
+Pierre: Je ne comprends pas. Donnais-tu des cours de géométrie ?
+Priest: Non. Seulement, certains enfants n’étaient pas sages et, comme le dit le Proverbe 23 de la Très Sainte Bible : “N'épargne pas la correction à l'enfant; Si tu le frappes de la verge, il ne mourra point.”
+Pierre: N’est-ce pas une méthode un peu extrême ?
+Priest: Oh non : malgré leurs visages d’anges, ces petits démons pouvaient être très, très vilains, Saint Pierre. Ils méritaient une sévère correction.
+Pierre: Mais le Deuxième Commandement dit : “Tu aimeras ton prochain comme toi-même.”
+Priest: Justement, je faisais cela par amour pour eux.
 [end_timeline]
 label book5
-Pierre: A quoi te servait cette craie ?
+Pierre: Jean, à quoi te servait cette craie ?
 Priest: Elle me servait à écrire au tableau lors des cours de catéchisme.
-Pierre: Qu’écrivais-tu exactement ?
-Priest: Des chants religieux, des psaumes, des passages de la Bible. Tout ce qui pouvait inculquer à ces enfants l’amour de Dieu.
+Pierre: Qu’écrivais-tu exactement, mon fils ?
+Priest: Des chants religieux, des psaumes, des passages de la Bible… Tout ce qui pouvait inculquer à ces enfants l’amour de Dieu.
+Pierre: Et son amour est très grand.
+Priest: Le mien aussi, ô Saint Pierre.
+[end_timeline]
+label book6
+Pierre: Jean, mon fils, il est temps que je rende mon jugement à ton sujet.
+Priest: Dieu reconnaîtra ma fervente piété, j’en suis certain !
 [end_timeline]

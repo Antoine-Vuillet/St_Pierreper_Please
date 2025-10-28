@@ -19,23 +19,27 @@ Pierre: C’est ton écharpe ?
 Kid: Oui, j’avais froid. C’est comme ça que je suis morte.
 Pierre: Pourquoi étais-tu dehors par un tel temps ?
 Kid: Je n’avais plus de maison, elle a brûlé dans un incendie.
-Pierre: Mais tes parents n’ont rien fait pour te réchauffer ?
+Pierre: Mais tes parents auraient dû s'occuper de toi. Où étaient-ils ?
 Kid: J’étais toute seule. Ils sont morts dans l’incendie.
 [end_timeline]
 label book3
 Pierre: Pourquoi avais-tu cette clémentine dans ta poche ?
-Kid: C’est mon cadeau de Noël. Papa et maman n’avaient pas assez d’argent pour m’offrir la poupée que j’avais demandé.
+Kid: C’est mon cadeau de Noël. J’ai été très sage, mais Papa et maman n’avaient pas assez d’argent pour m’offrir la poupée que j’avais demandé. Alors j’ai eu une clémentine et une papillote.
 Pierre: Pauvre petite…
 [end_timeline]
 label book4
 Pierre: Ce sont des chaussons de danse ?
-Kid: Oui. J’allais devenir une grande danseuse.
+Kid: Oui. J’allais devenir une grande danseuse. J’allais être très célèbre, et voyager dans le monde entier !
 Pierre: Tu sais danser ?
-Kid: Pas encore. Je voulais prendre des cours, mais papa et maman ont dit non. J’étais très très en colère alors j’ai voulu les punir.
+Kid: Pas encore. Je voulais prendre des cours, mais papa et maman ont dit non. J’étais très très en colère, alors j’ai décidé de les punir.
 [end_timeline]
 label book5
 Pierre: C’est ta chaussette ?
-Kid: Oui.
+Kid: Oui, c’est la mienne.
 Pierre: Oh, elle est trouée…
 Kid: Papa et maman n’avaient pas de travail, alors ils faisaient comme ils pouvaient. Mes vêtements étaient toujours vieux ou troués, mais au moins j’avais des vêtements.
+[end_timeline]
+label book6
+Pierre: Emilie, il est temps que je rende mon jugement à ton sujet.
+Kid: Tu vas me punir, monsieur ? J’ai été très sage, je le jure !
 [end_timeline]
