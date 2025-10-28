@@ -42,5 +42,9 @@ func getClueList():
 	
 func startTimeline(book):
 	var dialogue =Dialogic.start(timeline, book)
-	dialogue.register_character() #il y a une erreur avant que je modifie .K
+	get_tree().current_scene.add_child(dialogue) #j'ai rajouté ça
+	#dialogue.register_character() #et supprimé ça
+	
+	#il y a une erreur avant que je modifie .K 
+	#maintenant c'est good
 	
