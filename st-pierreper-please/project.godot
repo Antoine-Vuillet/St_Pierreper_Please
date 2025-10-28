@@ -81,6 +81,10 @@ audio/channel_defaults={
 variables={}
 glossary/default_case_sensitive=true
 
+[display]
+
+window/stretch/mode="viewport"
+
 [editor_plugins]
 
 enabled=PackedStringArray("res://addons/dialogic/plugin.cfg")

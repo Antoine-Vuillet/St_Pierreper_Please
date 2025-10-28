@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://jopomhji2avf"]
+
+[ext_resource type="Script" uid="uid://chjq1t1j06a75" path="res://Script/Sinner.gd" id="1_ikaoo"]
+[ext_resource type="Texture2D" uid="uid://dka4jy36u55q1" path="res://picture/Image perso/médium.png" id="2_b7w4i"]
+
+[node name="Medium" type="Node2D"]
+script = ExtResource("1_ikaoo")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(580.5, 330.5)
+scale = Vector2(0.60260415, 0.6027778)
+texture = ExtResource("2_b7w4i")
