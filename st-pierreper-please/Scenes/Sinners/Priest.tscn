@@ -11,7 +11,7 @@
 script = ExtResource("1_rf78u")
 mortal_name = "Priest"
 character_resource = "uid://cn3yrvf5ydoxc"
-pierre_resource = "uid://bc2y1n7236qab"
+pierre_resource = "res://Dialogic/Characters/Pierre.dch"
 firstClue = ExtResource("2_7w6ov")
 secondClue = ExtResource("3_5f5is")
 thirdClue = ExtResource("4_1r348")
