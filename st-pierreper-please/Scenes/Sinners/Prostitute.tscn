@@ -5,5 +5,7 @@
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_1tm07")
 mortal_name = "Prostitute"
+character_resource = "uid://gcrrsvfvsg0i"
+pierre_resource = "uid://bc2y1n7236qab"
 virtue = 1
-timeline = "fifth_diag"
+timeline = "prostitute_diag"
