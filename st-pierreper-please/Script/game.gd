@@ -43,8 +43,6 @@ var inDialogue = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	Dialogic.connect("event_triggered", Callable(self, "_on_event_triggered"))
-	
 	energy = energyCount
 	
 	cluesPosList.append($Object1.position)
@@ -229,11 +227,6 @@ func _on_paradise_mouse_entered() -> void:
 
 func _on_paradise_mouse_exited() -> void:
 	$ParadiseLight.visible = false
-
-func _on_event_triggered(event_data):
-	if event_data.get("event_type") == "Text":
-		if event_data.get("state") == "finished":
-			$textClickSound.play()
 
 
 func _on_timer_click_timeout() -> void:
