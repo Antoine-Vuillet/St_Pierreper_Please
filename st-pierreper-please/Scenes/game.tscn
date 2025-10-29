@@ -116,16 +116,16 @@ position = Vector2(709, 182)
 position = Vector2(589, 587)
 
 [node name="Object1" type="Marker2D" parent="."]
-position = Vector2(389, 431)
+position = Vector2(392, 408)
 
 [node name="Object2" type="Marker2D" parent="."]
-position = Vector2(795, 437)
+position = Vector2(824, 440)
 
 [node name="Object3" type="Marker2D" parent="."]
-position = Vector2(629, 444)
+position = Vector2(640, 432)
 
 [node name="Object4" type="Marker2D" parent="."]
-position = Vector2(496, 504)
+position = Vector2(512, 528)
 
 [node name="Object5" type="Marker2D" parent="."]
 position = Vector2(962, 516)
