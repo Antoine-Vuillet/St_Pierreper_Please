@@ -4,9 +4,12 @@
 [ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="2_3nw6p"]
 
 [node name="Plush" type="TextureRect"]
-offset_right = 1000.0
-offset_bottom = 1000.0
-scale = Vector2(0.1, 0.1)
+offset_left = -189.0
+offset_top = -14.0
+offset_right = 811.0
+offset_bottom = 986.0
+scale = Vector2(0.2, 0.2)
+tooltip_text = "Peluche à moitié brûlée"
 texture = ExtResource("1_ouaxs")
 script = ExtResource("2_3nw6p")
 title = "Peluche à moitié brûlée"

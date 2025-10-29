@@ -7,6 +7,7 @@
 offset_right = 1000.0
 offset_bottom = 1000.0
 scale = Vector2(0.1, 0.1)
+tooltip_text = "Clés de camionnetes avec un portes-clés \"os\""
 texture = ExtResource("1_62fh6")
 script = ExtResource("2_2jaqk")
 title = "Clés avec un porte-clés \"os\""

@@ -4,7 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://bsjb7p41y2w8f" path="res://picture/image_clue/rule.png" id="2_mxobl"]
 
 [node name="Rule" type="TextureRect"]
-offset_right = 1000.0
+offset_left = 7.9999995
+offset_right = 1227.9999
 offset_bottom = 1000.0
 scale = Vector2(0.1, 0.1)
 tooltip_text = "Règle"

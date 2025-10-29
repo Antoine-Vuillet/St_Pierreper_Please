@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://dilyd8i8pcaim"]
 
-[ext_resource type="Texture2D" uid="uid://bscpqs3gvoma8" path="res://picture/image_clue/picture.png" id="1_y1lml"]
+[ext_resource type="Texture2D" uid="uid://bdr7kp38f30r0" path="res://picture/image_clue/picture.png" id="1_y1lml"]
 [ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="2_kl70t"]
 
 [node name="Picture" type="Control"]
@@ -10,15 +10,16 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+tooltip_text = "Une photo déchirée"
 script = ExtResource("2_kl70t")
 title = "Photo déchirée"
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 0
-offset_left = -29.0
-offset_top = -27.0
-offset_right = 65.0
-offset_bottom = 66.0
+offset_left = -22.0
+offset_top = -61.0
+offset_right = 72.0
+offset_bottom = 32.0
 texture = ExtResource("1_y1lml")
 expand_mode = 1
 script = ExtResource("2_kl70t")
