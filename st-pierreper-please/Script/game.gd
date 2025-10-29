@@ -12,8 +12,9 @@ const sinnerListScene: Array = [priest, hunter, clown, kid, prostitute]
 const sinnerPos = Vector2(500, 100)
 
 var currentSinnerIndex = 0
-var cluesPosList: Array
 var currentSinner
+var cluesPosList: Array
+var clueList: Array
 
 #@export var currentSinner: Node  #ouais pas ouf
 
@@ -40,10 +41,11 @@ func initSinner():
 	add_child(currentSinner)
 	currentSinner.get_node("Sprite2D").z_index = -1
 
-	
+	for clue in clueList:
+		clue.queue_free()
+	clueList.clear()
 	for i in range(currentSinner.clue_list.size()):
 		var clue = currentSinner.clue_list[i].instantiate()
-		add_child(clue)
 		
 		clue.position = cluesPosList[i] - clue.get_size() * clue.get_scale() / 2
 		clue.connect("gui_input", Callable(self, "_on_clue_gui_input").bind(i))
@@ -51,6 +53,9 @@ func initSinner():
 		clue.connect("mouse_entered", Callable(self, "_on_mouse_entered"))
 		clue.connect("mouse_exited", Callable(self, "_on_clue_mouse_exited"))
 		clue.connect("mouse_exited", Callable(self, "_on_mouse_exited"))
+		
+		clueList.append(clue)
+		add_child(clue)
 
 func nextSinner():
 	currentSinnerIndex += 1
@@ -60,13 +65,11 @@ func nextSinner():
 func _on_hell_gui_input(event: InputEvent) -> void:
 	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.pressed:
 		nextSinner()
-		pass
 
 
 func _on_paradise_gui_input(event: InputEvent) -> void:
 	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.pressed:
 		nextSinner()
-		pass
 
 
 func _on_clue_gui_input(event: InputEvent, clueIndex: int) -> void:
