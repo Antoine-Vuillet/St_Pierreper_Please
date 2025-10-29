@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://drabf8nw3ysjw"]
 
-[ext_resource type="Script" uid="uid://dkp25i3kg1ktu" path="res://Script/main_menu.gd" id="1_sbquq"]
-[ext_resource type="Texture2D" uid="uid://w3nvi4d8tyq0" path="res://picture/Rognheaven.jpg" id="2_p16ft"]
+[ext_resource type="Script" path="res://Script/main_menu.gd" id="1_sbquq"]
+[ext_resource type="Texture2D" uid="uid://dwarv03vy6sv3" path="res://picture/menu_pic.png" id="2_p16ft"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_jix8l"]
 font_size = 35
@@ -28,6 +28,7 @@ expand_mode = 1
 stretch_mode = 5
 
 [node name="Label" type="Label" parent="."]
+visible = false
 layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
@@ -50,12 +51,13 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -248.0
-offset_top = -211.0
+offset_left = -236.0
+offset_top = -242.0
 offset_right = 255.0
-offset_bottom = -96.0
+offset_bottom = -113.0
 grow_horizontal = 2
 grow_vertical = 0
+theme_override_constants/separation = 30
 
 [node name="Start" type="Button" parent="VBoxContainer"]
 layout_mode = 2
