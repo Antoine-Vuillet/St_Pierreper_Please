@@ -1,7 +1,7 @@
 [gd_scene load_steps=14 format=3 uid="uid://dwog1r6ydfcne"]
 
 [ext_resource type="Script" uid="uid://oemsapoa65km" path="res://Script/game.gd" id="1_mhtsl"]
-[ext_resource type="Resource" path="res://Dialogic/Characters/God.dch" id="2_o5yvi"]
+[ext_resource type="Resource" uid="uid://cerfwvlnev2er" path="res://Dialogic/Characters/God.dch" id="2_o5yvi"]
 [ext_resource type="Texture2D" uid="uid://bf01ay1nnki6i" path="res://picture/main_menu_pic/fond.png" id="2_wrm1d"]
 [ext_resource type="Texture2D" uid="uid://ccc1tsxcvoapn" path="res://picture/main_menu_pic/Bureau.png" id="3_3dryh"]
 [ext_resource type="Texture2D" uid="uid://bwpjo7rjatv41" path="res://picture/main_menu_pic/Light enfer.png" id="3_h4fw4"]
@@ -99,8 +99,8 @@ layout_mode = 1
 anchors_preset = 4
 anchor_top = 0.5
 anchor_bottom = 0.5
-offset_left = 135.5
-offset_top = -114.0
+offset_left = 150.5
+offset_top = -87.0
 offset_right = 271.5
 offset_bottom = 71.0
 grow_vertical = 2
