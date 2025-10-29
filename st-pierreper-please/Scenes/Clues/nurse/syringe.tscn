@@ -9,6 +9,7 @@ offset_bottom = 1000.0
 grow_horizontal = 2
 grow_vertical = 2
 scale = Vector2(0.1, 0.1)
+tooltip_text = "Seringue"
 texture = ExtResource("1_p5c4j")
 script = ExtResource("2_ovlq3")
 title = "Seringue"

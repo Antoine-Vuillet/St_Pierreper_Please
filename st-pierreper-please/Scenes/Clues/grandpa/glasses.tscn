@@ -7,6 +7,7 @@
 offset_right = 1000.0
 offset_bottom = 1000.0
 scale = Vector2(0.1, 0.1)
+tooltip_text = "Lunettes"
 texture = ExtResource("1_t804h")
 script = ExtResource("2_psofc")
 title = "Lunettes"
