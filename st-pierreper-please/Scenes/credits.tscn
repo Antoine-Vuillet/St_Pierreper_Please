@@ -77,7 +77,7 @@ horizontal_alignment = 1
 [node name="Label5" type="Label" parent="VBoxContainer/VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 6
-text = "Antoine : Développeur Burger King"
+text = "Antoine : Développeur généraliste"
 label_settings = SubResource("LabelSettings_r18jl")
 horizontal_alignment = 1
 
