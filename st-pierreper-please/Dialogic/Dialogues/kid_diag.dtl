@@ -2,25 +2,27 @@ label book0
 Pierre: Bienvenue Emilie.
 Kid: Vous êtes qui monsieur ?
 Pierre: Je suis Saint Pierre.
-Kid: Oh, vous vous appelez comme mon papa !
+Kid: Vous êtes un ange ?
+Pierre: En quelque sorte…
 [end_timeline]
 label book1
-Pierre: Quel joli doudou tu as là ! Mais, pourquoi est-il brûlé ?
+Pierre: Quel joli doudou tu as là ! Il a un nom ?
+Kid: Oui, c’est Monsieur Nounours !
+Pierre: Mais, pourquoi est-il à moitié brûlé ?
 Kid: C’est à cause de la cheminée.
 Pierre: La cheminée ?
-Kid: Oui, la cheminée. Quand j’ai mis Monsieur Nounours dedans, il a pris feu.
-Pierre: Mais pourquoi l’as-tu mis dans la cheminée ?
-Kid: Pour l’allumer.
-Pierre: Pour l’allumer ?
-Kid: Oui, pour mettre le feu à la maison. Papa et maman ont été méchants avec moi, alors je les ai punis.
+Kid: Oui, la cheminée. J’ai mis Monsieur Nounours dedans pour qu’il prenne feu.
+Pierre: Mais pourquoi ?
+InsideVoice: [i]La petite fille sourit de manière étrange.[/i]
+Kid: Pour mettre le feu à la maison. Papa et maman ont été méchants avec moi, alors je les ai punis.
 [end_timeline]
 label book2
-Pierre: C’est ton écharpe ?
-Kid: Oui, j’avais froid. C’est comme ça que je suis morte.
+Pierre: Est-ce ton écharpe, ma fille ?
+Kid: Oui, il faisait si froid dehors. C’est comme ça que je suis morte.
 Pierre: Pourquoi étais-tu dehors par un tel temps ?
-Kid: Je n’avais plus de maison, elle a brûlé dans un incendie.
+Kid: Je n’avais plus de maison, elle a brûlé.
 Pierre: Mais tes parents auraient dû s'occuper de toi. Où étaient-ils ?
-Kid: J’étais toute seule. Ils sont morts dans l’incendie.
+Kid: Dans la maison…
 [end_timeline]
 label book3
 Pierre: Pourquoi avais-tu cette clémentine dans ta poche ?

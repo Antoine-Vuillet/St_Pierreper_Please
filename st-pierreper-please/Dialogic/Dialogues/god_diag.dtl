@@ -18,9 +18,12 @@ God: Pierre, je suis mécontent. Tu t’es trompé à chaque fois. Tu m’a dé�
 [end_timeline]
 label book6
 God: Pierre, mon fils, je suis content de t’avoir confié les clés du Paradis. Mais nous avons un problème \: les journées qui viennent s’annoncent chargées, et tu n’auras guère de temps pour estimer la valeur des morts.
-God: Tu devras te limiter à deux questions par personne si tu veux avoir le temps d’orienter tous les défunts vers le chemin qu’ils méritent. Je compte sur ton jugement pour ne pas te tromper entre Enfer et Paradis.
+God: Tu devras te limiter à trois questions par personne si tu veux avoir le temps d’orienter tous les défunts vers le chemin qu’ils méritent. Je compte sur ton jugement pour ne pas te tromper entre Enfer et Paradis.
 Pierre: Seigneur, je suis ton serviteur le plus fidèle.
 God: Je le sais, Pierre. Mais n’oublie pas \: si ton jugement venait à manquer de justesse, je serais contraint de te remplacer.
 Pierre: N’ayez crainte, Seigneur, je ferai tout mon possible pour vous satisfaire.
-InsideVoice: [i]Les seules informations que je détiens sur les défunts consistent en une fiche d’identité et les objets qu’ils portaient sur eux au moment de leur mort. Mais le temps me manque : je ne puis donc les interroger que sur deux d’entre eux. Il me faut choisir avec discernement si je veux satisfaire Notre Seigneur.[/i]
+InsideVoice: [i]Les seules informations que je détiens sur les défunts consistent en une fiche d’identité et les objets qu’ils portaient sur eux au moment de leur mort. Mais le temps me manque : je ne puis donc les interroger que sur trois d’entre eux. Il me faut choisir avec discernement si je veux satisfaire Notre Seigneur.[/i]
+[end_timeline]
+label book7
+InsideVoice: [i]Je n'ai plus le temps, je dois faire un choix[/i]
 [end_timeline]

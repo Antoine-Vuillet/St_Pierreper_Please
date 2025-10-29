@@ -1,5 +1,6 @@
 label book0
-Pierre: Bienvenue Bertrand.
+Pierre: Bienvenue Bertrand, mon fils.
+Grandpa: Ça faisait longtemps que personne ne m’avait appelé “mon fils” !
 [end_timeline]
 label book1
 InsideVoice:  [i]La photo représente trois enfants en train de jouer sur une plage.[/i]
@@ -7,34 +8,35 @@ Pierre: Qui sont les enfants sur cette photo ?
 Grandpa: Ce sont mes petits-enfants. Ils sont adorables, n’est-ce pas ?
 Pierre: Elle a été prise en bord de mer ?
 Grandpa: Oui. Je les ai emmenés quelques jours là-bas l’été dernier. Leurs parents n’avaient pas les moyens de partir en vacances et ils croulaient sous le travail, alors j’ai proposé de les emmener.
-Pierre: C’est gentil de votre part.
-Grandpa: J’adore mes petits-enfants ! On peut dire que grâce à ma famille, j’ai vraiment eu une belle vie !
+Pierre: C’est gentil de ta part. Tu sembles très proche d’eux.
+Grandpa: Oh oui… Mes petits-enfants étaient mon plus grand bonheur ! 
 [end_timeline]
 label book2
 Pierre: Cette bague est-elle à toi ?
 Grandpa: Oui, c’est mon alliance !
-Pierre: Tu étais marié ?
-Grandpa: Depuis 53 ans ! Ma femme, c’était mon rayon de soleil. On n’a pas cessé de s’aimer depuis tout ce temps.
+Pierre: Tu étais marié depuis longtemps ?
+Grandpa: Depuis 53 ans ! Ma femme, c’était mon rayon de soleil. On n’a pas cessé de s’aimer tout ce temps. Même si elle commençait à perdre un peu la mémoire, elle restait l’amour de ma vie.
 [end_timeline]
 label book3
 Pierre: A qui sont ces lunettes ?
 Grandpa: Ce sont les miennes. Je ne voyais plus très bien depuis une dizaine d’années.
-Pierre: Tu les portais toujours.
+Pierre: Tu les portais toujours, mon fils ?
 Grandpa: Oui. Ces derniers temps je ne pouvais plus m’en passer.
 [end_timeline]
 label book4
 InsideVoice: [i]La bouteille est presque pleine.[/i]
 Pierre: Est-ce ta bouteille ?
-Grandpa: Oui. J’aimais bien boire un petit verre de vin de temps à autre. Mais toujours avec modération !
+Grandpa: Oui. J’aimais bien boire un petit verre de vin de temps à autre.
 Pierre: Tu en consommais beaucoup ?
-Grandpa: Seulement un ou deux verres par semaine.
+Grandpa: Seulement un ou deux verres par semaine, pour le plaisir.
 [end_timeline]
 label book5
 Pierre: Ce sont des médicaments ?
 Grandpa: Oui. Je faisais un peu d’hypertension artérielle, alors le médecin m’avait conseillé d’en prendre. 
 Pierre: Tu avais d’autres problèmes de santé ?
-Grandpa: Non. J’ai vraiment gardé la santé jusqu’à la fin. J’ai eu une belle retraite.
+Grandpa: Pas vraiment. J’ai eu la chance de garder la forme jusqu’au bout. J’ai vraiment eu une belle vie !
 [end_timeline]
 label book6
-Pierre: Bertrand, il est temps que je rende mon jugement à ton sujet.
+Pierre: Bertrand, mon fils, il est temps que je rende mon jugement à ton sujet.
+Grandpa: J’ai confiance en votre jugement, Saint Pierre.
 [end_timeline]
