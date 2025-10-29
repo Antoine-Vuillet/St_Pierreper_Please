@@ -7,6 +7,7 @@
 offset_right = 1000.0
 offset_bottom = 1000.0
 scale = Vector2(0.1, 0.1)
+tooltip_text = "Téléphone"
 texture = ExtResource("2_u3ios")
 script = ExtResource("1_o5fbl")
 title = "Téléphone"
