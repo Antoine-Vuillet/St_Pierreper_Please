@@ -1,9 +1,12 @@
-[gd_scene load_steps=10 format=3 uid="uid://dwog1r6ydfcne"]
+[gd_scene load_steps=12 format=3 uid="uid://dwog1r6ydfcne"]
 
 [ext_resource type="Script" uid="uid://oemsapoa65km" path="res://Script/game.gd" id="1_mhtsl"]
+[ext_resource type="Resource" uid="uid://cerfwvlnev2er" path="res://Dialogic/Characters/God.dch" id="2_o5yvi"]
 [ext_resource type="Texture2D" uid="uid://bf01ay1nnki6i" path="res://picture/main_menu_pic/fond.png" id="2_wrm1d"]
 [ext_resource type="Texture2D" uid="uid://ccc1tsxcvoapn" path="res://picture/main_menu_pic/Bureau.png" id="3_3dryh"]
 [ext_resource type="Texture2D" uid="uid://bwpjo7rjatv41" path="res://picture/main_menu_pic/Light enfer.png" id="3_h4fw4"]
+[ext_resource type="Resource" uid="uid://bc2y1n7236qab" path="res://Dialogic/Characters/Pierre.dch" id="3_rku1e"]
+[ext_resource type="Texture2D" uid="uid://nmxkxyvo4dq1" path="res://picture/main_menu_pic/parchemin-ancien.png" id="4_i6g32"]
 [ext_resource type="Texture2D" uid="uid://b3wjmwmggy3ad" path="res://picture/main_menu_pic/Enfer.png" id="4_wowpa"]
 [ext_resource type="Texture2D" uid="uid://dgngitvqmmseo" path="res://picture/main_menu_pic/Paradis.png" id="5_i6g32"]
 [ext_resource type="Texture2D" uid="uid://defsi5d16tbc2" path="res://picture/main_menu_pic/Light paradis.png" id="5_ldgsr"]
@@ -12,6 +15,9 @@
 
 [node name="Game" type="CanvasLayer"]
 script = ExtResource("1_mhtsl")
+godCharacter = ExtResource("2_o5yvi")
+pierreCharacter = ExtResource("3_rku1e")
+godTimeline = "god_diag"
 
 [node name="SkyWithClouds" type="TextureRect" parent="."]
 z_index = -2
@@ -101,26 +107,11 @@ tooltip_text = "Fiche d'informations"
 texture = ExtResource("9_h4fw4")
 expand_mode = 1
 
-[node name="Character" type="ColorRect" parent="."]
-visible = false
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -27.0
-offset_top = -124.0
-offset_right = 27.0
-offset_bottom = -101.0
-grow_horizontal = 2
-grow_vertical = 2
-color = Color(1, 0.7882353, 0.65882355, 1)
+[node name="SinnerMarker" type="Marker2D" parent="."]
+position = Vector2(709, 182)
 
-[node name="SinnerMarker" type="Marker2D" parent="Character"]
-position = Vector2(160, -18)
-
-[node name="PierreMarker" type="Marker2D" parent="Character"]
-position = Vector2(40, 387)
+[node name="PierreMarker" type="Marker2D" parent="."]
+position = Vector2(589, 587)
 
 [node name="Object1" type="Marker2D" parent="."]
 position = Vector2(389, 431)
@@ -138,18 +129,18 @@ position = Vector2(496, 504)
 position = Vector2(962, 516)
 
 [connection signal="gui_input" from="Hell" to="." method="_on_hell_gui_input"]
-[connection signal="mouse_entered" from="Hell" to="." method="_on_mouse_entered"]
 [connection signal="mouse_entered" from="Hell" to="." method="_on_hell_mouse_entered"]
-[connection signal="mouse_exited" from="Hell" to="." method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="Hell" to="." method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="Hell" to="." method="_on_hell_mouse_exited"]
+[connection signal="mouse_exited" from="Hell" to="." method="_on_mouse_exited"]
 [connection signal="gui_input" from="HellLight" to="." method="_on_hell_gui_input"]
 [connection signal="mouse_entered" from="HellLight" to="." method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="HellLight" to="." method="_on_mouse_exited"]
 [connection signal="gui_input" from="Paradise" to="." method="_on_paradise_gui_input"]
-[connection signal="mouse_entered" from="Paradise" to="." method="_on_mouse_entered"]
 [connection signal="mouse_entered" from="Paradise" to="." method="_on_paradise_mouse_entered"]
-[connection signal="mouse_exited" from="Paradise" to="." method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="Paradise" to="." method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="Paradise" to="." method="_on_paradise_mouse_exited"]
+[connection signal="mouse_exited" from="Paradise" to="." method="_on_mouse_exited"]
 [connection signal="gui_input" from="ParadiseLight" to="." method="_on_paradise_gui_input"]
 [connection signal="mouse_entered" from="ParadiseLight" to="." method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="ParadiseLight" to="." method="_on_mouse_exited"]
