@@ -1,5 +1,8 @@
 extends CanvasLayer
 
+@export var godCharacter: DialogicCharacter
+@export var pierreCharacter: DialogicCharacter
+
 const priest = preload("uid://bykbjimlc2fe4")
 const hunter = preload("uid://ff1kipdb35ut")
 const clown = preload("uid://b6h0nubpml37x")
@@ -8,7 +11,6 @@ const prostitute = preload("uid://dq1f5mv2e7yn0")
 const cursor_hand = preload("uid://c0v0h3v2u6on5")
 #const papper = preload("res://Script/paper_info.gd")
 const sinnerListScene: Array = [priest, hunter, clown, kid, prostitute]
-
 const sinnerPos = Vector2(500, 100)
 
 var currentSinnerIndex = 0
@@ -17,10 +19,13 @@ var cluesPosList: Array
 var clueList: Array
 
 #@export var currentSinner: Node  #ouais pas ouf
-
+@export var godTimeline: String
 
 var start = false
 var canClick = true
+var isGodTalking = true
+var playerErrorCount = 0
+var game_finished = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -29,14 +34,18 @@ func _ready() -> void:
 	cluesPosList.append($Object3.position)
 	cluesPosList.append($Object4.position)
 	cluesPosList.append($Object5.position)
-	initSinner()
+	
+	Dialogic.timeline_ended.connect(_on_diag_finished)
+	var godDiag = Dialogic.start(godTimeline,"book6")
+	godDiag.register_character(godCharacter, $SinnerMarker)
+	godDiag.register_character(pierreCharacter, $PierreMarker)
 
 
 func initSinner():
 	if currentSinner:
 		currentSinner.queue_free()
 	currentSinner = sinnerListScene[currentSinnerIndex].instantiate()
-	currentSinner.initialize($Character/SinnerMarker, $Character/PierreMarker)
+	currentSinner.initialize($SinnerMarker, $PierreMarker)
 	
 	add_child(currentSinner)
 	currentSinner.get_node("Sprite2D").z_index = -1
@@ -49,9 +58,7 @@ func initSinner():
 		
 		clue.position = cluesPosList[i] - clue.get_size() * clue.get_scale() / 2
 		clue.connect("gui_input", Callable(self, "_on_clue_gui_input").bind(i))
-		clue.connect("mouse_entered", Callable(self, "_on_clue_mouse_entered").bind(clue))
 		clue.connect("mouse_entered", Callable(self, "_on_mouse_entered"))
-		clue.connect("mouse_exited", Callable(self, "_on_clue_mouse_exited"))
 		clue.connect("mouse_exited", Callable(self, "_on_mouse_exited"))
 		
 		clueList.append(clue)
@@ -59,16 +66,39 @@ func initSinner():
 
 func nextSinner():
 	currentSinnerIndex += 1
-	initSinner()
+	if currentSinnerIndex < sinnerListScene.size():
+		initSinner()
+	else:
+		endGame()
 
+func endGame():
+	Dialogic.timeline_ended.connect(_on_game_finished)
+	var godDiag = Dialogic.start(godTimeline,"book" + str(playerErrorCount))
+	godDiag.register_character(godCharacter, $SinnerMarker)
+	godDiag.register_character(pierreCharacter, $PierreMarker)
+
+func _on_diag_finished():
+	if isGodTalking:
+		isGodTalking = false
+		initSinner()
+
+func _on_game_finished():
+	game_finished = true
+	get_tree().quit()
 
 func _on_hell_gui_input(event: InputEvent) -> void:
 	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.pressed:
+		print(currentSinner.virtue)
+		if currentSinner.virtue == 1: # 0 = EVIL
+			playerErrorCount += 1
 		nextSinner()
 
 
 func _on_paradise_gui_input(event: InputEvent) -> void:
 	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.pressed:
+		print(currentSinner.virtue)
+		if currentSinner.virtue == 0: # 1 = GOOD
+			playerErrorCount += 1
 		nextSinner()
 
 
