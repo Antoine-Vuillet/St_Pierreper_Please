@@ -1,5 +1,7 @@
 extends CanvasLayer
 
+
+@onready var gamegame = load("uid://drabf8nw3ysjw") #k
 @export var godCharacter: DialogicCharacter
 @export var pierreCharacter: DialogicCharacter
 
@@ -96,7 +98,8 @@ func _on_diag_finished():
 
 func _on_game_finished():
 	game_finished = true
-	get_tree().quit()
+	#get_tree().quit()
+	get_tree().change_scene_to_packed(gamegame)
 
 func _on_hell_gui_input(event: InputEvent) -> void:
 	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.pressed:
@@ -104,6 +107,7 @@ func _on_hell_gui_input(event: InputEvent) -> void:
 		if currentSinner.virtue == 1: # 0 = EVIL
 			playerErrorCount += 1
 		nextSinner()
+		
 
 
 func _on_paradise_gui_input(event: InputEvent) -> void:
@@ -112,6 +116,7 @@ func _on_paradise_gui_input(event: InputEvent) -> void:
 		if currentSinner.virtue == 0: # 1 = GOOD
 			playerErrorCount += 1
 		nextSinner()
+		
 
 
 func _on_clue_gui_input(event: InputEvent, clueIndex: int) -> void:
