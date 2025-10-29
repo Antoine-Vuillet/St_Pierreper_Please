@@ -7,7 +7,7 @@
 offset_right = 1000.0
 offset_bottom = 1000.0
 scale = Vector2(0.12, 0.12)
-tooltip_text = "Carnet de note"
+tooltip_text = "Carnet de notes"
 texture = ExtResource("1_l2ecu")
 script = ExtResource("2_p0mv1")
 title = "Carnet"
