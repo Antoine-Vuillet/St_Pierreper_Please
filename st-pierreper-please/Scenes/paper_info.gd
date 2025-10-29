@@ -1,11 +1,11 @@
 extends CanvasLayer
 
-@onready var name_sinner: Label = $Paper/VBoxContainer/Name
-@onready var age_sinner: Label = $Paper/VBoxContainer/Age
-@onready var sexe_sinner: Label = $Paper/VBoxContainer/Sexe
-@onready var metier_sinner: Label = $Paper/VBoxContainer/Metier
-@onready var famille_sinner: Label = $Paper/VBoxContainer/Famille
-@onready var cause_mort_sinner: Label = $"Paper/VBoxContainer/Cause mort"
+@onready var name_sinner: Label = $Paper/VBoxContainer/Label_name/Name
+@onready var age_sinner: Label = $Paper/VBoxContainer/Label_age/Age
+@onready var sexe_sinner: Label = $Paper/VBoxContainer/Label_sexe/Sexe
+@onready var metier_sinner: Label = $"Paper/VBoxContainer/Label_métier/Metier"
+@onready var famille_sinner: Label = $Paper/VBoxContainer/Label_famille/Famille
+@onready var cause_mort_sinner: Label = $"Paper/VBoxContainer/Label_cause/Cause mort"
 
 @onready var game = preload("uid://dwog1r6ydfcne") 
 
