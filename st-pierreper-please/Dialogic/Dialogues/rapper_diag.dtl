@@ -6,7 +6,7 @@ Pierre: Je crois que je préfère Aaron.
 label book1
 Pierre: Est-ce ton téléphone ?
 Rapper: Ouais. Pourquoi ? Tu veux mon 06 ?
-Pierre: Je veux juste jeter un œil.
+Pierre: Je souhaite juste jeter un œil.
 Rapper: J’m’appelle DKG, parce que j’te dis de dégager !
 Pierre: On se calme jeune homme. Je pense que tu n’as pas bien compris la situation. Tu veux vraiment finir en Enfer ?
 Rapper: Oh, pardon m’sieur. C’est juste mon slogan de rappeur. Ma marque de fabrique, quoi !
@@ -26,22 +26,22 @@ Rapper: Ah non ! N’y touchez pas ! C’est perso !
 Pierre: Je suis Saint Pierre, sache que tu ne peux rien me cacher.
 InsideVoice: [i]Le carnet contient des notes d’écriture de chansons d’amour.[/i]
 Rapper: Oh non, j’ai trop la honte.
-Pierre: Pourquoi ? Je les trouve très bien ces paroles
+Pierre: Pourquoi ? Je les trouve très bien ces paroles.
 Rapper: C’est vrai ? J’ai toujours rêvé d’écrire ce genre de chanson, mais c’est pas trop le style de mon public, alors…
 Pierre: Moi j’aime bien.
 [end_timeline]
 label book4
 Pierre: Tu gagnais bien ta vie ?
 Rapper: J’avoue que j’avais du succès ces derniers temps. Surtout grâce à mon dernier album “Du sang sur le béton”.
-Pierre: D’après le talon, le dernier chèque rédigé était destiné à une association humanitaire, avec une somme à 6 chiffres.
-Rapper: Tu étais généreux d’après ce que je vois, mon fils.
-Pierre: Ne le dites pas à mon public, je tiens à ma réputation de gangster 
+InsideVoice: [i]D’après le talon, le dernier chèque rédigé était destiné à une association humanitaire, avec une somme à 6 chiffres.[/i]
+Pierre: Tu étais généreux d’après ce que je vois, mon fils.
+Rapper: : Ne le dites pas à mon public, je tiens à ma réputation de gangster 
 [end_timeline]
 label book5
 Pierre: Que contient cette seringue ?
 Rapper: C’est de la drogue. 
 Pierre: Tu en consommais souvent ?
-Rapper: Pas tellement. Seulement de temps en temps, quand j’étais stressé avant un concert.
+Rapper: Bof, pas tellement. Seulement de temps en temps, quand j’étais stressé avant un concert.
 Pierre: C’est ça qui t’a tué ?
 Rapper: Probablement. J’me souviens plus très bien. Je planais complètement.
 [end_timeline]
