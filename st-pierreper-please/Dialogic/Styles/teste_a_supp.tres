@@ -27,6 +27,7 @@ scene = ExtResource("4_o51yj")
 script = ExtResource("2_igjae")
 scene = ExtResource("5_20qju")
 overrides = {
+"portrait_stretch_factor": "0.0",
 "text_alignment": "1"
 }
 

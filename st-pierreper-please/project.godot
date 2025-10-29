@@ -23,6 +23,7 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 
 directories/dch_directory={
 "Clown": "res://Dialogic/Characters/Clown.dch",
+"God": "res://Dialogic/Characters/God.dch",
 "Grandpa": "res://Dialogic/Characters/Grandpa.dch",
 "Hunter": "res://Dialogic/Characters/Hunter.dch",
 "InsideVoice": "res://Dialogic/Characters/InsideVoice.dch",
@@ -37,6 +38,7 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "clown_diag": "res://Dialogic/Dialogues/clown_diag.dtl",
+"god_diag": "res://Dialogic/Dialogues/god_diag.dtl",
 "grandpa_diag": "res://Dialogic/Dialogues/grandpa_diag.dtl",
 "hunter_diag": "res://Dialogic/Dialogues/hunter_diag.dtl",
 "kid_diag": "res://Dialogic/Dialogues/kid_diag.dtl",
@@ -49,11 +51,12 @@ directories/dtl_directory={
 }
 layout/style_directory={
 "": "res://Dialogic/Styles/Bubble.tres",
+"GodBubble": "res://Dialogic/Styles/GodBubble.tres",
 "PierreBubble": "res://Dialogic/Styles/PierreBubble.tres",
 "SinnerBubble": "res://Dialogic/Styles/Bubble.tres",
 "teste_a_supp": "res://Dialogic/Styles/teste_a_supp.tres"
 }
-layout/style_list=["res://Dialogic/Styles/Bubble.tres", "res://Dialogic/Styles/teste_a_supp.tres", "res://Dialogic/Styles/PierreBubble.tres"]
+layout/style_list=["res://Dialogic/Styles/Bubble.tres", "res://Dialogic/Styles/teste_a_supp.tres", "res://Dialogic/Styles/PierreBubble.tres", "res://Dialogic/Styles/GodBubble.tres"]
 layout/default_style="res://Dialogic/Styles/Bubble.tres"
 extensions_folder="res://addons/dialogic_additions"
 text/letter_speed=0.01
