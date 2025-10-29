@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://ccvrpf7b5g3ka"]
+[gd_scene load_steps=4 format=3 uid="uid://ccvrpf7b5g3ka"]
 
 [ext_resource type="Script" uid="uid://c7tvid2b4fg5h" path="res://Scenes/paper_info.gd" id="1_wxw8e"]
 [ext_resource type="Texture2D" uid="uid://ocwj3x74yg1e" path="res://picture/texture_papier.jpg" id="2_37jfc"]
+[ext_resource type="FontFile" uid="uid://dxqikwqmhki2k" path="res://Buckets of Fireflies.ttf" id="3_hgpck"]
 
 [node name="PaperInfo" type="CanvasLayer"]
 script = ExtResource("1_wxw8e")
@@ -34,45 +35,51 @@ expand_mode = 1
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Paper"]
 layout_mode = 0
-offset_left = 152.0
-offset_top = 151.0
+offset_left = 124.0
+offset_top = 164.0
 offset_right = 291.0
 offset_bottom = 358.0
 
 [node name="Name" type="Label" parent="Paper/VBoxContainer"]
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 16
+theme_override_fonts/font = ExtResource("3_hgpck")
+theme_override_font_sizes/font_size = 22
 text = "Name"
 
 [node name="Age" type="Label" parent="Paper/VBoxContainer"]
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 16
+theme_override_fonts/font = ExtResource("3_hgpck")
+theme_override_font_sizes/font_size = 22
 text = "Age"
 
 [node name="Sexe" type="Label" parent="Paper/VBoxContainer"]
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 16
+theme_override_fonts/font = ExtResource("3_hgpck")
+theme_override_font_sizes/font_size = 22
 text = "Sexe"
 
 [node name="Metier" type="Label" parent="Paper/VBoxContainer"]
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 16
+theme_override_fonts/font = ExtResource("3_hgpck")
+theme_override_font_sizes/font_size = 22
 text = "Metier"
 
 [node name="Famille" type="Label" parent="Paper/VBoxContainer"]
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 16
+theme_override_fonts/font = ExtResource("3_hgpck")
+theme_override_font_sizes/font_size = 22
 text = "Famille"
 
 [node name="Cause mort" type="Label" parent="Paper/VBoxContainer"]
 layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 16
+theme_override_fonts/font = ExtResource("3_hgpck")
+theme_override_font_sizes/font_size = 22
 text = "Cause de la mort"
 
 [node name="Titre" type="Label" parent="."]
@@ -81,38 +88,57 @@ offset_top = 137.0
 offset_right = 711.0
 offset_bottom = 226.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 20
-text = "        Fiche 
+theme_override_fonts/font = ExtResource("3_hgpck")
+theme_override_font_sizes/font_size = 38
+text = "     Fiche 
  d'informations"
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 offset_left = 431.0
-offset_top = 255.0
+offset_top = 267.0
 offset_right = 646.0
 offset_bottom = 494.0
 
 [node name="Label" type="Label" parent="VBoxContainer"]
 layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_hgpck")
+theme_override_font_sizes/font_size = 22
 text = "Nom: "
 
 [node name="Label2" type="Label" parent="VBoxContainer"]
 layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_hgpck")
+theme_override_font_sizes/font_size = 22
 text = "Age: "
 
 [node name="Label3" type="Label" parent="VBoxContainer"]
 layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_hgpck")
+theme_override_font_sizes/font_size = 22
 text = "Sexe: "
 
 [node name="Label4" type="Label" parent="VBoxContainer"]
 layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_hgpck")
+theme_override_font_sizes/font_size = 22
 text = "Métier: "
 
 [node name="Label5" type="Label" parent="VBoxContainer"]
 layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_hgpck")
+theme_override_font_sizes/font_size = 22
 text = "Famille: "
 
 [node name="Label6" type="Label" parent="VBoxContainer"]
 layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_hgpck")
+theme_override_font_sizes/font_size = 22
 text = "Cause de la mort: "
 
 [node name="ColorRect" type="ColorRect" parent="."]
