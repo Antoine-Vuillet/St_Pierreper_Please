@@ -1,0 +1,89 @@
+[gd_scene load_steps=5 format=3 uid="uid://caq6304yniqdf"]
+
+[ext_resource type="Script" uid="uid://bmjo0pcqc2glw" path="res://Script/credits.gd" id="1_gryuy"]
+[ext_resource type="Texture2D" uid="uid://cbiepi40n3mry" path="res://picture/menu sans titre.png" id="1_r18jl"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_gryuy"]
+font_size = 30
+
+[sub_resource type="LabelSettings" id="LabelSettings_r18jl"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_gryuy")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_r18jl")
+expand_mode = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 9
+anchor_bottom = 1.0
+offset_top = 50.0
+offset_right = 500.0
+offset_bottom = -50.0
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Credits"
+label_settings = SubResource("LabelSettings_gryuy")
+horizontal_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="VBoxContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 6
+text = "Coline : Narrative Designer"
+label_settings = SubResource("LabelSettings_r18jl")
+horizontal_alignment = 1
+
+[node name="Label2" type="Label" parent="VBoxContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 6
+text = "Wilson: Artiste et game designer"
+label_settings = SubResource("LabelSettings_r18jl")
+horizontal_alignment = 1
+
+[node name="Label3" type="Label" parent="VBoxContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 6
+text = "Alexy: Développeur gameplay"
+label_settings = SubResource("LabelSettings_r18jl")
+horizontal_alignment = 1
+
+[node name="Label4" type="Label" parent="VBoxContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 6
+text = "Karima: Développeuse interface utilisateur"
+label_settings = SubResource("LabelSettings_r18jl")
+horizontal_alignment = 1
+
+[node name="Label5" type="Label" parent="VBoxContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 6
+text = "Antoine : Développeur Burger King"
+label_settings = SubResource("LabelSettings_r18jl")
+horizontal_alignment = 1
+
+[node name="Button" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+text = "Retour au menu principal"
+
+[connection signal="pressed" from="VBoxContainer/Button" to="." method="load_scene"]
