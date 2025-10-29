@@ -15,14 +15,11 @@ const granpa = preload("uid://bl6blkskc5bx1")
 const medium = preload("uid://jopomhji2avf")
 const skinhead = preload("uid://d2cxw0e0ubs3u")
 
-
-
-
 const cursor_hand = preload("uid://c0v0h3v2u6on5")
 #const papper = preload("res://Script/paper_info.gd")
-const sinnerListScene: Array = [priest, hunter, clown, kid, prostitute, rapper, nurse, granpa, medium, skinhead]
 
-const sinnerPos = Vector2(500, 100)
+var sinnerListScene: Array = [priest, hunter, clown, kid, prostitute, rapper, nurse, granpa, medium, skinhead]
+var list5randomSinners: Array
 
 var currentSinnerIndex = 0
 var currentSinner
@@ -46,6 +43,10 @@ func _ready() -> void:
 	cluesPosList.append($Object4.position)
 	cluesPosList.append($Object5.position)
 	
+	sinnerListScene.shuffle()
+	list5randomSinners = sinnerListScene.slice(0, 5)
+	
+	# first dialog with god
 	Dialogic.timeline_ended.connect(_on_diag_finished)
 	var godDiag = Dialogic.start(godTimeline,"book6")
 	godDiag.register_character(godCharacter, $SinnerMarker)
@@ -55,7 +56,7 @@ func _ready() -> void:
 func initSinner():
 	if currentSinner:
 		currentSinner.queue_free()
-	currentSinner = sinnerListScene[currentSinnerIndex].instantiate()
+	currentSinner = list5randomSinners[currentSinnerIndex].instantiate()
 	currentSinner.initialize($SinnerMarker, $PierreMarker)
 	
 	add_child(currentSinner)
@@ -77,7 +78,7 @@ func initSinner():
 
 func nextSinner():
 	currentSinnerIndex += 1
-	if currentSinnerIndex < sinnerListScene.size():
+	if currentSinnerIndex < list5randomSinners.size():
 		initSinner()
 	else:
 		endGame()

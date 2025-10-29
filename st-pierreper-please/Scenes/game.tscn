@@ -6,7 +6,6 @@
 [ext_resource type="Texture2D" uid="uid://ccc1tsxcvoapn" path="res://picture/main_menu_pic/Bureau.png" id="3_3dryh"]
 [ext_resource type="Texture2D" uid="uid://bwpjo7rjatv41" path="res://picture/main_menu_pic/Light enfer.png" id="3_h4fw4"]
 [ext_resource type="Resource" uid="uid://bc2y1n7236qab" path="res://Dialogic/Characters/Pierre.dch" id="3_rku1e"]
-[ext_resource type="Texture2D" uid="uid://nmxkxyvo4dq1" path="res://picture/main_menu_pic/parchemin-ancien.png" id="4_i6g32"]
 [ext_resource type="Texture2D" uid="uid://b3wjmwmggy3ad" path="res://picture/main_menu_pic/Enfer.png" id="4_wowpa"]
 [ext_resource type="Texture2D" uid="uid://dgngitvqmmseo" path="res://picture/main_menu_pic/Paradis.png" id="5_i6g32"]
 [ext_resource type="Texture2D" uid="uid://defsi5d16tbc2" path="res://picture/main_menu_pic/Light paradis.png" id="5_ldgsr"]
