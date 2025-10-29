@@ -4,6 +4,10 @@
 [ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="2_yker7"]
 
 [node name="Ring" type="TextureRect"]
+offset_left = -19.999998
+offset_top = -20.999998
+offset_right = 980.0
+offset_bottom = 979.0
 scale = Vector2(0.1, 0.1)
 tooltip_text = "Chevalière"
 texture = ExtResource("1_j7r7i")

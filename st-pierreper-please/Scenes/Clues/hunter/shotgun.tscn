@@ -4,7 +4,12 @@
 [ext_resource type="Texture2D" uid="uid://bx3eixaavoitd" path="res://picture/image_clue/shotgun.png" id="2_02ncj"]
 
 [node name="Shotgun" type="TextureRect"]
-scale = Vector2(0.1, 0.1)
+offset_left = -126.0
+offset_top = -57.0
+offset_right = 874.0
+offset_bottom = 943.0
+rotation = 0.36651915
+scale = Vector2(0.25, 0.2)
 tooltip_text = "Fusille de chasse"
 texture = ExtResource("2_02ncj")
 script = ExtResource("1_ey66r")
