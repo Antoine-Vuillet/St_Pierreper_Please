@@ -6,14 +6,16 @@
 [node name="Shotgun" type="Control"]
 layout_mode = 3
 anchors_preset = 0
+tooltip_text = "Fusille de chasse"
 script = ExtResource("1_ey66r")
 title = "Fusil de chasse"
 
 [node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 0
-offset_left = -48.0
-offset_top = -20.0
-offset_right = 88.0
-offset_bottom = 104.0
+offset_left = -162.0
+offset_top = -100.0
+offset_right = -26.0
+offset_bottom = 24.0
+scale = Vector2(2, 2)
 texture = ExtResource("2_02ncj")
 expand_mode = 1

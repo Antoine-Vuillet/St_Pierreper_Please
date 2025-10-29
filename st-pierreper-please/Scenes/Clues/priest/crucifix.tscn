@@ -6,7 +6,7 @@
 [node name="Crucifix" type="TextureRect"]
 offset_right = 1000.0
 offset_bottom = 1000.0
-scale = Vector2(0.2, 0.2)
+scale = Vector2(0.15, 0.15)
 tooltip_text = "Crucifix"
 texture = ExtResource("2_chkgu")
 script = ExtResource("1_28tgn")

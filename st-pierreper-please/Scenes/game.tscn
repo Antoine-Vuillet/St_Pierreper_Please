@@ -11,6 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://dgngitvqmmseo" path="res://picture/main_menu_pic/Paradis.png" id="5_i6g32"]
 [ext_resource type="Texture2D" uid="uid://defsi5d16tbc2" path="res://picture/main_menu_pic/Light paradis.png" id="5_ldgsr"]
 [ext_resource type="Texture2D" uid="uid://curs0c41135k" path="res://picture/main_menu_pic/Luminosité.png" id="7_1l0tm"]
+[ext_resource type="Texture2D" uid="uid://rp3tyfupyl3k" path="res://picture/main_menu_pic/Parchemin.png" id="9_h4fw4"]
 
 [node name="Game" type="CanvasLayer"]
 script = ExtResource("1_mhtsl")
@@ -103,7 +104,7 @@ offset_right = 271.5
 offset_bottom = 71.0
 grow_vertical = 2
 tooltip_text = "Fiche d'informations"
-texture = ExtResource("4_i6g32")
+texture = ExtResource("9_h4fw4")
 expand_mode = 1
 
 [node name="SinnerMarker" type="Marker2D" parent="."]
@@ -113,19 +114,19 @@ position = Vector2(709, 182)
 position = Vector2(589, 587)
 
 [node name="Object1" type="Marker2D" parent="."]
-position = Vector2(416, 408)
+position = Vector2(389, 431)
 
 [node name="Object2" type="Marker2D" parent="."]
-position = Vector2(816, 408)
+position = Vector2(795, 437)
 
 [node name="Object3" type="Marker2D" parent="."]
-position = Vector2(664, 448)
+position = Vector2(629, 444)
 
 [node name="Object4" type="Marker2D" parent="."]
 position = Vector2(496, 504)
 
 [node name="Object5" type="Marker2D" parent="."]
-position = Vector2(928, 504)
+position = Vector2(962, 516)
 
 [connection signal="gui_input" from="Hell" to="." method="_on_hell_gui_input"]
 [connection signal="mouse_entered" from="Hell" to="." method="_on_hell_mouse_entered"]

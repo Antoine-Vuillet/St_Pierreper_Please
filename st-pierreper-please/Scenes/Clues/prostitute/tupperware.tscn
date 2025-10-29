@@ -4,9 +4,11 @@
 [ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="2_36b6k"]
 
 [node name="Tupperware" type="TextureRect"]
-offset_right = 1000.0
-offset_bottom = 1000.0
-scale = Vector2(0.1, 0.1)
+offset_left = 21.0
+offset_right = 1317.0
+offset_bottom = 1068.0
+scale = Vector2(0.17, 0.17)
+tooltip_text = "Des restes de nourriture"
 texture = ExtResource("1_11fmv")
 script = ExtResource("2_36b6k")
 title = "Restes de nourriture"

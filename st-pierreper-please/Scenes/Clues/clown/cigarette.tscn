@@ -4,8 +4,11 @@
 [ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="2_ec6a7"]
 
 [node name="Cigarette" type="TextureRect"]
-offset_right = 81.0
-offset_bottom = 66.0
+offset_left = -58.0
+offset_top = -39.0
+offset_right = 50.0
+offset_bottom = 51.0
+tooltip_text = "Paquet de cigarettes"
 texture = ExtResource("1_f27a7")
 expand_mode = 1
 script = ExtResource("2_ec6a7")

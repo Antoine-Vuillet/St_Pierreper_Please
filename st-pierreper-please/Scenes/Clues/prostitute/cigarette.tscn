@@ -4,9 +4,12 @@
 [ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="2_rcdik"]
 
 [node name="Cigarette" type="TextureRect"]
-offset_right = 1000.0
-offset_bottom = 1000.0
-scale = Vector2(0.1, 0.1)
+offset_left = -35.999996
+offset_top = -23.999998
+offset_right = 964.0
+offset_bottom = 976.0
+scale = Vector2(0.12, 0.12)
+tooltip_text = "Paquet de cigarettes"
 texture = ExtResource("1_lf11o")
 script = ExtResource("2_rcdik")
 title = "Paquet de cigarettes écrasé"

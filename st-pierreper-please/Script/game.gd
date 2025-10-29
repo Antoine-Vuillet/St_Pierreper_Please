@@ -8,9 +8,20 @@ const hunter = preload("uid://ff1kipdb35ut")
 const clown = preload("uid://b6h0nubpml37x")
 const kid = preload("uid://s37gh0fpyg85")
 const prostitute = preload("uid://dq1f5mv2e7yn0")
+
+const rapper = preload("uid://bqwodvujmeia7")
+const nurse = preload("uid://btopfehf6myru")
+const granpa = preload("uid://bl6blkskc5bx1")
+const medium = preload("uid://jopomhji2avf")
+const skinhead = preload("uid://d2cxw0e0ubs3u")
+
+
+
+
 const cursor_hand = preload("uid://c0v0h3v2u6on5")
 #const papper = preload("res://Script/paper_info.gd")
-const sinnerListScene: Array = [priest, hunter, clown, kid, prostitute]
+const sinnerListScene: Array = [priest, hunter, clown, kid, prostitute, rapper, nurse, granpa, medium, skinhead]
+
 const sinnerPos = Vector2(500, 100)
 
 var currentSinnerIndex = 0

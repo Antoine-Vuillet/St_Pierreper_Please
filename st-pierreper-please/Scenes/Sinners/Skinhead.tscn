@@ -24,6 +24,7 @@ sexe_s = "Masculin"
 metier_s = "Chômeur"
 famille_s = "Une femme et trois enfants"
 cause_mort_s = "Tué par balle"
+timeline = "skinhead_diag"
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(576.49994, 321)
