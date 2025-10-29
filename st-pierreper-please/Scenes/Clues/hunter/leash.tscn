@@ -3,24 +3,11 @@
 [ext_resource type="Texture2D" uid="uid://cvblw1rdxnjgt" path="res://picture/image_clue/leash.png" id="1_pfcb8"]
 [ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="2_7r2pi"]
 
-[node name="Leash" type="Control"]
-layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
+[node name="Leash" type="TextureRect"]
+offset_right = 1000.0
+offset_bottom = 1000.0
+scale = Vector2(0.1, 0.1)
 tooltip_text = "Laisse"
-script = ExtResource("2_7r2pi")
-title = "Laisse"
-
-[node name="TextureRect" type="TextureRect" parent="."]
-layout_mode = 0
-offset_left = -36.0
-offset_top = -85.0
-offset_right = 138.0
-offset_bottom = 75.0
 texture = ExtResource("1_pfcb8")
-expand_mode = 1
 script = ExtResource("2_7r2pi")
 title = "Laisse"
