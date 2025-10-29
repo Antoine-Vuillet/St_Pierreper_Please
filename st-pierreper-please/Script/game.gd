@@ -27,10 +27,13 @@ var currentSinnerIndex = 0
 var currentSinner
 var cluesPosList: Array
 var clueList: Array
+var clueInspectedIndexList: Array
 
 #@export var currentSinner: Node  #ouais pas ouf
 @export var godTimeline: String
+@export var energyCount: int
 
+var energy
 var start = false
 var canClick = true
 var isGodTalking = true
@@ -39,6 +42,8 @@ var game_finished = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	energy = energyCount
+	
 	cluesPosList.append($Object1.position)
 	cluesPosList.append($Object2.position)
 	cluesPosList.append($Object3.position)
@@ -79,6 +84,14 @@ func initSinner():
 		add_child(clue)
 
 func nextSinner():
+	energy = energyCount
+	clueInspectedIndexList.clear()
+	$p_on_1.visible = true
+	$p_on_2.visible = true
+	$p_on_3.visible = true
+	$p_off_1.visible = false
+	$p_off_2.visible = false
+	$p_off_3.visible = false
 	currentSinnerIndex += 1
 	if currentSinnerIndex < list5randomSinners.size():
 		initSinner()
@@ -95,6 +108,10 @@ func _on_diag_finished():
 	if isGodTalking:
 		isGodTalking = false
 		initSinner()
+	else:
+		if energy == 0:
+			energy = -1
+			currentSinner.startTimeline("book6")
 
 func _on_game_finished():
 	game_finished = true
@@ -121,11 +138,34 @@ func _on_paradise_gui_input(event: InputEvent) -> void:
 
 func _on_clue_gui_input(event: InputEvent, clueIndex: int) -> void:
 	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT and event.pressed && canClick:
-		canClick = false
-		print("object" + str(clueIndex+1))
-		var book = "book" + str(clueIndex+1)
-		currentSinner.startTimeline(book)
-		canClick = true
+		if clueIndex in clueInspectedIndexList:
+			print("object already clicked")
+			canClick = false
+			var book = "book" + str(clueIndex+1)
+			currentSinner.startTimeline(book)
+			canClick = true
+		elif energy > 0:
+			print("new object click")
+			canClick = false
+			energy -= 1
+			if energy == 2:
+				$p_on_3.visible = false
+				$p_off_3.visible = true
+			elif energy == 1:
+				$p_on_2.visible = false
+				$p_off_2.visible = true
+			elif energy == 0:
+				$p_on_1.visible = false
+				$p_off_1.visible = true
+			if clueIndex not in clueInspectedIndexList:
+				clueInspectedIndexList.append(clueIndex)
+			var book = "book" + str(clueIndex+1)
+			currentSinner.startTimeline(book)
+			canClick = true
+		else:
+			var godDiag = Dialogic.start(godTimeline,"book7")
+			godDiag.register_character(godCharacter, $SinnerMarker)
+			godDiag.register_character(pierreCharacter, $PierreMarker)
 
 
 func _on_mouse_entered():
