@@ -86,4 +86,4 @@ layout_mode = 2
 size_flags_horizontal = 4
 text = "Retour au menu principal"
 
-[connection signal="pressed" from="VBoxContainer/Button" to="." method="load_scene"]
+[connection signal="button_down" from="VBoxContainer/Button" to="." method="load_scene"]
