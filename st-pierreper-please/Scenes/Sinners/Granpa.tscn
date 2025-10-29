@@ -1,10 +1,30 @@
-[gd_scene load_steps=3 format=3 uid="uid://bl6blkskc5bx1"]
+[gd_scene load_steps=8 format=3 uid="uid://bl6blkskc5bx1"]
 
 [ext_resource type="Script" uid="uid://chjq1t1j06a75" path="res://Script/Sinner.gd" id="1_yxule"]
+[ext_resource type="PackedScene" uid="uid://c1ovfdebhxoej" path="res://Scenes/Clues/grandpa/picture.tscn" id="2_jx0rn"]
 [ext_resource type="Texture2D" uid="uid://c5pmnahb6jadk" path="res://picture/Image perso/le papy.png" id="2_vu6hk"]
+[ext_resource type="PackedScene" uid="uid://j60aw17ed247" path="res://Scenes/Clues/grandpa/ring.tscn" id="3_ombes"]
+[ext_resource type="PackedScene" uid="uid://3p51hgf4thyu" path="res://Scenes/Clues/grandpa/glasses.tscn" id="4_u6gml"]
+[ext_resource type="PackedScene" uid="uid://emijr40n8nb3" path="res://Scenes/Clues/grandpa/wine.tscn" id="5_aumbk"]
+[ext_resource type="PackedScene" uid="uid://bu3fxicvm728j" path="res://Scenes/Clues/grandpa/medicine.tscn" id="6_ks23m"]
 
 [node name="Granpa" type="Node2D"]
 script = ExtResource("1_yxule")
+mortal_name = "Granpa"
+character_resource = "uid://v00ntm4dc2d4"
+pierre_resource = "res://Dialogic/Characters/Pierre.dch"
+firstClue = ExtResource("2_jx0rn")
+secondClue = ExtResource("3_ombes")
+thirdClue = ExtResource("4_u6gml")
+fourthClue = ExtResource("5_aumbk")
+fifthClue = ExtResource("6_ks23m")
+name_s = "Bertrand"
+age_s = "76"
+sexe_s = "Masculin"
+metier_s = "Retraité de la fonction publique"
+famille_s = "Une femme, deux enfants, trois petits-enfants"
+cause_mort_s = "AVC"
+virtue = 1
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(575.5, 324.49997)

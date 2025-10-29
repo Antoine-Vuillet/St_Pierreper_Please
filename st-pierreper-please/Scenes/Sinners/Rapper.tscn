@@ -1,10 +1,29 @@
-[gd_scene load_steps=3 format=3 uid="uid://bqwodvujmeia7"]
+[gd_scene load_steps=8 format=3 uid="uid://bqwodvujmeia7"]
 
 [ext_resource type="Script" uid="uid://chjq1t1j06a75" path="res://Script/Sinner.gd" id="1_ah4ac"]
+[ext_resource type="PackedScene" uid="uid://bgmbk80riebww" path="res://Scenes/Clues/rapper/phone.tscn" id="2_byast"]
 [ext_resource type="Texture2D" uid="uid://bpaysdmoaix08" path="res://picture/Image perso/Rappeur.png" id="2_dxesd"]
+[ext_resource type="PackedScene" uid="uid://bh83f56eofaqf" path="res://Scenes/Clues/rapper/gun.tscn" id="3_jx1h3"]
+[ext_resource type="PackedScene" uid="uid://3wi1uvfwlt50" path="res://Scenes/Clues/rapper/notes.tscn" id="4_es3l7"]
+[ext_resource type="PackedScene" uid="uid://c7xrxcxa788x2" path="res://Scenes/Clues/rapper/checkbook.tscn" id="5_h1se7"]
+[ext_resource type="PackedScene" uid="uid://dmsn5rx7k7dc3" path="res://Scenes/Clues/rapper/syringe.tscn" id="6_vvber"]
 
 [node name="Rapper" type="Node2D"]
 script = ExtResource("1_ah4ac")
+mortal_name = "Rapper"
+character_resource = "uid://0ae7ng5g8idv"
+pierre_resource = "res://Dialogic/Characters/Pierre.dch"
+firstClue = ExtResource("2_byast")
+secondClue = ExtResource("3_jx1h3")
+thirdClue = ExtResource("4_es3l7")
+fourthClue = ExtResource("5_h1se7")
+fifthClue = ExtResource("6_vvber")
+name_s = "Aaron dit DKG"
+age_s = "27"
+sexe_s = "Masculin"
+metier_s = "Rappeur"
+famille_s = "Une copine"
+cause_mort_s = "Overdose"
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(576.5, 327.5)

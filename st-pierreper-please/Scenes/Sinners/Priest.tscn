@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://dtvcqiru3bej8" path="res://Scenes/Clues/priest/phone.tscn" id="4_1r348"]
 [ext_resource type="PackedScene" uid="uid://xj27pgua4chw" path="res://Scenes/Clues/priest/rule.tscn" id="5_dp8cf"]
 [ext_resource type="PackedScene" uid="uid://bpuog4j7w6ynq" path="res://Scenes/Clues/priest/chalk.tscn" id="6_e82x8"]
+[ext_resource type="Texture2D" uid="uid://dfadorgjotnx1" path="res://picture/Image perso/Prêtre.png" id="7_7w6ov"]
 
 [node name="Node2D2" type="Node2D"]
 script = ExtResource("1_rf78u")
@@ -28,3 +29,4 @@ timeline = "priest_diag"
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(576, 329.5)
 scale = Vector2(0.596875, 0.60648155)
+texture = ExtResource("7_7w6ov")

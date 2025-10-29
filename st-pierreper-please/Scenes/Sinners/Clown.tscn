@@ -1,13 +1,29 @@
-[gd_scene load_steps=3 format=3 uid="uid://b6h0nubpml37x"]
+[gd_scene load_steps=8 format=3 uid="uid://b6h0nubpml37x"]
 
 [ext_resource type="Script" uid="uid://chjq1t1j06a75" path="res://Script/Sinner.gd" id="1_fhabc"]
 [ext_resource type="Texture2D" uid="uid://b7cg1wx7w3d80" path="res://picture/Image perso/Clown.png" id="2_4jyfg"]
+[ext_resource type="PackedScene" uid="uid://do317v5pbot7i" path="res://Scenes/Clues/clown/red_nose.tscn" id="2_vtr1s"]
+[ext_resource type="PackedScene" uid="uid://d16eg2ntfe5cl" path="res://Scenes/Clues/clown/book.tscn" id="4_epnwi"]
+[ext_resource type="PackedScene" uid="uid://davgjp1igci07" path="res://Scenes/Clues/clown/medicine.tscn" id="5_g2e2i"]
+[ext_resource type="PackedScene" uid="uid://bku1mmlyutii0" path="res://Scenes/Clues/clown/knife.tscn" id="6_em3tt"]
+[ext_resource type="PackedScene" uid="uid://bl54dsbwkpo16" path="res://Scenes/Clues/clown/cigarette.tscn" id="6_vtr1s"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_fhabc")
 mortal_name = "Clown"
 character_resource = "uid://ck1xnmtbws45p"
 pierre_resource = "uid://bc2y1n7236qab"
+firstClue = ExtResource("2_vtr1s")
+secondClue = ExtResource("6_em3tt")
+thirdClue = ExtResource("4_epnwi")
+fourthClue = ExtResource("5_g2e2i")
+fifthClue = ExtResource("6_vtr1s")
+name_s = "Martin dit Pipo"
+age_s = "39"
+sexe_s = "Masculin"
+metier_s = "Clown"
+famille_s = "Un frère"
+cause_mort_s = "Rupture d'anévrisme"
 virtue = 1
 timeline = "clown_diag"
 

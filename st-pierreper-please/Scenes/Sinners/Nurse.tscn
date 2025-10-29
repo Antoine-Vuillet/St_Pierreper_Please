@@ -1,10 +1,30 @@
-[gd_scene load_steps=3 format=3 uid="uid://btopfehf6myru"]
+[gd_scene load_steps=8 format=3 uid="uid://btopfehf6myru"]
 
 [ext_resource type="Script" uid="uid://chjq1t1j06a75" path="res://Script/Sinner.gd" id="1_37u8g"]
 [ext_resource type="Texture2D" uid="uid://b4aay2ntrrxu6" path="res://picture/Image perso/Infirmière.png" id="2_ouquy"]
+[ext_resource type="PackedScene" uid="uid://c0r8kedt32g6d" path="res://Scenes/Clues/nurse/syringe.tscn" id="2_qnapy"]
+[ext_resource type="PackedScene" uid="uid://dh8e2jhentexu" path="res://Scenes/Clues/nurse/morphine.tscn" id="3_r8o8m"]
+[ext_resource type="PackedScene" uid="uid://d1nwxbvhf8mla" path="res://Scenes/Clues/nurse/book.tscn" id="4_na0nu"]
+[ext_resource type="PackedScene" uid="uid://bok3p57bsutp4" path="res://Scenes/Clues/nurse/glove.tscn" id="5_jw0q7"]
+[ext_resource type="PackedScene" uid="uid://yk4dgqavoi5x" path="res://Scenes/Clues/nurse/scalpel.tscn" id="6_2syu7"]
 
 [node name="Nurse" type="Node2D"]
 script = ExtResource("1_37u8g")
+mortal_name = "Nurse"
+character_resource = "uid://bv86c3aqhw7s6"
+pierre_resource = "res://Dialogic/Characters/Pierre.dch"
+firstClue = ExtResource("2_qnapy")
+secondClue = ExtResource("3_r8o8m")
+thirdClue = ExtResource("4_na0nu")
+fourthClue = ExtResource("5_jw0q7")
+fifthClue = ExtResource("6_2syu7")
+name_s = "Emma"
+age_s = "25"
+sexe_s = "Féminin"
+metier_s = "Infirmière"
+famille_s = "Un copain et une soeur"
+cause_mort_s = "Tombée dans les escaliers"
+virtue = 1
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(581, 324.49997)

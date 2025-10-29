@@ -1,10 +1,29 @@
-[gd_scene load_steps=3 format=3 uid="uid://jopomhji2avf"]
+[gd_scene load_steps=8 format=3 uid="uid://jopomhji2avf"]
 
 [ext_resource type="Script" uid="uid://chjq1t1j06a75" path="res://Script/Sinner.gd" id="1_ikaoo"]
+[ext_resource type="PackedScene" uid="uid://cpwlwvd4qoatw" path="res://Scenes/Clues/medium/phone.tscn" id="2_6y6tk"]
 [ext_resource type="Texture2D" uid="uid://dka4jy36u55q1" path="res://picture/Image perso/médium.png" id="2_b7w4i"]
+[ext_resource type="PackedScene" uid="uid://b1k80mv57xsjq" path="res://Scenes/Clues/medium/card.tscn" id="3_xi1nm"]
+[ext_resource type="PackedScene" uid="uid://d1axw1wtxxrq2" path="res://Scenes/Clues/medium/notes.tscn" id="4_1k3he"]
+[ext_resource type="PackedScene" uid="uid://dgycnce158fwj" path="res://Scenes/Clues/medium/clothes.tscn" id="5_i7eli"]
+[ext_resource type="PackedScene" uid="uid://ch7m0v7q678ef" path="res://Scenes/Clues/medium/comb.tscn" id="6_mj6ca"]
 
 [node name="Medium" type="Node2D"]
 script = ExtResource("1_ikaoo")
+mortal_name = "Medium"
+character_resource = "uid://bs70uv6wqbyyh"
+pierre_resource = "res://Dialogic/Characters/Pierre.dch"
+firstClue = ExtResource("2_6y6tk")
+secondClue = ExtResource("3_xi1nm")
+thirdClue = ExtResource("4_1k3he")
+fourthClue = ExtResource("5_i7eli")
+fifthClue = ExtResource("6_mj6ca")
+name_s = "Stéphanie"
+age_s = "47"
+sexe_s = "Féminin"
+metier_s = "Coiffeuse"
+famille_s = "Divorcée, un enfant"
+cause_mort_s = "Chute"
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(580.5, 330.5)

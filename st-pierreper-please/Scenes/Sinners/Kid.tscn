@@ -1,13 +1,29 @@
-[gd_scene load_steps=3 format=3 uid="uid://s37gh0fpyg85"]
+[gd_scene load_steps=8 format=3 uid="uid://s37gh0fpyg85"]
 
 [ext_resource type="Script" uid="uid://chjq1t1j06a75" path="res://Script/Sinner.gd" id="1_a31yu"]
 [ext_resource type="Texture2D" uid="uid://dj0wj4p21u4pj" path="res://picture/Image perso/Gamine.png" id="2_o3alf"]
+[ext_resource type="PackedScene" uid="uid://dgjcn203h6sra" path="res://Scenes/Clues/kid/plush.tscn" id="2_uiwd4"]
+[ext_resource type="PackedScene" uid="uid://bkx17urusx6ud" path="res://Scenes/Clues/kid/scarf.tscn" id="3_xtokl"]
+[ext_resource type="PackedScene" uid="uid://c0ueqyd8qai6s" path="res://Scenes/Clues/kid/clementine.tscn" id="4_ocdd5"]
+[ext_resource type="PackedScene" uid="uid://fd3gyoo4u6m" path="res://Scenes/Clues/kid/dance_shoe.tscn" id="5_gkk7f"]
+[ext_resource type="PackedScene" uid="uid://ca8ll4mhuj0gj" path="res://Scenes/Clues/kid/socks.tscn" id="6_4uqaa"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_a31yu")
 mortal_name = "Gamine"
 character_resource = "uid://culmlm3ihrhdi"
 pierre_resource = "uid://bc2y1n7236qab"
+firstClue = ExtResource("2_uiwd4")
+secondClue = ExtResource("3_xtokl")
+thirdClue = ExtResource("4_ocdd5")
+fourthClue = ExtResource("5_gkk7f")
+fifthClue = ExtResource("6_4uqaa")
+name_s = "Emilie"
+age_s = "8"
+sexe_s = "Féminin"
+metier_s = "Elève en CE2"
+famille_s = "Fille unique"
+cause_mort_s = "Hypothermie"
 timeline = "kid_diag"
 
 [node name="Sprite2D" type="Sprite2D" parent="."]

@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://dlvx8475paet7" path="res://Scenes/Clues/hunter/leash.tscn" id="4_qp833"]
 [ext_resource type="PackedScene" uid="uid://dilyd8i8pcaim" path="res://Scenes/Clues/hunter/picture.tscn" id="5_qp833"]
 [ext_resource type="PackedScene" uid="uid://ce1802jka1lxc" path="res://Scenes/Clues/hunter/ring.tscn" id="6_dbif7"]
+[ext_resource type="Texture2D" uid="uid://b3m0qr8own78h" path="res://picture/Image perso/Chasseur.png" id="7_dbif7"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_2iqxb")
@@ -17,8 +18,15 @@ secondClue = ExtResource("3_sfff3")
 thirdClue = ExtResource("4_qp833")
 fourthClue = ExtResource("5_qp833")
 fifthClue = ExtResource("6_dbif7")
+name_s = "Roger"
+age_s = "41"
+sexe_s = "Masculin"
+metier_s = "BTP"
+famille_s = "Une femme et un enfant"
+cause_mort_s = "Tué par balle"
 timeline = "hunter_diag"
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(577, 325)
 scale = Vector2(0.59791666, 0.5962963)
+texture = ExtResource("7_dbif7")

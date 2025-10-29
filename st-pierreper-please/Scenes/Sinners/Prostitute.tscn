@@ -1,13 +1,29 @@
-[gd_scene load_steps=3 format=3 uid="uid://dq1f5mv2e7yn0"]
+[gd_scene load_steps=8 format=3 uid="uid://dq1f5mv2e7yn0"]
 
 [ext_resource type="Script" uid="uid://chjq1t1j06a75" path="res://Script/Sinner.gd" id="1_1tm07"]
 [ext_resource type="Texture2D" uid="uid://rjw7jdtg7duc" path="res://picture/Image perso/Pute.png" id="2_qd8rl"]
+[ext_resource type="PackedScene" uid="uid://dxmen2bhh3fwq" path="res://Scenes/Clues/prostitute/cigarette.tscn" id="2_ymkca"]
+[ext_resource type="PackedScene" uid="uid://ckhtyn4sv36fd" path="res://Scenes/Clues/prostitute/syringe.tscn" id="3_600gn"]
+[ext_resource type="PackedScene" uid="uid://b75aytm5y22yb" path="res://Scenes/Clues/prostitute/key.tscn" id="4_wodxo"]
+[ext_resource type="PackedScene" uid="uid://c83x3rlx3k277" path="res://Scenes/Clues/prostitute/tupperware.tscn" id="5_lfsql"]
+[ext_resource type="PackedScene" uid="uid://db571lj5ol3xv" path="res://Scenes/Clues/prostitute/medicine.tscn" id="6_rajwl"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_1tm07")
 mortal_name = "Prostitute"
 character_resource = "uid://gcrrsvfvsg0i"
 pierre_resource = "uid://bc2y1n7236qab"
+firstClue = ExtResource("2_ymkca")
+secondClue = ExtResource("3_600gn")
+thirdClue = ExtResource("4_wodxo")
+fourthClue = ExtResource("5_lfsql")
+fifthClue = ExtResource("6_rajwl")
+name_s = "Luana"
+age_s = "35"
+sexe_s = "Féminin"
+metier_s = "Prostituèe"
+famille_s = "Inconnue"
+cause_mort_s = "Ecrasée par un bus"
 virtue = 1
 timeline = "prostitute_diag"
 

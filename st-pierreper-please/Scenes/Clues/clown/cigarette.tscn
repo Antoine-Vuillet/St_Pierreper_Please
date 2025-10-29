@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://bl54dsbwkpo16"]
+
+[ext_resource type="Texture2D" uid="uid://ict7iqbn106e" path="res://picture/image_clue/cigarette.png" id="1_f27a7"]
+[ext_resource type="Script" uid="uid://bc0aq1r5y32mw" path="res://Script/Clue.gd" id="2_ec6a7"]
+
+[node name="Cigarette" type="TextureRect"]
+offset_right = 81.0
+offset_bottom = 66.0
+texture = ExtResource("1_f27a7")
+expand_mode = 1
+script = ExtResource("2_ec6a7")
+title = "Paquet de cigarettes"
