@@ -4,15 +4,15 @@ Priest: Saint Pierre ? Ô Seigneur, je… je ne suis pas digne de paraître deva
 [end_timeline]
 label book1
 Pierre: Mon fils, que peux-tu me dire sur ce crucifix ?
-Priest: Oh mon Dieu, punissez-moi car j’ai péché !
-Pierre: Du calme. Nous sommes tous des pécheurs, mais celà ne nous condamne pas forcément à l’Enfer.
-Priest: J’ai péché, j’ai péché Seigneur. Et ce crucifix à mon cou me permet de me le rappeler chaque jour que Dieu fait. Punissez-moi, je le mérite !
+Priest: Ô mon Dieu, punissez-moi car j’ai péché !
+Pierre: Ne crains rien, Jean. Nous sommes tous des pécheurs, mais cela ne nous condamne pas forcément à l’Enfer. 
+Priest: J’ai péché, j’ai péché Seigneur. Et ce crucifix à mon cou me permet de me le rappeler chaque jour que Dieu fait. Punissez-moi, je le mérite 
 [end_timeline]
 label book2
 Pierre: Quel est ce livre, mon fils ?
 Priest: C’est un livre de catéchisme, Saint Pierre. J’étais chargé de donner les cours de catéchisme de la paroisse, tous les mercredis matins.
 Pierre: C’est une bonne action, mon fils. Cela te comblait-il ?
-Priest: Oh oui, très Saint, j’aimais beaucoup faire le catéchisme aux enfants.
+Priest: Oh oui, très Saint, j’aimais [i]beaucoup[/i] faire le catéchisme aux enfants.
 [end_timeline]
 label book3
 Pierre: Puis-je regarder ce qu’il contient, mon fils ?
