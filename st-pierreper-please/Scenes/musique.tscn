@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://diqlrqhvqf8rd"]
+
+[ext_resource type="AudioStream" uid="uid://b2wdloivbr8vn" path="res://Prelude to the Afternoon of a Faun.mp3" id="1_oiyap"]
+[ext_resource type="Script" uid="uid://bb6wvd607vf2r" path="res://Script/musique.gd" id="2_sefem"]
+
+[node name="Musique" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_oiyap")
+volume_db = 20.0
+parameters/looping = true
+script = ExtResource("2_sefem")
