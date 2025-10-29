@@ -39,9 +39,12 @@ var canClick = true
 var isGodTalking = true
 var playerErrorCount = 0
 var game_finished = false
+var inDialogue = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	Dialogic.connect("event_triggered", Callable(self, "_on_event_triggered"))
+	
 	energy = energyCount
 	
 	cluesPosList.append($Object1.position)
@@ -55,10 +58,18 @@ func _ready() -> void:
 	
 	# first dialog with god
 	Dialogic.timeline_ended.connect(_on_diag_finished)
+	Dialogic.timeline_started.connect(_on_timeline_started)
+	Dialogic.timeline_ended.connect(_on_timeline_ended)
 	var godDiag = Dialogic.start(godTimeline,"book6")
 	godDiag.register_character(godCharacter, $SinnerMarker)
 	godDiag.register_character(pierreCharacter, $PierreMarker)
 
+func _process(delta):
+	if Input.is_action_just_pressed("dialogic_default_action"):
+		canClick = false
+		$TimerClick.start()
+		if inDialogue:
+			$textClickSound.play()
 
 func initSinner():
 	if currentSinner:
@@ -103,6 +114,12 @@ func endGame():
 	var godDiag = Dialogic.start(godTimeline,"book" + str(playerErrorCount))
 	godDiag.register_character(godCharacter, $SinnerMarker)
 	godDiag.register_character(pierreCharacter, $PierreMarker)
+
+func _on_timeline_started():
+	inDialogue = true
+
+func _on_timeline_ended():
+	inDialogue = false
 
 func _on_diag_finished():
 	if isGodTalking:
@@ -212,3 +229,12 @@ func _on_paradise_mouse_entered() -> void:
 
 func _on_paradise_mouse_exited() -> void:
 	$ParadiseLight.visible = false
+
+func _on_event_triggered(event_data):
+	if event_data.get("event_type") == "Text":
+		if event_data.get("state") == "finished":
+			$textClickSound.play()
+
+
+func _on_timer_click_timeout() -> void:
+	canClick = true
