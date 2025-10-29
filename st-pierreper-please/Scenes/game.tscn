@@ -19,6 +19,7 @@ script = ExtResource("1_mhtsl")
 godCharacter = ExtResource("2_o5yvi")
 pierreCharacter = ExtResource("3_rku1e")
 godTimeline = "god_diag"
+energyCount = 3
 
 [node name="SkyWithClouds" type="TextureRect" parent="."]
 z_index = -2
@@ -130,17 +131,17 @@ position = Vector2(496, 504)
 position = Vector2(962, 516)
 
 [node name="p_on_1" type="TextureRect" parent="."]
-offset_left = 98.0
-offset_top = 1.0
-offset_right = 188.0
-offset_bottom = 81.0
+offset_left = 1.0
+offset_right = 91.0
+offset_bottom = 80.0
 texture = ExtResource("12_rfjv2")
 expand_mode = 1
 
 [node name="p_on_2" type="TextureRect" parent="."]
-offset_left = 1.0
-offset_right = 91.0
-offset_bottom = 80.0
+offset_left = 98.0
+offset_top = 1.0
+offset_right = 188.0
+offset_bottom = 81.0
 texture = ExtResource("12_rfjv2")
 expand_mode = 1
 
@@ -179,18 +180,18 @@ texture = ExtResource("13_1phco")
 expand_mode = 1
 
 [connection signal="gui_input" from="Hell" to="." method="_on_hell_gui_input"]
-[connection signal="mouse_entered" from="Hell" to="." method="_on_mouse_entered"]
 [connection signal="mouse_entered" from="Hell" to="." method="_on_hell_mouse_entered"]
-[connection signal="mouse_exited" from="Hell" to="." method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="Hell" to="." method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="Hell" to="." method="_on_hell_mouse_exited"]
+[connection signal="mouse_exited" from="Hell" to="." method="_on_mouse_exited"]
 [connection signal="gui_input" from="HellLight" to="." method="_on_hell_gui_input"]
 [connection signal="mouse_entered" from="HellLight" to="." method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="HellLight" to="." method="_on_mouse_exited"]
 [connection signal="gui_input" from="Paradise" to="." method="_on_paradise_gui_input"]
-[connection signal="mouse_entered" from="Paradise" to="." method="_on_mouse_entered"]
 [connection signal="mouse_entered" from="Paradise" to="." method="_on_paradise_mouse_entered"]
-[connection signal="mouse_exited" from="Paradise" to="." method="_on_mouse_exited"]
+[connection signal="mouse_entered" from="Paradise" to="." method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="Paradise" to="." method="_on_paradise_mouse_exited"]
+[connection signal="mouse_exited" from="Paradise" to="." method="_on_mouse_exited"]
 [connection signal="gui_input" from="ParadiseLight" to="." method="_on_paradise_gui_input"]
 [connection signal="mouse_entered" from="ParadiseLight" to="." method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="ParadiseLight" to="." method="_on_mouse_exited"]
