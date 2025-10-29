@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b2wdloivbr8vn"
+path="res://.godot/imported/Prelude to the Afternoon of a Faun.mp3-60c818bdbe2d151ac93b5dc4a3698176.mp3str"
+
+[deps]
+
+source_file="res://Prelude to the Afternoon of a Faun.mp3"
+dest_files=["res://.godot/imported/Prelude to the Afternoon of a Faun.mp3-60c818bdbe2d151ac93b5dc4a3698176.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
