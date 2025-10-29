@@ -24,6 +24,7 @@ sexe_s = "Féminin"
 metier_s = "Coiffeuse"
 famille_s = "Divorcée, un enfant"
 cause_mort_s = "Chute"
+timeline = "medium_diag"
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(580.5, 330.5)

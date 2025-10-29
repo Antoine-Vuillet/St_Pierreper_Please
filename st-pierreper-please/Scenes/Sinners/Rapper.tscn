@@ -24,6 +24,7 @@ sexe_s = "Masculin"
 metier_s = "Rappeur"
 famille_s = "Une copine"
 cause_mort_s = "Overdose"
+timeline = "rapper_diag"
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(576.5, 327.5)

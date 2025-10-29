@@ -25,6 +25,7 @@ metier_s = "Infirmière"
 famille_s = "Un copain et une soeur"
 cause_mort_s = "Tombée dans les escaliers"
 virtue = 1
+timeline = "nurse_diag"
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(581, 324.49997)

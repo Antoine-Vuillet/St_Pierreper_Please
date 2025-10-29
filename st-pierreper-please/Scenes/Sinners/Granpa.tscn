@@ -25,6 +25,7 @@ metier_s = "Retraité de la fonction publique"
 famille_s = "Une femme, deux enfants, trois petits-enfants"
 cause_mort_s = "AVC"
 virtue = 1
+timeline = "grandpa_diag"
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(575.5, 324.49997)
