@@ -2,7 +2,7 @@ label book0
 Pierre: Bienvenue Emma.
 [end_timeline]
 label book1
-Pierre: Que contient cette seringue ?
+Pierre: Que contient cette seringue exactement ?
 Nurse: Seulement de la morphine, un anti-douleur pour les patients en grande souffrance. Les médecins nous avaient demandé de ne plus en donner aux patients, sauf urgence absolue, à cause des restrictions budgétaires.
 Nurse: Mais je ne pouvais pas laisser certains patients souffrir comme ça. Alors oui, je désobéissais parfois. Je ne vois pas où est le problème.
 [end_timeline]
@@ -15,7 +15,7 @@ Pierre: Tu avais le droit d’en prendre autant ?
 Nurse: Pas vraiment, non. Mais avec les coupes budgétaires, j’avais pas trop le choix si je voulais continuer.
 [end_timeline]
 label book3
-Pierre: Ce livre trouvé dans tes affaires, Les plus grands crimes hospitaliers, pourquoi ce choix de lecture ?
+Pierre: Ce livre trouvé dans tes affaires, [i]Les plus grands crimes hospitaliers[/i], pourquoi ce choix de lecture ?
 Nurse: Je trouvais ce sujet passionnant. Se dire que des soignants ont commis des crimes pendant des mois, parfois des années, sans se faire prendre… Ça fait réfléchir, non ?
 Pierre: Tu l’avais terminé ?
 Nurse: Non, je ne l’avais pas encore fini. C’est un crime de s’intéresser à ce genre d’histoire maintenant ?
