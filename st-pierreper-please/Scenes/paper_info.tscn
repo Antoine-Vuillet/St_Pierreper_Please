@@ -46,7 +46,7 @@ layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_61dhs")
 theme_override_font_sizes/font_size = 19
-text = "Nom: "
+text = "Nom : "
 
 [node name="Name" type="Label" parent="Paper/VBoxContainer/Label_name"]
 layout_mode = 0
@@ -64,14 +64,14 @@ layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_61dhs")
 theme_override_font_sizes/font_size = 19
-text = "Age: "
+text = "Age : "
 
 [node name="Age" type="Label" parent="Paper/VBoxContainer/Label_age"]
 layout_mode = 0
-offset_left = 50.0
-offset_top = 4.0
+offset_left = 44.0
+offset_top = 5.0
 offset_right = 278.0
-offset_bottom = 24.0
+offset_bottom = 26.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_hgpck")
 theme_override_font_sizes/font_size = 18
@@ -82,7 +82,7 @@ layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_61dhs")
 theme_override_font_sizes/font_size = 19
-text = "Sexe: "
+text = "Sexe : "
 
 [node name="Sexe" type="Label" parent="Paper/VBoxContainer/Label_sexe"]
 layout_mode = 0
@@ -100,11 +100,11 @@ layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_61dhs")
 theme_override_font_sizes/font_size = 19
-text = "Métier: "
+text = "Métier : "
 
 [node name="Metier" type="Label" parent="Paper/VBoxContainer/Label_métier"]
 layout_mode = 0
-offset_left = 57.0
+offset_left = 61.0
 offset_top = 6.0
 offset_right = 278.0
 offset_bottom = 45.0
@@ -119,11 +119,11 @@ layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_61dhs")
 theme_override_font_sizes/font_size = 19
-text = "Famille: "
+text = "Famille : "
 
 [node name="Famille" type="Label" parent="Paper/VBoxContainer/Label_famille"]
 layout_mode = 0
-offset_left = 63.0
+offset_left = 67.0
 offset_top = 6.0
 offset_right = 278.0
 offset_bottom = 45.0
@@ -138,11 +138,11 @@ layout_mode = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_61dhs")
 theme_override_font_sizes/font_size = 19
-text = "Cause de la mort: "
+text = "Cause de la mort : "
 
 [node name="Cause mort" type="Label" parent="Paper/VBoxContainer/Label_cause"]
 layout_mode = 0
-offset_left = 126.0
+offset_left = 129.0
 offset_top = 6.0
 offset_right = 278.0
 offset_bottom = 45.0
