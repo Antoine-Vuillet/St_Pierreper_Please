@@ -6,6 +6,7 @@
 [node name="Clothes" type="TextureRect"]
 offset_right = 1000.0
 offset_bottom = 1000.0
+rotation = 0.2443461
 scale = Vector2(0.2, 0.2)
 tooltip_text = "Habits mouillés"
 texture = ExtResource("1_ipkaw")
