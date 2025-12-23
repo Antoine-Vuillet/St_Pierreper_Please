@@ -7,5 +7,10 @@ Your mission is to examine the life, choices, and secrets of each soul that stan
 ### Heaven or Hell.
 <br>
 
+## Try it!
+https://antoine-vuillet.itch.io/iudicium-finale
+
+<br>
+
 ## License
 This plugin is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
